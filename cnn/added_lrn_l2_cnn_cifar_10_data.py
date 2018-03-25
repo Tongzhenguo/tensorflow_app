@@ -82,7 +82,7 @@ print(local4)
 print(weight5)
 logits = tf.add(tf.matmul(local4, weight5) , bias5)
 
-def loss(logits,labels):
+def total_loss(logits, labels):
     '''
     计算cnn的全局loss
     :param logits: 全连接层10维输出向量
@@ -96,44 +96,46 @@ def loss(logits,labels):
     tf.add_to_collection(name='losses',value=cross_entropy_mean)
     return tf.add_n(tf.get_collection(key='losses'),name='total_loss')
 
-#compute total loss
-loss = loss(logits=logits,labels=label_holder)
-train_op = tf.train.AdamOptimizer(learning_rate=1e-3).minimize(loss)
-top_k_op = tf.nn.in_top_k(predictions=logits, targets=label_holder, k=1)
+def norm_max_steps_and_adam_fit():
+    #compute total loss
+    loss = total_loss(logits=logits, labels=label_holder)
+    train_op = tf.train.AdamOptimizer(learning_rate=1e-3).minimize(loss)
+    top_k_op = tf.nn.in_top_k(predictions=logits, targets=label_holder, k=1)
 
-sess = tf.InteractiveSession()
-tf.global_variables_initializer().run()
-# start 16 thread to speed up data augmentation
-tf.train.start_queue_runners()
+    sess = tf.InteractiveSession()
+    tf.global_variables_initializer().run()
+    # start 16 thread to speed up data augmentation
+    tf.train.start_queue_runners()
 
+    # start fit
+    for step in range(max_steps):
+        start_time = time.time()
+        image_batch,label_batch = sess.run(fetches=[images_train, labels_train])
+        _,loss_value = sess.run(fetches=[train_op, loss], feed_dict={image_holder: image_batch, label_holder: label_batch})
+        duration = time.time() - start_time
+        if step % 10 == 0:
+            example_per_sec = batch_size / duration
+            sec_per_batch = float(duration)
+            format_str = ('step %d,loss=%.2f (%.1f examples/sec; %.3f sec/batch)')
+            print(format_str % (step,loss_value,example_per_sec,sec_per_batch))
 
-# start fit
-for step in range(max_steps):
-    start_time = time.time()
-    image_batch,label_batch = sess.run(fetches=[images_train, labels_train])
-    _,loss_value = sess.run(fetches=[train_op, loss], feed_dict={image_holder: image_batch, label_holder: label_batch})
-    duration = time.time() - start_time
-    if step % 10 == 0:
-        example_per_sec = batch_size / duration
-        sec_per_batch = float(duration)
-        format_str = ('step %d,loss=%.2f (%.1f examples/sec; %.3f sec/batch)')
-        print(format_str % (step,loss_value,example_per_sec,sec_per_batch))
+    # eval cnn model
+    num_examples = 10000
+    import math
+    num_iter = int(math.ceil(num_examples / batch_size))
+    true_count = 0
+    total_sample_count = num_iter * batch_size
+    step = 0
+    while step < num_iter:
+        image_batch,label_batch = sess.run(fetches=[images_test,labels_test])
+        predictions = sess.run(fetches=[top_k_op], feed_dict={image_holder: image_batch, label_holder: label_batch})
+        true_count += np.sum(predictions)
+        step += 1
 
-# eval cnn model
-num_examples = 10000
-import math
-num_iter = int(math.ceil(num_examples / batch_size))
-true_count = 0
-total_sample_count = num_iter * batch_size
-step = 0
-while step < num_iter:
-    image_batch,label_batch = sess.run(fetches=[images_test,labels_test])
-    predictions = sess.run(fetches=[top_k_op], feed_dict={image_holder: image_batch, label_holder: label_batch})
-    true_count += np.sum(predictions)
-    step += 1
+    precision = true_count / total_sample_count
+    print('precision @ 1 = %.3f' % precision)
 
-precision = true_count / total_sample_count
-print('precision @ 1 = %.3f' % precision)
+# norm_max_steps_and_adam_fit()
 
 def big_max_steps_and_lr_decay_sgd_fit(max_steps,decay):
     '''
@@ -142,4 +144,51 @@ def big_max_steps_and_lr_decay_sgd_fit(max_steps,decay):
     :param decay: 学习速率衰减因子
     :return: None
     '''
-    pass
+    # Optimizer: set up a variable that's incremented once per batch and controls the learning rate decay.
+    learning_rate = tf.placeholder(tf.float32, shape=[])
+    # compute total loss
+    lss = total_loss(logits=logits, labels=label_holder)
+    train_op = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(lss)
+    top_k_op = tf.nn.in_top_k(predictions=logits, targets=label_holder, k=1)
+
+    sess = tf.InteractiveSession()
+    tf.global_variables_initializer().run()
+    # start 16 thread to speed up data augmentation
+    tf.train.start_queue_runners()
+
+    # start fit
+    for step in range(max_steps):
+        start_time = time.time()
+        image_batch, label_batch = sess.run(fetches=[images_train, labels_train])
+        # Feed different values for learning rate to each training step.
+        _, loss_value = sess.run(fetches=[train_op, lss],
+                                 feed_dict={
+                                     image_holder: image_batch
+                                     , label_holder: label_batch
+                                     ,learning_rate: 1e-3*decay/(1+step/100)
+                                 })
+        duration = time.time() - start_time
+        if step % 10 == 0:
+            example_per_sec = batch_size / duration
+            sec_per_batch = float(duration)
+            format_str = ('step %d,loss=%.2f (%.1f examples/sec; %.3f sec/batch)')
+            print(format_str % (step, loss_value, example_per_sec, sec_per_batch))
+
+    # eval cnn model
+    num_examples = 10000
+    import math
+    num_iter = int(math.ceil(num_examples / batch_size))
+    true_count = 0
+    total_sample_count = num_iter * batch_size
+    step = 0
+    while step < num_iter:
+        image_batch, label_batch = sess.run(fetches=[images_test, labels_test])
+        predictions = sess.run(fetches=[top_k_op], feed_dict={image_holder: image_batch, label_holder: label_batch})
+        true_count += np.sum(predictions)
+        step += 1
+
+    precision = true_count / total_sample_count
+    print('precision @ 1 = %.3f' % precision)
+
+
+big_max_steps_and_lr_decay_sgd_fit(max_steps=20000,decay=0.85)
