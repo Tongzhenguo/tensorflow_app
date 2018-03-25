@@ -38,7 +38,7 @@ def conv2d(x,W):
     '''
     #strides 卷积移动的步长
     #padding填充方式，SAME:边界填充
-    tf.nn.conv2d(x,W,strides=[1,1,1,1],padding='SAME')
+    return tf.nn.conv2d(x,W,strides=[1,1,1,1],padding='SAME')
 
 def max_pool_2x2(x):
     '''
@@ -62,14 +62,15 @@ h_conv1 = tf.nn.relu(conv2d(x_image,W_conv1) + b_conv1 )
 h_pool1 = max_pool_2x2(h_conv1)
 
 # define second conv layer,conv kernel size is 64
-W_conv2 = weight_variable([5,5,1,64])
+W_conv2 = weight_variable([5,5,32,64])
 b_conv2 = bias_variable([64])
+print(h_pool1,W_conv2)
 h_conv2 = tf.nn.relu(conv2d(h_pool1,W_conv2) + b_conv2 )
 h_pool2 = max_pool_2x2(h_conv2)
 
 # define full connect layer,with '28/4' image transform by 2 max_pool_2x2
-W_fc1 = weight_variable([28/4*28/4*64,1024])
-b_fc1 = bias_variable(1024)
+W_fc1 = weight_variable([7*7*64,1024])
+b_fc1 = bias_variable([1024])
 h_pool2_flat = tf.reshape(h_pool2, shape=[-1, 7 * 7 * 64])
 h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat,W_fc1) + b_fc1)
 
@@ -79,7 +80,7 @@ h_fc1_drop = tf.nn.dropout(h_fc1,keep_prob=keep_prob)
 
 # define second full connect layer, infer label
 W_fc2 = weight_variable([1024,10])
-b_fc2 = bias_variable(10)
+b_fc2 = bias_variable([10])
 y_conv = tf.nn.softmax(tf.matmul(h_fc1_drop,W_fc2) + b_fc2)
 
 cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y_conv), reduction_indices=[1]))
