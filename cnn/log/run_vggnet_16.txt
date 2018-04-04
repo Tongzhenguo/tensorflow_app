@@ -1,0 +1,36 @@
+C:\Anaconda3_4.2.0_64bit\python.exe C:/deep_learning_test/cnn/VGGNet_16.py
+2018-04-04 11:43:37.968751: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-04 11:43:37.969005: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-04 11:43:38.275825: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:955] Found device 0 with properties:
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.7335
+pciBusID 0000:01:00.0
+Total memory: 8.00GiB
+Free memory: 6.66GiB
+2018-04-04 11:43:38.276072: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:976] DMA: 0
+2018-04-04 11:43:38.276209: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:986] 0:   Y
+2018-04-04 11:43:38.276350: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0)
+2018-04-04 11:43:43.062790: step 0, duration = 0.158
+2018-04-04 11:43:44.642994: step 10, duration = 0.158
+2018-04-04 11:43:46.204149: step 20, duration = 0.154
+2018-04-04 11:43:47.794380: step 30, duration = 0.160
+2018-04-04 11:43:49.385643: step 40, duration = 0.159
+2018-04-04 11:43:50.971837: step 50, duration = 0.160
+2018-04-04 11:43:52.542016: step 60, duration = 0.159
+2018-04-04 11:43:54.113197: step 70, duration = 0.155
+2018-04-04 11:43:55.673348: step 80, duration = 0.155
+2018-04-04 11:43:57.235514: step 90, duration = 0.156
+2018-04-04 11:43:58.647263: Forward across 100 steps, 0.157 +/- 0.002 sec / batch
+2018-04-04 11:44:06.391889: step 0, duration = 0.545
+2018-04-04 11:44:11.781215: step 10, duration = 0.536
+2018-04-04 11:44:17.187634: step 20, duration = 0.530
+2018-04-04 11:44:22.637119: step 30, duration = 0.552
+2018-04-04 11:44:28.061567: step 40, duration = 0.542
+2018-04-04 11:44:33.532099: step 50, duration = 0.555
+2018-04-04 11:44:38.993635: step 60, duration = 0.559
+2018-04-04 11:44:44.460209: step 70, duration = 0.551
+2018-04-04 11:44:49.954803: step 80, duration = 0.536
+2018-04-04 11:44:55.412523: step 90, duration = 0.537
+2018-04-04 11:45:00.325582: Forward-backward across 100 steps, 0.545 +/- 0.007 sec / batch
+
+Process finished with exit code 0
