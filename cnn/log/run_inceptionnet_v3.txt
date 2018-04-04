@@ -1,0 +1,26 @@
+C:\Anaconda3_4.2.0_64bit\python.exe C:/deep_learning_test/cnn/InceptionNet_V3.py
+{'<function convolution at 0x000001F2AF424D08>': {'normalizer_params': {'updates_collections': 'update_ops', 'variables_collections': {'moving_mean': ['moving_vars'], 'moving_variance': ['moving_vars'], 'gamma': None, 'beta': None}, 'decay': 0.9997, 'epsilon': 0.001}, 'normalizer_fn': <function add_arg_scope.<locals>.func_with_args at 0x000001F2AF4249D8>, 'weights_regularizer': <function l2_regularizer.<locals>.l2 at 0x000001F2ABAAE268>, 'activation_fn': <function relu at 0x000001F2ABF42400>, 'weights_initializer': <tensorflow.python.ops.init_ops.TruncatedNormal object at 0x000001F2AC2B9128>}, '<function fully_connected at 0x000001F2AF4318C8>': {'weights_regularizer': <function l2_regularizer.<locals>.l2 at 0x000001F2ABAAE268>}}
+2018-04-04 13:57:40.472423: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-04 13:57:40.472664: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-04 13:57:40.706354: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:955] Found device 0 with properties:
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.7335
+pciBusID 0000:01:00.0
+Total memory: 8.00GiB
+Free memory: 6.66GiB
+2018-04-04 13:57:40.706647: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:976] DMA: 0
+2018-04-04 13:57:40.706761: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:986] 0:   Y
+2018-04-04 13:57:40.706895: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0)
+2018-04-04 13:57:45.041395: step 0, duration = 0.137
+2018-04-04 13:57:46.425078: step 10, duration = 0.138
+2018-04-04 13:57:47.810766: step 20, duration = 0.137
+2018-04-04 13:57:49.194447: step 30, duration = 0.138
+2018-04-04 13:57:50.580136: step 40, duration = 0.140
+2018-04-04 13:57:51.963817: step 50, duration = 0.138
+2018-04-04 13:57:53.347516: step 60, duration = 0.139
+2018-04-04 13:57:54.737228: step 70, duration = 0.137
+2018-04-04 13:57:56.117872: step 80, duration = 0.138
+2018-04-04 13:57:57.512614: step 90, duration = 0.139
+2018-04-04 13:57:58.757898: Forward across 100 steps, 0.139 +/- 0.001 sec / batch
+
+Process finished with exit code 0
