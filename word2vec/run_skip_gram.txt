@@ -1,0 +1,260 @@
+E:\Anaconda3_4.2.0_64bit\python.exe D:/code/deep_learning_test/word2vec/Skip_Gram.py
+Found and verified text8.zip
+Data size 17005207
+Most common words (+UNK) [['UNK', 418391], ('the', 1061396), ('of', 593677), ('and', 416629), ('one', 411764)]
+Sample data [5244, 3083, 12, 6, 195, 2, 3136, 46, 59, 156] ['anarchism', 'originated', 'as', 'a', 'term', 'of', 'abuse', 'first', 'used', 'against']
+3083 originated -> 12 as
+3083 originated -> 5244 anarchism
+12 as -> 3083 originated
+12 as -> 6 a
+6 a -> 195 term
+6 a -> 12 as
+195 term -> 6 a
+195 term -> 2 of
+2018-04-05 11:50:36.135818: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.136289: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.136751: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.137228: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.137712: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.138207: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.138676: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.139152: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 11:50:36.935561: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties:
+name: GeForce GTX 950M
+major: 5 minor: 0 memoryClockRate (GHz) 1.124
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.35GiB
+2018-04-05 11:50:36.936037: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0
+2018-04-05 11:50:36.936271: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y
+2018-04-05 11:50:36.936527: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+Initialized
+Average loss at step  0 :  298.076049805
+Nearest to so: crushing, atc, daunting, shivaji, descendent, together, gru, europ,
+Nearest to a: orthogonal, dues, stripe, waxing, incurred, dweller, basset, bauxite,
+Nearest to some: heiner, nicole, cfc, rory, carbonated, excommunicated, renewed, tillich,
+Nearest to from: mossad, cautious, sequences, support, ollie, symbolizing, executing, degrade,
+Nearest to while: afield, spirits, alcor, singularities, hypnos, aum, animistic, hilarious,
+Nearest to these: roadways, gig, emery, xia, ailment, prohibiting, spectacle, apse,
+Nearest to most: laodiceans, khaled, satr, prototype, phosphorylation, uncreated, signing, reclassified,
+Nearest to which: pierced, mordant, ndez, abercorn, chief, cdma, jarvis, lexemes,
+Nearest to but: vit, bacon, superstar, experiential, alboin, boldness, bored, quotas,
+Nearest to world: environments, filtering, securely, kinds, phones, uthman, logically, doe,
+Nearest to between: roads, endowed, electron, volkswagen, symphonic, anachronistic, follow, religiously,
+Nearest to has: normally, announces, physicist, imported, mtsho, clandestinely, cryptography, parlour,
+Nearest to up: efron, infernal, shards, haaretz, evacuate, foucault, mandela, annotated,
+Nearest to united: wisegirls, meetings, guevara, gadolinium, aspiring, lba, cumming, differed,
+Nearest to would: cyborg, currie, atv, depressant, crust, producer, delicious, hostess,
+Nearest to can: capone, pty, proverbial, priory, herm, ghulam, delta, clutch,
+Average loss at step  2000 :  113.676954759
+Average loss at step  4000 :  52.8268135455
+Average loss at step  6000 :  33.4169310094
+Average loss at step  8000 :  23.2496550616
+Average loss at step  10000 :  17.8594684064
+Nearest to so: together, argue, crushing, prevalent, gollancz, selected, atc, blind,
+Nearest to a: the, UNK, and, aol, reginae, phi, politics, gland,
+Nearest to some: their, broadest, fawcett, aziz, getting, henry, existence, cave,
+Nearest to from: and, phi, in, with, for, sequences, of, rear,
+Nearest to while: spirits, gland, opened, area, changes, painter, crankshaft, withdraw,
+Nearest to these: represents, his, az, criminals, live, mathbf, pda, ecosystem,
+Nearest to most: briefly, rhine, functioning, ibook, nerve, signing, rodney, khaled,
+Nearest to which: phi, and, recovery, pierced, dr, august, remarkably, this,
+Nearest to but: and, environment, bacon, perfection, i, cone, that, bead,
+Nearest to world: kinds, eventual, environments, agave, west, phi, austin, basins,
+Nearest to between: roads, follow, volkswagen, electron, of, mulcahy, nine, eliminated,
+Nearest to has: normally, announces, is, taiwanese, had, are, serve, tomato,
+Nearest to up: quadrilateral, abdali, annotated, sadler, vs, place, plastic, grandparents,
+Nearest to united: albedo, gb, completeness, baseline, formerly, revealed, vs, meetings,
+Nearest to would: apollo, cyborg, defects, my, microscopy, forward, gland, producer,
+Nearest to can: porous, particular, austin, reginae, voluntarily, auteur, imitation, newsgroup,
+Average loss at step  12000 :  14.057307584
+Average loss at step  14000 :  11.7021598551
+Average loss at step  16000 :  9.78953683436
+Average loss at step  18000 :  8.72009249902
+Average loss at step  20000 :  7.84408688271
+Nearest to so: crushing, together, prevalent, gollancz, argue, selected, atc, timer,
+Nearest to a: the, agouti, hbox, and, dasyprocta, phi, completing, perception,
+Nearest to some: the, their, dasyprocta, excommunicated, many, rory, broadest, outlet,
+Nearest to from: in, and, for, with, into, at, by, as,
+Nearest to while: amino, theatres, negotiated, agouti, readers, spirits, gland, afield,
+Nearest to these: his, the, dasyprocta, agouti, criminals, az, prohibiting, represents,
+Nearest to most: thorn, briefly, needles, nerve, rodney, ibook, functioning, subkey,
+Nearest to which: and, this, phi, recovery, also, that, one, however,
+Nearest to but: and, is, that, yin, alboin, however, perfection, bead,
+Nearest to world: kinds, eventual, west, environments, agave, arrive, basins, phi,
+Nearest to between: volkswagen, with, nine, and, endowed, follow, mulcahy, of,
+Nearest to has: had, is, was, announces, parlour, taiwanese, normally, serve,
+Nearest to up: bugs, annotated, place, plastic, agouti, quadrilateral, continuity, mimic,
+Nearest to united: revealed, albedo, meetings, polyhedra, formerly, baseline, completeness, skepticism,
+Nearest to would: microscopy, apollo, cyborg, defects, though, my, vic, had,
+Nearest to can: porous, should, bassist, particular, seven, will, bruno, voluntarily,
+Average loss at step  22000 :  7.23434292233
+Average loss at step  24000 :  6.97225200236
+Average loss at step  26000 :  6.71724162197
+Average loss at step  28000 :  6.21438449645
+Average loss at step  30000 :  6.14262186635
+Nearest to so: akita, crushing, shivaji, gollancz, together, prevalent, strontium, reversible,
+Nearest to a: the, agouti, completing, phi, dasyprocta, hbox, or, this,
+Nearest to some: many, the, their, dasyprocta, these, this, excommunicated, broadest,
+Nearest to from: in, for, and, with, of, into, at, almighty,
+Nearest to while: and, amino, negotiated, theatres, agouti, autocode, gland, readers,
+Nearest to these: his, the, dasyprocta, some, agouti, criminals, prohibiting, az,
+Nearest to most: thorn, needles, almighty, signing, ibook, satr, nerve, rodney,
+Nearest to which: this, that, also, and, phi, chalukyas, one, recovery,
+Nearest to but: and, however, that, alboin, is, yin, perfection, agouti,
+Nearest to world: eventual, kinds, arrive, west, environments, securely, agave, blues,
+Nearest to between: with, of, volkswagen, endowed, mulcahy, in, follow, nn,
+Nearest to has: had, is, was, have, announces, serve, larissa, taiwanese,
+Nearest to up: synthesizer, bugs, abitibi, annotated, place, offerings, agouti, plastic,
+Nearest to united: revealed, meetings, baseline, albedo, differed, polyhedra, formerly, skepticism,
+Nearest to would: could, can, microscopy, to, though, will, apollo, vic,
+Nearest to can: should, will, would, to, could, porous, may, lading,
+Average loss at step  32000 :  5.87376132476
+Average loss at step  34000 :  5.82632130039
+Average loss at step  36000 :  5.67821784675
+Average loss at step  38000 :  5.26384993041
+Average loss at step  40000 :  5.47431039333
+Nearest to so: akita, crushing, shivaji, gollancz, prevalent, reversible, strontium, broccoli,
+Nearest to a: the, agouti, phi, dasyprocta, gland, completing, or, this,
+Nearest to some: many, the, these, their, dasyprocta, hbox, this, broadest,
+Nearest to from: in, into, with, for, and, at, almighty, amalthea,
+Nearest to while: and, negotiated, theatres, amino, agouti, autocode, gland, readers,
+Nearest to these: some, the, his, dasyprocta, agouti, different, prohibiting, criminals,
+Nearest to most: thorn, signing, needles, more, ibook, twentieth, rodney, subkey,
+Nearest to which: that, this, and, also, one, it, phi, chalukyas,
+Nearest to but: and, however, that, although, which, or, yin, alboin,
+Nearest to world: eventual, kinds, arrive, west, environments, securely, phones, agave,
+Nearest to between: with, volkswagen, mulcahy, endowed, nn, sobriety, in, eliminated,
+Nearest to has: had, was, is, have, propositions, serve, larissa, aardwolf,
+Nearest to up: bugs, synthesizer, abitibi, place, annotated, offerings, agouti, plastic,
+Nearest to united: revealed, baseline, meetings, differed, albedo, formerly, skepticism, aryan,
+Nearest to would: could, can, will, microscopy, cannot, to, though, may,
+Nearest to can: will, would, should, could, may, to, must, cannot,
+Average loss at step  42000 :  5.31958241105
+Average loss at step  44000 :  5.25049281025
+Average loss at step  46000 :  5.24388237989
+Average loss at step  48000 :  5.03254305625
+Average loss at step  50000 :  5.1485641216
+Nearest to so: akita, shivaji, crushing, gollancz, reversible, prevalent, strontium, broccoli,
+Nearest to a: the, this, completing, thibetanus, roshan, peanuts, phi, another,
+Nearest to some: many, these, the, their, dasyprocta, several, this, all,
+Nearest to from: into, in, for, and, with, at, almighty, nine,
+Nearest to while: and, but, theatres, agouti, negotiated, autocode, as, although,
+Nearest to these: some, different, dasyprocta, many, those, prohibiting, his, criminals,
+Nearest to most: more, thorn, thibetanus, needles, signing, sales, nerve, rodney,
+Nearest to which: this, that, also, and, it, one, but, phi,
+Nearest to but: however, and, although, that, or, agouti, which, three,
+Nearest to world: eventual, kinds, arrive, securely, thibetanus, phones, environments, whirlpool,
+Nearest to between: with, eight, mulcahy, volkswagen, nn, endowed, sobriety, before,
+Nearest to has: had, was, is, have, eight, aardwolf, vista, when,
+Nearest to up: synthesizer, bugs, annotated, place, abitibi, agouti, him, gundam,
+Nearest to united: revealed, thibetanus, differed, baseline, albedo, meetings, aryan, formerly,
+Nearest to would: could, can, will, may, cannot, microscopy, should, to,
+Nearest to can: will, would, may, could, should, must, to, cannot,
+Average loss at step  52000 :  5.14432013035
+Average loss at step  54000 :  5.10979078627
+Average loss at step  56000 :  5.08607709265
+Average loss at step  58000 :  5.1198225621
+Average loss at step  60000 :  4.94693123507
+Nearest to so: microsite, akita, reversible, gollancz, tamarin, crushing, shivaji, prevalent,
+Nearest to a: the, microcebus, completing, another, callithrix, thibetanus, this, dasyprocta,
+Nearest to some: many, these, the, several, tamarin, dasyprocta, their, all,
+Nearest to from: into, in, and, at, for, with, almighty, amalthea,
+Nearest to while: but, although, ssbn, and, agouti, callithrix, negotiated, autocode,
+Nearest to these: some, different, many, tamarin, those, dasyprocta, such, the,
+Nearest to most: more, microcebus, thorn, tamarin, needles, thibetanus, ssbn, sales,
+Nearest to which: that, this, also, it, one, but, chalukyas, thibetanus,
+Nearest to but: however, and, although, callithrix, or, that, which, pulau,
+Nearest to world: eventual, kinds, arrive, phones, callithrix, thibetanus, ssbn, securely,
+Nearest to between: with, in, volkswagen, endowed, sobriety, nn, mulcahy, michelob,
+Nearest to has: had, was, have, is, vista, microcebus, footnote, taiwanese,
+Nearest to up: him, synthesizer, bugs, place, annotated, abitibi, agouti, gundam,
+Nearest to united: michelob, thibetanus, revealed, pettigrew, albedo, baseline, differed, aryan,
+Nearest to would: can, could, will, may, to, cannot, should, microscopy,
+Nearest to can: will, would, may, could, should, must, cannot, to,
+Average loss at step  62000 :  4.80315880275
+Average loss at step  64000 :  4.79653233099
+Average loss at step  66000 :  4.98458862925
+Average loss at step  68000 :  4.90461503828
+Average loss at step  70000 :  4.77841719794
+Nearest to so: microsite, akita, gollancz, reversible, shivaji, tamarin, prevalent, crushing,
+Nearest to a: the, microcebus, completing, another, dinar, callithrix, any, dasyprocta,
+Nearest to some: many, these, the, several, tamarin, all, their, other,
+Nearest to from: into, in, for, and, almighty, amalthea, with, chalukyas,
+Nearest to while: although, but, and, dinar, callithrix, ssbn, agouti, as,
+Nearest to these: some, many, such, different, those, tamarin, the, their,
+Nearest to most: more, microcebus, needles, thorn, tamarin, twentieth, thibetanus, ssbn,
+Nearest to which: that, this, dinar, also, it, and, but, one,
+Nearest to but: however, and, although, which, or, that, callithrix, dinar,
+Nearest to world: eventual, kinds, arrive, phones, callithrix, thibetanus, michelob, glace,
+Nearest to between: with, in, mulcahy, michelob, volkswagen, endowed, callithrix, nn,
+Nearest to has: had, was, have, is, dinar, microcebus, taiwanese, footnote,
+Nearest to up: him, place, synthesizer, them, bugs, agouti, gundam, offerings,
+Nearest to united: rial, michelob, revealed, thibetanus, pettigrew, african, albedo, baseline,
+Nearest to would: can, could, will, may, cannot, to, should, might,
+Nearest to can: will, may, would, could, should, must, cannot, to,
+Average loss at step  72000 :  4.80650782645
+Average loss at step  74000 :  4.75928596753
+Average loss at step  76000 :  4.85817582417
+Average loss at step  78000 :  4.80643175411
+Average loss at step  80000 :  4.82197134435
+Nearest to so: microsite, akita, tamarin, prevalent, reversible, gollancz, shivaji, crushing,
+Nearest to a: the, microcebus, completing, callithrix, this, another, thibetanus, dinar,
+Nearest to some: many, these, several, all, other, tamarin, the, their,
+Nearest to from: into, in, at, for, and, almighty, amalthea, with,
+Nearest to while: although, and, but, dinar, callithrix, agouti, ssbn, michelob,
+Nearest to these: some, many, such, those, different, tamarin, their, which,
+Nearest to most: more, microcebus, thorn, needles, tamarin, some, twentieth, nerve,
+Nearest to which: that, this, it, dinar, also, and, but, one,
+Nearest to but: however, and, although, callithrix, dinar, or, while, which,
+Nearest to world: eventual, arrive, kinds, phones, glace, callithrix, logically, thibetanus,
+Nearest to between: with, in, mulcahy, volkswagen, michelob, from, endowed, sobriety,
+Nearest to has: had, have, was, is, dinar, footnote, taiwanese, propositions,
+Nearest to up: him, out, them, place, synthesizer, bugs, annotated, behaving,
+Nearest to united: overcomes, rial, michelob, revealed, pettigrew, thibetanus, african, albedo,
+Nearest to would: can, could, will, may, cannot, might, should, to,
+Nearest to can: will, may, would, could, should, must, cannot, might,
+Average loss at step  82000 :  4.81600706327
+Average loss at step  84000 :  4.79432902801
+Average loss at step  86000 :  4.77726639807
+Average loss at step  88000 :  4.69715015161
+Average loss at step  90000 :  4.74985031617
+Nearest to so: microsite, akita, prevalent, gollancz, reversible, crushing, tamarin, shivaji,
+Nearest to a: the, completing, microcebus, another, callithrix, thibetanus, dinar, dasyprocta,
+Nearest to some: many, these, several, all, tamarin, other, the, their,
+Nearest to from: into, in, with, and, almighty, at, for, of,
+Nearest to while: although, but, and, dinar, however, callithrix, since, when,
+Nearest to these: some, many, such, those, different, they, tamarin, which,
+Nearest to most: more, some, microcebus, tamarin, needles, twentieth, thorn, thibetanus,
+Nearest to which: that, this, it, but, dinar, also, and, however,
+Nearest to but: however, and, although, or, which, dinar, while, callithrix,
+Nearest to world: eventual, arrive, kinds, michelob, phones, callithrix, thibetanus, prevails,
+Nearest to between: with, in, from, mulcahy, michelob, volkswagen, sobriety, callithrix,
+Nearest to has: had, have, was, is, dinar, footnote, propositions, although,
+Nearest to up: him, out, them, place, testicles, agouti, synthesizer, behaving,
+Nearest to united: overcomes, michelob, rial, revealed, eight, african, thibetanus, pettigrew,
+Nearest to would: will, could, can, may, cannot, might, should, microscopy,
+Nearest to can: may, will, could, would, must, should, cannot, might,
+Average loss at step  92000 :  4.71497415626
+Average loss at step  94000 :  4.62710723042
+Average loss at step  96000 :  4.71287054062
+Average loss at step  98000 :  4.61884841692
+Average loss at step  100000 :  4.68400428104
+Nearest to so: microsite, akita, reversible, gollancz, prevalent, shivaji, tamarin, crushing,
+Nearest to a: the, another, completing, microcebus, callithrix, thibetanus, dinar, any,
+Nearest to some: many, these, several, all, tamarin, their, the, other,
+Nearest to from: into, in, almighty, of, through, recitative, during, at,
+Nearest to while: although, but, and, however, dinar, when, since, callithrix,
+Nearest to these: some, many, such, those, different, several, they, all,
+Nearest to most: more, some, needles, many, tamarin, twentieth, microcebus, thorn,
+Nearest to which: that, this, but, it, dinar, also, one, and,
+Nearest to but: however, and, although, while, or, dinar, which, callithrix,
+Nearest to world: eventual, arrive, kinds, phones, prevails, winnie, glace, securely,
+Nearest to between: with, in, mulcahy, sobriety, mond, michelob, volkswagen, from,
+Nearest to has: had, have, was, is, mtsho, dinar, vista, footnote,
+Nearest to up: him, out, them, off, place, agouti, behaving, bugs,
+Nearest to united: overcomes, michelob, rial, african, pettigrew, thibetanus, albedo, baseline,
+Nearest to would: will, can, could, may, might, cannot, should, to,
+Nearest to can: may, will, could, would, must, should, cannot, might,
+
+Process finished with exit code 0
