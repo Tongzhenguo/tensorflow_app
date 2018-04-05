@@ -1,0 +1,229 @@
+E:\Anaconda3_4.2.0_64bit\python.exe D:/code/deep_learning_test/rnn/RNN_PTB_Data.py
+0 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+1 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+2 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+3 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+4 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+5 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+6 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+7 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+8 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+9 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+10 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+11 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+12 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+13 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+14 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+15 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+16 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+17 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+18 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+19 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE05530EB8>
+0 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+1 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+2 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+3 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+4 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+5 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+6 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+7 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+8 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+9 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+10 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+11 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+12 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+13 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+14 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+15 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+16 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+17 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+18 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+19 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04656710>
+0 <tensorflow.python.ops.variable_scope.VariableScope object at 0x000001AE04B37780>
+2018-04-05 20:38:45.148533: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.149010: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.149516: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.149994: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.150457: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.150909: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.151344: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:45.151757: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-05 20:38:46.462142: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties:
+name: GeForce GTX 950M
+major: 5 minor: 0 memoryClockRate (GHz) 1.124
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.35GiB
+2018-04-05 20:38:46.462652: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0
+2018-04-05 20:38:46.462904: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y
+2018-04-05 20:38:46.471061: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+Epoch: 1 Learning rate: 1.000
+0.004 perplexity: 6695.248 speed : 1157 wps
+0.104 perplexity: 839.312 speed : 6430 wps
+0.204 perplexity: 620.767 speed : 7171 wps
+0.304 perplexity: 502.574 speed : 7460 wps
+0.404 perplexity: 434.053 speed : 7618 wps
+0.504 perplexity: 389.621 speed : 7709 wps
+0.604 perplexity: 351.361 speed : 7782 wps
+0.703 perplexity: 325.313 speed : 7833 wps
+0.803 perplexity: 304.301 speed : 7873 wps
+0.903 perplexity: 285.022 speed : 7898 wps
+Epoch: 1 Train Perplexity: 270.597
+Epoch: 1 valid Perplexity: 10029.261
+Epoch: 2 Learning rate: 1.000
+0.004 perplexity: 215.211 speed : 8039 wps
+0.104 perplexity: 152.054 speed : 8123 wps
+0.204 perplexity: 159.306 speed : 8096 wps
+0.304 perplexity: 154.421 speed : 8114 wps
+0.404 perplexity: 151.412 speed : 8126 wps
+0.504 perplexity: 148.969 speed : 8118 wps
+0.604 perplexity: 144.287 speed : 8131 wps
+0.703 perplexity: 142.208 speed : 8135 wps
+0.803 perplexity: 140.183 speed : 8143 wps
+0.903 perplexity: 136.476 speed : 8149 wps
+Epoch: 2 Train Perplexity: 134.404
+Epoch: 2 valid Perplexity: 10029.261
+Epoch: 3 Learning rate: 1.000
+0.004 perplexity: 146.666 speed : 7981 wps
+0.104 perplexity: 105.559 speed : 8158 wps
+0.204 perplexity: 114.698 speed : 8158 wps
+0.304 perplexity: 111.972 speed : 8159 wps
+0.404 perplexity: 110.975 speed : 8162 wps
+0.504 perplexity: 110.140 speed : 8163 wps
+0.604 perplexity: 107.491 speed : 8161 wps
+0.703 perplexity: 106.871 speed : 8166 wps
+0.803 perplexity: 106.231 speed : 8167 wps
+0.903 perplexity: 103.930 speed : 8169 wps
+Epoch: 3 Train Perplexity: 102.944
+Epoch: 3 valid Perplexity: 10029.261
+Epoch: 4 Learning rate: 1.000
+0.004 perplexity: 117.184 speed : 7887 wps
+0.104 perplexity: 85.412 speed : 8184 wps
+0.204 perplexity: 93.990 speed : 8176 wps
+0.304 perplexity: 91.860 speed : 8179 wps
+0.404 perplexity: 91.413 speed : 8181 wps
+0.504 perplexity: 90.968 speed : 8179 wps
+0.604 perplexity: 89.117 speed : 8176 wps
+0.703 perplexity: 88.905 speed : 8173 wps
+0.803 perplexity: 88.730 speed : 8175 wps
+0.903 perplexity: 87.031 speed : 8175 wps
+Epoch: 4 Train Perplexity: 86.438
+Epoch: 4 valid Perplexity: 10029.261
+Epoch: 5 Learning rate: 0.500
+0.004 perplexity: 99.862 speed : 8281 wps
+0.104 perplexity: 71.577 speed : 8167 wps
+0.204 perplexity: 77.509 speed : 8146 wps
+0.304 perplexity: 74.658 speed : 8155 wps
+0.404 perplexity: 73.528 speed : 8158 wps
+0.504 perplexity: 72.527 speed : 8172 wps
+0.604 perplexity: 70.417 speed : 8173 wps
+0.703 perplexity: 69.649 speed : 8168 wps
+0.803 perplexity: 68.912 speed : 8168 wps
+0.903 perplexity: 67.023 speed : 8168 wps
+Epoch: 5 Train Perplexity: 66.021
+Epoch: 5 valid Perplexity: 10029.261
+Epoch: 6 Learning rate: 0.250
+0.004 perplexity: 81.800 speed : 8161 wps
+0.104 perplexity: 59.101 speed : 8156 wps
+0.204 perplexity: 64.229 speed : 8154 wps
+0.304 perplexity: 61.831 speed : 8150 wps
+0.404 perplexity: 60.771 speed : 8154 wps
+0.504 perplexity: 59.852 speed : 8156 wps
+0.604 perplexity: 57.999 speed : 8155 wps
+0.703 perplexity: 57.242 speed : 8160 wps
+0.803 perplexity: 56.509 speed : 8160 wps
+0.903 perplexity: 54.791 speed : 8159 wps
+Epoch: 6 Train Perplexity: 53.800
+Epoch: 6 valid Perplexity: 10029.261
+Epoch: 7 Learning rate: 0.125
+0.004 perplexity: 72.915 speed : 8333 wps
+0.104 perplexity: 52.449 speed : 8157 wps
+0.204 perplexity: 57.151 speed : 8168 wps
+0.304 perplexity: 54.970 speed : 8166 wps
+0.404 perplexity: 54.012 speed : 8161 wps
+0.504 perplexity: 53.158 speed : 8154 wps
+0.604 perplexity: 51.461 speed : 8163 wps
+0.703 perplexity: 50.746 speed : 8163 wps
+0.803 perplexity: 50.032 speed : 8165 wps
+0.903 perplexity: 48.433 speed : 8167 wps
+Epoch: 7 Train Perplexity: 47.496
+Epoch: 7 valid Perplexity: 10029.261
+Epoch: 8 Learning rate: 0.062
+0.004 perplexity: 67.968 speed : 8177 wps
+0.104 perplexity: 49.095 speed : 8207 wps
+0.204 perplexity: 53.516 speed : 8178 wps
+0.304 perplexity: 51.457 speed : 8187 wps
+0.404 perplexity: 50.571 speed : 8185 wps
+0.504 perplexity: 49.750 speed : 8186 wps
+0.604 perplexity: 48.134 speed : 8179 wps
+0.703 perplexity: 47.443 speed : 8179 wps
+0.803 perplexity: 46.736 speed : 8181 wps
+0.903 perplexity: 45.208 speed : 8185 wps
+Epoch: 8 Train Perplexity: 44.302
+Epoch: 8 valid Perplexity: 10029.261
+Epoch: 9 Learning rate: 0.031
+0.004 perplexity: 65.375 speed : 8397 wps
+0.104 perplexity: 47.352 speed : 8181 wps
+0.204 perplexity: 51.612 speed : 8162 wps
+0.304 perplexity: 49.617 speed : 8173 wps
+0.404 perplexity: 48.776 speed : 8167 wps
+0.504 perplexity: 47.985 speed : 8171 wps
+0.604 perplexity: 46.413 speed : 8163 wps
+0.703 perplexity: 45.729 speed : 8154 wps
+0.803 perplexity: 45.021 speed : 8152 wps
+0.903 perplexity: 43.528 speed : 8153 wps
+Epoch: 9 Train Perplexity: 42.638
+Epoch: 9 valid Perplexity: 10029.261
+Epoch: 10 Learning rate: 0.016
+0.004 perplexity: 64.000 speed : 8266 wps
+0.104 perplexity: 46.374 speed : 8198 wps
+0.204 perplexity: 50.561 speed : 8191 wps
+0.304 perplexity: 48.603 speed : 8160 wps
+0.404 perplexity: 47.787 speed : 8159 wps
+0.504 perplexity: 47.026 speed : 8157 wps
+0.604 perplexity: 45.483 speed : 8154 wps
+0.703 perplexity: 44.800 speed : 8151 wps
+0.803 perplexity: 44.092 speed : 8151 wps
+0.903 perplexity: 42.617 speed : 8152 wps
+Epoch: 10 Train Perplexity: 41.733
+Epoch: 10 valid Perplexity: 10029.261
+Epoch: 11 Learning rate: 0.008
+0.004 perplexity: 63.160 speed : 8160 wps
+0.104 perplexity: 45.808 speed : 8127 wps
+0.204 perplexity: 49.977 speed : 8158 wps
+0.304 perplexity: 48.037 speed : 8147 wps
+0.404 perplexity: 47.225 speed : 8145 wps
+0.504 perplexity: 46.483 speed : 8147 wps
+0.604 perplexity: 44.961 speed : 8151 wps
+0.703 perplexity: 44.281 speed : 8145 wps
+0.803 perplexity: 43.574 speed : 8145 wps
+0.903 perplexity: 42.111 speed : 8147 wps
+Epoch: 11 Train Perplexity: 41.231
+Epoch: 11 valid Perplexity: 10029.261
+Epoch: 12 Learning rate: 0.004
+0.004 perplexity: 62.634 speed : 8181 wps
+0.104 perplexity: 45.477 speed : 8217 wps
+0.204 perplexity: 49.655 speed : 8193 wps
+0.304 perplexity: 47.729 speed : 8189 wps
+0.404 perplexity: 46.916 speed : 8181 wps
+0.504 perplexity: 46.184 speed : 8174 wps
+0.604 perplexity: 44.674 speed : 8175 wps
+0.703 perplexity: 43.996 speed : 8170 wps
+0.803 perplexity: 43.292 speed : 8168 wps
+0.903 perplexity: 41.835 speed : 8166 wps
+Epoch: 12 Train Perplexity: 40.959
+Epoch: 12 valid Perplexity: 10029.261
+Epoch: 13 Learning rate: 0.002
+0.004 perplexity: 62.322 speed : 7933 wps
+0.104 perplexity: 45.281 speed : 8129 wps
+0.204 perplexity: 49.465 speed : 8138 wps
+0.304 perplexity: 47.555 speed : 8143 wps
+0.404 perplexity: 46.745 speed : 8131 wps
+0.504 perplexity: 46.018 speed : 8145 wps
+0.604 perplexity: 44.516 speed : 8154 wps
+0.703 perplexity: 43.840 speed : 8163 wps
+0.803 perplexity: 43.139 speed : 8166 wps
+0.903 perplexity: 41.686 speed : 8165 wps
+Epoch: 13 Train Perplexity: 40.813
+Epoch: 13 valid Perplexity: 10029.261
