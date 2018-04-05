@@ -227,3 +227,4 @@ Epoch: 13 Learning rate: 0.002
 0.903 perplexity: 41.686 speed : 8165 wps
 Epoch: 13 Train Perplexity: 40.813
 Epoch: 13 valid Perplexity: 10029.261
+Test Perplexity: 9925.667
