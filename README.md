@@ -10,3 +10,9 @@ deep_learning_test
 - word2vec: Word2Vec相关代码学习
 
 - models: tensorflow提供数据处理
+
+- rnn: 循环神经网络相关
+
+- tensorboard: tensorflow tensorboard 可视化相关
+
+

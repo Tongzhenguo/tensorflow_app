@@ -1,0 +1,135 @@
+E:\Anaconda3_4.2.0_64bit\python.exe D:/code/deep_learning_test/tensorboard/MLP_Mnist_Data_TensorBoard.py
+Extracting ../cnn/MNIST_data\train-images-idx3-ubyte.gz
+Extracting ../cnn/MNIST_data\train-labels-idx1-ubyte.gz
+Extracting ../cnn/MNIST_data\t10k-images-idx3-ubyte.gz
+Extracting ../cnn/MNIST_data\t10k-labels-idx1-ubyte.gz
+2018-04-06 11:12:13.711277: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.711871: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.712459: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.713011: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.713555: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.714095: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.714634: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:13.715183: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 11:12:14.709618: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties:
+name: GeForce GTX 950M
+major: 5 minor: 0 memoryClockRate (GHz) 1.124
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.35GiB
+2018-04-06 11:12:14.710119: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0
+2018-04-06 11:12:14.710360: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y
+2018-04-06 11:12:14.710625: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+Accuracy at step 0: 0.1397
+Accuracy at step 10: 0.748
+Accuracy at step 20: 0.838
+Accuracy at step 30: 0.8616
+Accuracy at step 40: 0.8886
+Accuracy at step 50: 0.8967
+Accuracy at step 60: 0.9011
+Accuracy at step 70: 0.908
+Accuracy at step 80: 0.9087
+Accuracy at step 90: 0.9128
+2018-04-06 11:12:27.958316: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:139] successfully opened CUDA library cupti64_80.dll locally
+Adding run metadata for 99
+Accuracy at step 100: 0.9147
+Accuracy at step 110: 0.9115
+Accuracy at step 120: 0.9169
+Accuracy at step 130: 0.919
+Accuracy at step 140: 0.9249
+Accuracy at step 150: 0.9254
+Accuracy at step 160: 0.929
+Accuracy at step 170: 0.9315
+Accuracy at step 180: 0.9283
+Accuracy at step 190: 0.9323
+Adding run metadata for 199
+Accuracy at step 200: 0.9365
+Accuracy at step 210: 0.9335
+Accuracy at step 220: 0.935
+Accuracy at step 230: 0.939
+Accuracy at step 240: 0.9389
+Accuracy at step 250: 0.9359
+Accuracy at step 260: 0.9417
+Accuracy at step 270: 0.9417
+Accuracy at step 280: 0.9416
+Accuracy at step 290: 0.9457
+Adding run metadata for 299
+Accuracy at step 300: 0.9453
+Accuracy at step 310: 0.9449
+Accuracy at step 320: 0.9445
+Accuracy at step 330: 0.9455
+Accuracy at step 340: 0.9497
+Accuracy at step 350: 0.9498
+Accuracy at step 360: 0.9479
+Accuracy at step 370: 0.9495
+Accuracy at step 380: 0.9488
+Accuracy at step 390: 0.9522
+Adding run metadata for 399
+Accuracy at step 400: 0.9521
+Accuracy at step 410: 0.9514
+Accuracy at step 420: 0.9491
+Accuracy at step 430: 0.9527
+Accuracy at step 440: 0.9568
+Accuracy at step 450: 0.9526
+Accuracy at step 460: 0.9572
+Accuracy at step 470: 0.9574
+Accuracy at step 480: 0.9552
+Accuracy at step 490: 0.9576
+Adding run metadata for 499
+Accuracy at step 500: 0.9556
+Accuracy at step 510: 0.9576
+Accuracy at step 520: 0.959
+Accuracy at step 530: 0.956
+Accuracy at step 540: 0.9572
+Accuracy at step 550: 0.9568
+Accuracy at step 560: 0.9588
+Accuracy at step 570: 0.9589
+Accuracy at step 580: 0.9599
+Accuracy at step 590: 0.9604
+Adding run metadata for 599
+Accuracy at step 600: 0.9585
+Accuracy at step 610: 0.9589
+Accuracy at step 620: 0.9626
+Accuracy at step 630: 0.9625
+Accuracy at step 640: 0.9597
+Accuracy at step 650: 0.9613
+Accuracy at step 660: 0.961
+Accuracy at step 670: 0.9624
+Accuracy at step 680: 0.9626
+Accuracy at step 690: 0.962
+Adding run metadata for 699
+Accuracy at step 700: 0.9622
+Accuracy at step 710: 0.9613
+Accuracy at step 720: 0.9621
+Accuracy at step 730: 0.9616
+Accuracy at step 740: 0.9637
+Accuracy at step 750: 0.9636
+Accuracy at step 760: 0.9639
+Accuracy at step 770: 0.9636
+Accuracy at step 780: 0.9652
+Accuracy at step 790: 0.9646
+Adding run metadata for 799
+Accuracy at step 800: 0.9645
+Accuracy at step 810: 0.9638
+Accuracy at step 820: 0.9645
+Accuracy at step 830: 0.9657
+Accuracy at step 840: 0.9651
+Accuracy at step 850: 0.9636
+Accuracy at step 860: 0.9652
+Accuracy at step 870: 0.9659
+Accuracy at step 880: 0.9657
+Accuracy at step 890: 0.9657
+Adding run metadata for 899
+Accuracy at step 900: 0.9676
+Accuracy at step 910: 0.9648
+Accuracy at step 920: 0.9664
+Accuracy at step 930: 0.9641
+Accuracy at step 940: 0.9658
+Accuracy at step 950: 0.9656
+Accuracy at step 960: 0.9677
+Accuracy at step 970: 0.9668
+Accuracy at step 980: 0.9665
+Accuracy at step 990: 0.9702
+Adding run metadata for 999
+
+Process finished with exit code 0

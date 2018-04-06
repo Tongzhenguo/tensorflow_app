@@ -49,7 +49,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-logs/
 logs/server*.log
 *.log
 .static_storage/
