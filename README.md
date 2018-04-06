@@ -15,4 +15,5 @@ deep_learning_test
 
 - tensorboard: tensorflow tensorboard 可视化相关
 
+- DistCompute: tensorflow实现分布式计算
 
