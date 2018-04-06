@@ -17,3 +17,4 @@ deep_learning_test
 
 - DistCompute: tensorflow实现分布式计算
 
+- tflearn: tensorflow的learn包,scikit-learn风格的高级API

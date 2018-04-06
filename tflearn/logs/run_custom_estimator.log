@@ -1,0 +1,158 @@
+E:\Anaconda3_4.2.0_64bit\python.exe D:/code/deep_learning_test/tflearn/CustomEstimator.py
+Training data is downloaded to C:\Users\18210\AppData\Local\Temp\tmp_1rr0egh
+Test data is downloaded to C:\Users\18210\AppData\Local\Temp\tmp5ppu8_k7
+Prediction data is downloaded to C:\Users\18210\AppData\Local\Temp\tmpz3731jep
+INFO:tensorflow:Using default config.
+INFO:tensorflow:Using config: {'_model_dir': None, '_save_checkpoints_steps': None, '_evaluation_master': '', '_save_summary_steps': 100, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000029EEB286160>, '_tf_random_seed': None, '_task_id': 0, '_num_worker_replicas': 0, '_keep_checkpoint_max': 5, '_master': '', '_is_chief': True, '_keep_checkpoint_every_n_hours': 10000, '_task_type': None, '_num_ps_replicas': 0, '_environment': 'local', '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1
+}
+, '_save_checkpoints_secs': 600}
+WARNING:tensorflow:Using temporary folder as model directory: C:\Users\18210\AppData\Local\Temp\tmpaz5afwy8
+INFO:tensorflow:Create CheckpointSaverHook.
+2018-04-06 17:13:05.420005: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.420438: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.420864: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.421805: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.422170: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.422535: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.423381: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:05.423742: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 17:13:06.412807: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties:
+name: GeForce GTX 950M
+major: 5 minor: 0 memoryClockRate (GHz) 1.124
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.35GiB
+2018-04-06 17:13:06.413308: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0
+2018-04-06 17:13:06.413570: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y
+2018-04-06 17:13:06.413833: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+INFO:tensorflow:Saving checkpoints for 1 into C:\Users\18210\AppData\Local\Temp\tmpaz5afwy8\model.ckpt.
+INFO:tensorflow:loss = 107.482, step = 1
+INFO:tensorflow:global_step/sec: 259.961
+INFO:tensorflow:loss = 7.48037, step = 101 (0.385 sec)
+INFO:tensorflow:global_step/sec: 265.392
+INFO:tensorflow:loss = 7.3965, step = 201 (0.378 sec)
+INFO:tensorflow:global_step/sec: 277.567
+INFO:tensorflow:loss = 7.32098, step = 301 (0.359 sec)
+INFO:tensorflow:global_step/sec: 274.793
+INFO:tensorflow:loss = 7.2488, step = 401 (0.364 sec)
+INFO:tensorflow:global_step/sec: 265.104
+INFO:tensorflow:loss = 7.20322, step = 501 (0.378 sec)
+INFO:tensorflow:global_step/sec: 277.209
+INFO:tensorflow:loss = 7.15937, step = 601 (0.360 sec)
+INFO:tensorflow:global_step/sec: 275.941
+INFO:tensorflow:loss = 7.11641, step = 701 (0.362 sec)
+INFO:tensorflow:global_step/sec: 270.879
+INFO:tensorflow:loss = 7.07372, step = 801 (0.369 sec)
+INFO:tensorflow:global_step/sec: 285.112
+INFO:tensorflow:loss = 7.03083, step = 901 (0.351 sec)
+INFO:tensorflow:global_step/sec: 263.032
+INFO:tensorflow:loss = 6.98759, step = 1001 (0.380 sec)
+INFO:tensorflow:global_step/sec: 270.952
+INFO:tensorflow:loss = 6.94379, step = 1101 (0.369 sec)
+INFO:tensorflow:global_step/sec: 272.731
+INFO:tensorflow:loss = 6.89929, step = 1201 (0.367 sec)
+INFO:tensorflow:global_step/sec: 287.54
+INFO:tensorflow:loss = 6.85397, step = 1301 (0.347 sec)
+INFO:tensorflow:global_step/sec: 270.613
+INFO:tensorflow:loss = 6.80767, step = 1401 (0.370 sec)
+INFO:tensorflow:global_step/sec: 260.543
+INFO:tensorflow:loss = 6.76023, step = 1501 (0.384 sec)
+INFO:tensorflow:global_step/sec: 272.407
+INFO:tensorflow:loss = 6.71143, step = 1601 (0.367 sec)
+INFO:tensorflow:global_step/sec: 286.301
+INFO:tensorflow:loss = 6.66113, step = 1701 (0.349 sec)
+INFO:tensorflow:global_step/sec: 275.261
+INFO:tensorflow:loss = 6.6092, step = 1801 (0.363 sec)
+INFO:tensorflow:global_step/sec: 266.191
+INFO:tensorflow:loss = 6.55551, step = 1901 (0.376 sec)
+INFO:tensorflow:global_step/sec: 289.039
+INFO:tensorflow:loss = 6.49994, step = 2001 (0.346 sec)
+INFO:tensorflow:global_step/sec: 275.878
+INFO:tensorflow:loss = 6.44233, step = 2101 (0.362 sec)
+INFO:tensorflow:global_step/sec: 283.118
+INFO:tensorflow:loss = 6.38258, step = 2201 (0.353 sec)
+INFO:tensorflow:global_step/sec: 276.087
+INFO:tensorflow:loss = 6.32062, step = 2301 (0.362 sec)
+INFO:tensorflow:global_step/sec: 277.663
+INFO:tensorflow:loss = 6.25639, step = 2401 (0.361 sec)
+INFO:tensorflow:global_step/sec: 275.036
+INFO:tensorflow:loss = 6.18987, step = 2501 (0.363 sec)
+INFO:tensorflow:global_step/sec: 276.587
+INFO:tensorflow:loss = 6.12117, step = 2601 (0.362 sec)
+INFO:tensorflow:global_step/sec: 279.222
+INFO:tensorflow:loss = 6.05037, step = 2701 (0.359 sec)
+INFO:tensorflow:global_step/sec: 278.526
+INFO:tensorflow:loss = 5.9776, step = 2801 (0.358 sec)
+INFO:tensorflow:global_step/sec: 283.115
+INFO:tensorflow:loss = 5.90317, step = 2901 (0.353 sec)
+INFO:tensorflow:global_step/sec: 260.07
+INFO:tensorflow:loss = 5.82742, step = 3001 (0.385 sec)
+INFO:tensorflow:global_step/sec: 240.159
+INFO:tensorflow:loss = 5.75078, step = 3101 (0.416 sec)
+INFO:tensorflow:global_step/sec: 253.752
+INFO:tensorflow:loss = 5.67387, step = 3201 (0.395 sec)
+INFO:tensorflow:global_step/sec: 275.382
+INFO:tensorflow:loss = 5.59731, step = 3301 (0.362 sec)
+INFO:tensorflow:global_step/sec: 283.608
+INFO:tensorflow:loss = 5.52182, step = 3401 (0.353 sec)
+INFO:tensorflow:global_step/sec: 276.432
+INFO:tensorflow:loss = 5.44845, step = 3501 (0.362 sec)
+INFO:tensorflow:global_step/sec: 282.716
+INFO:tensorflow:loss = 5.37805, step = 3601 (0.354 sec)
+INFO:tensorflow:global_step/sec: 275.785
+INFO:tensorflow:loss = 5.31104, step = 3701 (0.363 sec)
+INFO:tensorflow:global_step/sec: 288.371
+INFO:tensorflow:loss = 5.24788, step = 3801 (0.347 sec)
+INFO:tensorflow:global_step/sec: 269.456
+INFO:tensorflow:loss = 5.18907, step = 3901 (0.372 sec)
+INFO:tensorflow:global_step/sec: 284.134
+INFO:tensorflow:loss = 5.13493, step = 4001 (0.351 sec)
+INFO:tensorflow:global_step/sec: 271.172
+INFO:tensorflow:loss = 5.08567, step = 4101 (0.369 sec)
+INFO:tensorflow:global_step/sec: 263.729
+INFO:tensorflow:loss = 5.04149, step = 4201 (0.380 sec)
+INFO:tensorflow:global_step/sec: 271.022
+INFO:tensorflow:loss = 5.00235, step = 4301 (0.368 sec)
+INFO:tensorflow:global_step/sec: 283.625
+INFO:tensorflow:loss = 4.96799, step = 4401 (0.353 sec)
+INFO:tensorflow:global_step/sec: 262.404
+INFO:tensorflow:loss = 4.93805, step = 4501 (0.382 sec)
+INFO:tensorflow:global_step/sec: 271.826
+INFO:tensorflow:loss = 4.91229, step = 4601 (0.368 sec)
+INFO:tensorflow:global_step/sec: 272.406
+INFO:tensorflow:loss = 4.89015, step = 4701 (0.366 sec)
+INFO:tensorflow:global_step/sec: 270.565
+INFO:tensorflow:loss = 4.8713, step = 4801 (0.370 sec)
+INFO:tensorflow:global_step/sec: 264.31
+INFO:tensorflow:loss = 4.85526, step = 4901 (0.378 sec)
+INFO:tensorflow:Saving checkpoints for 5000 into C:\Users\18210\AppData\Local\Temp\tmpaz5afwy8\model.ckpt.
+INFO:tensorflow:Loss for final step: 4.84162.
+INFO:tensorflow:Starting evaluation at 2018-04-06-09:13:29
+2018-04-06 17:13:29.473203: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+INFO:tensorflow:Restoring parameters from C:\Users\18210\AppData\Local\Temp\tmpaz5afwy8\model.ckpt-5000
+INFO:tensorflow:Evaluation [1/1]
+INFO:tensorflow:Finished evaluation at 2018-04-06-09:13:29
+INFO:tensorflow:Saving dict for global step 5000: global_step = 5000, loss = 5.56159, rmse = 2.3583
+WARNING:tensorflow:Skipping summary for global_step, must be a float or np.float32.
+WARNING:tensorflow:From D:/code/deep_learning_test/tflearn/CustomEstimator.py:170: calling BaseEstimator.predict (from tensorflow.contrib.learn.python.learn.estimators.estimator) with x is deprecated and will be removed after 2016-12-01.
+Loss: 5.56159
+Instructions for updating:
+Root Mean Squared Error: 2.3583
+Estimator is decoupled from Scikit Learn interface by moving into
+separate class SKCompat. Arguments x, y and batch_size are only
+available in the SKCompat class, Estimator will only accept input_fn.
+Example conversion:
+  est = Estimator(...) -> est = SKCompat(Estimator(...))
+WARNING:tensorflow:float64 is not supported by many models, consider casting to float32.
+2018-04-06 17:13:31.418404: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+INFO:tensorflow:Restoring parameters from C:\Users\18210\AppData\Local\Temp\tmpaz5afwy8\model.ckpt-5000
+Prediction 1: 4.85980884327
+Prediction 2: 10.6584889667
+Prediction 3: 7.19918853378
+Prediction 4: 10.91839014
+Prediction 5: 11.1143127711
+Prediction 6: 9.45385977858
+Prediction 7: 11.3146893727
+
+Process finished with exit code 0

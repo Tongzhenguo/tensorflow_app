@@ -1,0 +1,143 @@
+E:\Anaconda3_4.2.0_64bit\python.exe D:/code/deep_learning_test/tflearn/WDL.py
+Training data is downloaded to C:\Users\18210\AppData\Local\Temp\tmpvr_ezloy
+Test data is downloaded to C:\Users\18210\AppData\Local\Temp\tmpu07rfe20
+model directory = C:\Users\18210\AppData\Local\Temp\tmptm81x289
+WARNING:tensorflow:The default stddev value of initializer will change from "1/sqrt(vocab_size)" to "1/sqrt(dimension)" after 2017/02/25.
+WARNING:tensorflow:The default stddev value of initializer will change from "1/sqrt(vocab_size)" to "1/sqrt(dimension)" after 2017/02/25.
+WARNING:tensorflow:The default stddev value of initializer will change from "1/sqrt(vocab_size)" to "1/sqrt(dimension)" after 2017/02/25.
+WARNING:tensorflow:The default stddev value of initializer will change from "1/sqrt(vocab_size)" to "1/sqrt(dimension)" after 2017/02/25.
+WARNING:tensorflow:The default stddev value of initializer will change from "1/sqrt(vocab_size)" to "1/sqrt(dimension)" after 2017/02/25.
+WARNING:tensorflow:The default stddev value of initializer will change from "1/sqrt(vocab_size)" to "1/sqrt(dimension)" after 2017/02/25.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:95: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:96: histogram_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.histogram. Note that tf.summary.histogram uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:95: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:96: histogram_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.histogram. Note that tf.summary.histogram uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:95: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:96: histogram_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.histogram. Note that tf.summary.histogram uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\layers\python\layers\feature_column.py:1861: calling sparse_feature_cross (from tensorflow.contrib.layers.python.ops.sparse_feature_cross_op) with hash_key=None is deprecated and will be removed after 2016-11-20.
+Instructions for updating:
+The default behavior of sparse_feature_cross is changing, the default
+value for hash_key will change to SPARSE_FEATURE_CROSS_DEFAULT_HASH_KEY.
+From that point on sparse_feature_cross will always use FingerprintCat64
+to concatenate the feature fingerprints. And the underlying
+_sparse_feature_cross_op.sparse_feature_cross operation will be marked
+as deprecated.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\layers\python\layers\feature_column.py:1861: calling sparse_feature_cross (from tensorflow.contrib.layers.python.ops.sparse_feature_cross_op) with hash_key=None is deprecated and will be removed after 2016-11-20.
+Instructions for updating:
+The default behavior of sparse_feature_cross is changing, the default
+value for hash_key will change to SPARSE_FEATURE_CROSS_DEFAULT_HASH_KEY.
+From that point on sparse_feature_cross will always use FingerprintCat64
+to concatenate the feature fingerprints. And the underlying
+_sparse_feature_cross_op.sparse_feature_cross operation will be marked
+as deprecated.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\layers\python\layers\feature_column.py:1861: calling sparse_feature_cross (from tensorflow.contrib.layers.python.ops.sparse_feature_cross_op) with hash_key=None is deprecated and will be removed after 2016-11-20.
+Instructions for updating:
+The default behavior of sparse_feature_cross is changing, the default
+value for hash_key will change to SPARSE_FEATURE_CROSS_DEFAULT_HASH_KEY.
+From that point on sparse_feature_cross will always use FingerprintCat64
+to concatenate the feature fingerprints. And the underlying
+_sparse_feature_cross_op.sparse_feature_cross operation will be marked
+as deprecated.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\head.py:615: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+2018-04-06 18:20:57.628547: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.629144: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.629711: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.630270: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.630830: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.631377: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.631934: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:57.632499: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-06 18:20:58.656425: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties:
+name: GeForce GTX 950M
+major: 5 minor: 0 memoryClockRate (GHz) 1.124
+pciBusID 0000:01:00.0
+Total memory: 4.00GiB
+Free memory: 3.35GiB
+2018-04-06 18:20:58.656923: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0
+2018-04-06 18:20:58.657148: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y
+2018-04-06 18:20:58.657397: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+2018-04-06 18:21:46.962908: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 22072 get requests, put_count=22067 evicted_count=1000 eviction_rate=0.0453165 and unsatisfied allocation rate=0.0500634
+2018-04-06 18:21:46.963360: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:Rank of input Tensor (1) should be the same as output_rank (2) for column. Will attempt to expand dims. It is highly recommended that you resize your input, as this behavior may change.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:95: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:96: histogram_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.histogram. Note that tf.summary.histogram uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:95: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:96: histogram_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.histogram. Note that tf.summary.histogram uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:95: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\dnn_linear_combined.py:96: histogram_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.histogram. Note that tf.summary.histogram uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\layers\python\layers\feature_column.py:1861: calling sparse_feature_cross (from tensorflow.contrib.layers.python.ops.sparse_feature_cross_op) with hash_key=None is deprecated and will be removed after 2016-11-20.
+Instructions for updating:
+The default behavior of sparse_feature_cross is changing, the default
+value for hash_key will change to SPARSE_FEATURE_CROSS_DEFAULT_HASH_KEY.
+From that point on sparse_feature_cross will always use FingerprintCat64
+to concatenate the feature fingerprints. And the underlying
+_sparse_feature_cross_op.sparse_feature_cross operation will be marked
+as deprecated.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\layers\python\layers\feature_column.py:1861: calling sparse_feature_cross (from tensorflow.contrib.layers.python.ops.sparse_feature_cross_op) with hash_key=None is deprecated and will be removed after 2016-11-20.
+Instructions for updating:
+The default behavior of sparse_feature_cross is changing, the default
+value for hash_key will change to SPARSE_FEATURE_CROSS_DEFAULT_HASH_KEY.
+From that point on sparse_feature_cross will always use FingerprintCat64
+to concatenate the feature fingerprints. And the underlying
+_sparse_feature_cross_op.sparse_feature_cross operation will be marked
+as deprecated.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\layers\python\layers\feature_column.py:1861: calling sparse_feature_cross (from tensorflow.contrib.layers.python.ops.sparse_feature_cross_op) with hash_key=None is deprecated and will be removed after 2016-11-20.
+Instructions for updating:
+The default behavior of sparse_feature_cross is changing, the default
+value for hash_key will change to SPARSE_FEATURE_CROSS_DEFAULT_HASH_KEY.
+From that point on sparse_feature_cross will always use FingerprintCat64
+to concatenate the feature fingerprints. And the underlying
+_sparse_feature_cross_op.sparse_feature_cross operation will be marked
+as deprecated.
+WARNING:tensorflow:From E:\Anaconda3_4.2.0_64bit\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\head.py:615: scalar_summary (from tensorflow.python.ops.logging_ops) is deprecated and will be removed after 2016-11-30.
+Instructions for updating:
+Please switch to tf.summary.scalar. Note that tf.summary.scalar uses the node name instead of the tag. This means that TensorFlow will automatically de-duplicate summary names based on the scope they are created in. Also, passing a tensor or list of tags to a scalar summary op is no longer supported.
+2018-04-06 18:22:14.753587: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0)
+WARNING:tensorflow:Skipping summary for global_step, must be a float or np.float32.
+accuracy: 0.842209
+accuracy/baseline_label_mean: 0.236226
+accuracy/threshold_0.500000_mean: 0.842209
+auc: 0.876087
+global_step: 200
+labels/actual_label_mean: 0.236226
+labels/prediction_mean: 0.224363
+loss: 0.394316
+precision/positive_threshold_0.500000_mean: 0.747769
+recall/positive_threshold_0.500000_mean: 0.50104
+
+Process finished with exit code 0
