@@ -1,0 +1,589 @@
+E:\Anaconda3_4.2.0_64bit\python.exe D:/code/tensorflow-char-rnn/char_rnn_model.py
+============================================================
+All final and intermediate outputs will be stored in output/
+All information will be logged to stdout
+============================================================
+
+07:19:04 INFO:Parameters are:
+{
+    "batch_size": 20,
+    "dropout": 0.0,
+    "embedding_size": 0,
+    "hidden_size": 128,
+    "input_dropout": 0.0,
+    "learning_rate": 0.002,
+    "max_grad_norm": 5.0,
+    "model": "lstm",
+    "num_layers": 2,
+    "num_unrollings": 10
+}
+
+07:19:04 INFO:Reading data from: data/tiny_shakespeare.txt
+07:19:04 INFO:Number of characters: 1155394
+07:19:04 INFO:Creating train, valid, test split
+07:19:04 INFO:Creating vocabulary
+07:19:04 INFO:Vocabulary is saved in output\vocab.json
+07:19:04 INFO:Vocab size: 66
+07:19:04 INFO:Creating graph
+07:19:07 INFO:Model size (number of parameters): 239938
+
+07:19:07 INFO:Start training
+
+07:19:17 INFO:=================== Epoch 1: 1/1===================
+
+07:19:17 INFO:Training on training set
+07:20:27 INFO:Perplexity: 5.783, speed: 14965 words per sec
+07:20:29 INFO:Latest model saved in output\save_model/model-5200
+
+07:20:29 INFO:Evaluate on validation set
+07:20:31 INFO:Perplexity: 4.804, speed: 31521 words per sec
+07:20:33 INFO:Best model is saved in output\best_model/model-5200
+07:20:33 INFO:Best validation ppl is 4.803813
+
+07:20:33 INFO:=================== Epoch 2: 1/1===================
+
+07:20:33 INFO:Training on training set
+07:21:45 INFO:Perplexity: 4.151, speed: 14265 words per sec
+07:21:47 INFO:Latest model saved in output\save_model/model-10400
+
+07:21:47 INFO:Evaluate on validation set
+07:21:50 INFO:Perplexity: 4.391, speed: 29331 words per sec
+07:21:52 INFO:Best model is saved in output\best_model/model-10400
+07:21:52 INFO:Best validation ppl is 4.390540
+
+07:21:52 INFO:=================== Epoch 3: 1/1===================
+
+07:21:52 INFO:Training on training set
+07:23:04 INFO:Perplexity: 3.853, speed: 14297 words per sec
+07:23:07 INFO:Latest model saved in output\save_model/model-15600
+
+07:23:07 INFO:Evaluate on validation set
+07:23:09 INFO:Perplexity: 4.247, speed: 30371 words per sec
+07:23:11 INFO:Best model is saved in output\best_model/model-15600
+07:23:11 INFO:Best validation ppl is 4.247335
+
+07:23:11 INFO:=================== Epoch 4: 1/1===================
+
+07:23:11 INFO:Training on training set
+07:24:24 INFO:Perplexity: 3.707, speed: 14262 words per sec
+07:24:27 INFO:Latest model saved in output\save_model/model-20800
+
+07:24:27 INFO:Evaluate on validation set
+07:24:29 INFO:Perplexity: 4.191, speed: 29082 words per sec
+07:24:32 INFO:Best model is saved in output\best_model/model-20800
+07:24:32 INFO:Best validation ppl is 4.190696
+
+07:24:32 INFO:=================== Epoch 5: 1/1===================
+
+07:24:32 INFO:Training on training set
+07:25:45 INFO:Perplexity: 3.618, speed: 14214 words per sec
+07:25:47 INFO:Latest model saved in output\save_model/model-26000
+
+07:25:47 INFO:Evaluate on validation set
+07:25:49 INFO:Perplexity: 4.162, speed: 30944 words per sec
+07:25:51 INFO:Best model is saved in output\best_model/model-26000
+07:25:51 INFO:Best validation ppl is 4.162251
+
+07:25:51 INFO:=================== Epoch 6: 1/1===================
+
+07:25:51 INFO:Training on training set
+07:27:03 INFO:Perplexity: 3.555, speed: 14404 words per sec
+07:27:05 INFO:Latest model saved in output\save_model/model-31200
+
+07:27:05 INFO:Evaluate on validation set
+07:27:07 INFO:Perplexity: 4.114, speed: 31744 words per sec
+07:27:09 INFO:Best model is saved in output\best_model/model-31200
+07:27:09 INFO:Best validation ppl is 4.114215
+
+07:27:09 INFO:=================== Epoch 7: 1/1===================
+
+07:27:09 INFO:Training on training set
+07:28:21 INFO:Perplexity: 3.508, speed: 14455 words per sec
+07:28:23 INFO:Latest model saved in output\save_model/model-36400
+
+07:28:23 INFO:Evaluate on validation set
+07:28:25 INFO:Perplexity: 4.111, speed: 31802 words per sec
+07:28:27 INFO:Best model is saved in output\best_model/model-36400
+07:28:27 INFO:Best validation ppl is 4.111019
+
+07:28:27 INFO:=================== Epoch 8: 1/1===================
+
+07:28:27 INFO:Training on training set
+07:29:40 INFO:Perplexity: 3.474, speed: 14297 words per sec
+07:29:42 INFO:Latest model saved in output\save_model/model-41600
+
+07:29:42 INFO:Evaluate on validation set
+07:29:44 INFO:Perplexity: 4.114, speed: 29118 words per sec
+07:29:44 INFO:Best model is saved in output\best_model/model-36400
+07:29:44 INFO:Best validation ppl is 4.111019
+
+07:29:44 INFO:=================== Epoch 9: 1/1===================
+
+07:29:44 INFO:Training on training set
+07:30:57 INFO:Perplexity: 3.444, speed: 14308 words per sec
+07:30:58 INFO:Latest model saved in output\save_model/model-46800
+
+07:30:58 INFO:Evaluate on validation set
+07:31:00 INFO:Perplexity: 4.119, speed: 31800 words per sec
+07:31:00 INFO:Best model is saved in output\best_model/model-36400
+07:31:00 INFO:Best validation ppl is 4.111019
+
+07:31:00 INFO:=================== Epoch 10: 1/1===================
+
+07:31:00 INFO:Training on training set
+07:32:13 INFO:Perplexity: 3.420, speed: 14319 words per sec
+07:32:15 INFO:Latest model saved in output\save_model/model-52000
+
+07:32:15 INFO:Evaluate on validation set
+07:32:17 INFO:Perplexity: 4.124, speed: 30388 words per sec
+07:32:17 INFO:Best model is saved in output\best_model/model-36400
+07:32:17 INFO:Best validation ppl is 4.111019
+
+07:32:17 INFO:=================== Epoch 11: 1/1===================
+
+07:32:17 INFO:Training on training set
+07:33:30 INFO:Perplexity: 3.401, speed: 14309 words per sec
+07:33:32 INFO:Latest model saved in output\save_model/model-57200
+
+07:33:32 INFO:Evaluate on validation set
+07:33:34 INFO:Perplexity: 4.106, speed: 28906 words per sec
+07:33:38 INFO:Best model is saved in output\best_model/model-57200
+07:33:38 INFO:Best validation ppl is 4.105944
+
+07:33:38 INFO:=================== Epoch 12: 1/1===================
+
+07:33:38 INFO:Training on training set
+07:34:51 INFO:Perplexity: 3.382, speed: 14237 words per sec
+07:34:53 INFO:Latest model saved in output\save_model/model-62400
+
+07:34:53 INFO:Evaluate on validation set
+07:34:55 INFO:Perplexity: 4.104, speed: 30750 words per sec
+07:34:58 INFO:Best model is saved in output\best_model/model-62400
+07:34:58 INFO:Best validation ppl is 4.103851
+
+07:34:58 INFO:=================== Epoch 13: 1/1===================
+
+07:34:58 INFO:Training on training set
+07:36:11 INFO:Perplexity: 3.366, speed: 14246 words per sec
+07:36:13 INFO:Latest model saved in output\save_model/model-67600
+
+07:36:13 INFO:Evaluate on validation set
+07:36:15 INFO:Perplexity: 4.115, speed: 30112 words per sec
+07:36:15 INFO:Best model is saved in output\best_model/model-62400
+07:36:15 INFO:Best validation ppl is 4.103851
+
+07:36:15 INFO:=================== Epoch 14: 1/1===================
+
+07:36:15 INFO:Training on training set
+09:36:30 INFO:Perplexity: 3.354, speed: 21 words per sec
+09:36:32 INFO:Latest model saved in output\save_model/model-72800
+
+09:36:32 INFO:Evaluate on validation set
+09:36:33 INFO:Perplexity: 4.088, speed: 31848 words per sec
+09:36:36 INFO:Best model is saved in output\best_model/model-72800
+09:36:36 INFO:Best validation ppl is 4.087651
+
+09:36:36 INFO:=================== Epoch 15: 1/1===================
+
+09:36:36 INFO:Training on training set
+09:37:49 INFO:Perplexity: 3.340, speed: 14247 words per sec
+09:37:51 INFO:Latest model saved in output\save_model/model-78000
+
+09:37:51 INFO:Evaluate on validation set
+09:37:53 INFO:Perplexity: 4.127, speed: 30952 words per sec
+09:37:53 INFO:Best model is saved in output\best_model/model-72800
+09:37:53 INFO:Best validation ppl is 4.087651
+
+09:37:53 INFO:=================== Epoch 16: 1/1===================
+
+09:37:53 INFO:Training on training set
+09:39:07 INFO:Perplexity: 3.329, speed: 14039 words per sec
+09:39:09 INFO:Latest model saved in output\save_model/model-83200
+
+09:39:09 INFO:Evaluate on validation set
+09:39:11 INFO:Perplexity: 4.112, speed: 31871 words per sec
+09:39:11 INFO:Best model is saved in output\best_model/model-72800
+09:39:11 INFO:Best validation ppl is 4.087651
+
+09:39:11 INFO:=================== Epoch 17: 1/1===================
+
+09:39:11 INFO:Training on training set
+09:40:25 INFO:Perplexity: 3.320, speed: 14089 words per sec
+09:40:28 INFO:Latest model saved in output\save_model/model-88400
+
+09:40:28 INFO:Evaluate on validation set
+09:40:30 INFO:Perplexity: 4.086, speed: 31571 words per sec
+09:40:32 INFO:Best model is saved in output\best_model/model-88400
+09:40:32 INFO:Best validation ppl is 4.086202
+
+09:40:32 INFO:=================== Epoch 18: 1/1===================
+
+09:40:32 INFO:Training on training set
+09:41:43 INFO:Perplexity: 3.314, speed: 14504 words per sec
+09:41:46 INFO:Latest model saved in output\save_model/model-93600
+
+09:41:46 INFO:Evaluate on validation set
+09:41:47 INFO:Perplexity: 4.111, speed: 32217 words per sec
+09:41:47 INFO:Best model is saved in output\best_model/model-88400
+09:41:47 INFO:Best validation ppl is 4.086202
+
+09:41:47 INFO:=================== Epoch 19: 1/1===================
+
+09:41:47 INFO:Training on training set
+09:42:59 INFO:Perplexity: 3.304, speed: 14603 words per sec
+09:43:01 INFO:Latest model saved in output\save_model/model-98800
+
+09:43:01 INFO:Evaluate on validation set
+09:43:03 INFO:Perplexity: 4.102, speed: 31902 words per sec
+09:43:03 INFO:Best model is saved in output\best_model/model-88400
+09:43:03 INFO:Best validation ppl is 4.086202
+
+09:43:03 INFO:=================== Epoch 20: 1/1===================
+
+09:43:03 INFO:Training on training set
+09:44:16 INFO:Perplexity: 3.297, speed: 14206 words per sec
+09:44:18 INFO:Latest model saved in output\save_model/model-104000
+
+09:44:18 INFO:Evaluate on validation set
+09:44:20 INFO:Perplexity: 4.113, speed: 32287 words per sec
+09:44:20 INFO:Best model is saved in output\best_model/model-88400
+09:44:20 INFO:Best validation ppl is 4.086202
+
+09:44:20 INFO:=================== Epoch 21: 1/1===================
+
+09:44:20 INFO:Training on training set
+09:45:31 INFO:Perplexity: 3.291, speed: 14539 words per sec
+09:45:33 INFO:Latest model saved in output\save_model/model-109200
+
+09:45:33 INFO:Evaluate on validation set
+09:45:35 INFO:Perplexity: 4.139, speed: 31528 words per sec
+09:45:35 INFO:Best model is saved in output\best_model/model-88400
+09:45:35 INFO:Best validation ppl is 4.086202
+
+09:45:35 INFO:=================== Epoch 22: 1/1===================
+
+09:45:35 INFO:Training on training set
+09:46:48 INFO:Perplexity: 3.286, speed: 14387 words per sec
+09:46:50 INFO:Latest model saved in output\save_model/model-114400
+
+09:46:50 INFO:Evaluate on validation set
+09:46:52 INFO:Perplexity: 4.102, speed: 32176 words per sec
+09:46:52 INFO:Best model is saved in output\best_model/model-88400
+09:46:52 INFO:Best validation ppl is 4.086202
+
+09:46:52 INFO:=================== Epoch 23: 1/1===================
+
+09:46:52 INFO:Training on training set
+09:48:03 INFO:Perplexity: 3.277, speed: 14604 words per sec
+09:48:05 INFO:Latest model saved in output\save_model/model-119600
+
+09:48:05 INFO:Evaluate on validation set
+09:48:07 INFO:Perplexity: 4.117, speed: 31317 words per sec
+09:48:07 INFO:Best model is saved in output\best_model/model-88400
+09:48:07 INFO:Best validation ppl is 4.086202
+
+09:48:07 INFO:=================== Epoch 24: 1/1===================
+
+09:48:07 INFO:Training on training set
+09:49:21 INFO:Perplexity: 3.273, speed: 14128 words per sec
+09:49:25 INFO:Latest model saved in output\save_model/model-124800
+
+09:49:25 INFO:Evaluate on validation set
+09:49:27 INFO:Perplexity: 4.128, speed: 23637 words per sec
+09:49:27 INFO:Best model is saved in output\best_model/model-88400
+09:49:27 INFO:Best validation ppl is 4.086202
+
+09:49:27 INFO:=================== Epoch 25: 1/1===================
+
+09:49:27 INFO:Training on training set
+09:50:50 INFO:Perplexity: 3.268, speed: 12587 words per sec
+09:50:52 INFO:Latest model saved in output\save_model/model-130000
+
+09:50:52 INFO:Evaluate on validation set
+09:50:54 INFO:Perplexity: 4.131, speed: 31855 words per sec
+09:50:54 INFO:Best model is saved in output\best_model/model-88400
+09:50:54 INFO:Best validation ppl is 4.086202
+
+09:50:54 INFO:=================== Epoch 26: 1/1===================
+
+09:50:54 INFO:Training on training set
+09:52:06 INFO:Perplexity: 3.262, speed: 14540 words per sec
+09:52:08 INFO:Latest model saved in output\save_model/model-135200
+
+09:52:08 INFO:Evaluate on validation set
+09:52:10 INFO:Perplexity: 4.113, speed: 31785 words per sec
+09:52:10 INFO:Best model is saved in output\best_model/model-88400
+09:52:10 INFO:Best validation ppl is 4.086202
+
+09:52:10 INFO:=================== Epoch 27: 1/1===================
+
+09:52:10 INFO:Training on training set
+09:53:21 INFO:Perplexity: 3.261, speed: 14598 words per sec
+09:53:23 INFO:Latest model saved in output\save_model/model-140400
+
+09:53:23 INFO:Evaluate on validation set
+09:53:25 INFO:Perplexity: 4.124, speed: 32047 words per sec
+09:53:25 INFO:Best model is saved in output\best_model/model-88400
+09:53:25 INFO:Best validation ppl is 4.086202
+
+09:53:25 INFO:=================== Epoch 28: 1/1===================
+
+09:53:25 INFO:Training on training set
+09:54:44 INFO:Perplexity: 3.255, speed: 13100 words per sec
+09:54:46 INFO:Latest model saved in output\save_model/model-145600
+
+09:54:46 INFO:Evaluate on validation set
+09:54:48 INFO:Perplexity: 4.115, speed: 31204 words per sec
+09:54:48 INFO:Best model is saved in output\best_model/model-88400
+09:54:48 INFO:Best validation ppl is 4.086202
+
+09:54:48 INFO:=================== Epoch 29: 1/1===================
+
+09:54:48 INFO:Training on training set
+09:56:00 INFO:Perplexity: 3.251, speed: 14440 words per sec
+09:56:02 INFO:Latest model saved in output\save_model/model-150800
+
+09:56:02 INFO:Evaluate on validation set
+09:56:04 INFO:Perplexity: 4.109, speed: 31835 words per sec
+09:56:04 INFO:Best model is saved in output\best_model/model-88400
+09:56:04 INFO:Best validation ppl is 4.086202
+
+09:56:04 INFO:=================== Epoch 30: 1/1===================
+
+09:56:04 INFO:Training on training set
+09:57:16 INFO:Perplexity: 3.246, speed: 14459 words per sec
+09:57:18 INFO:Latest model saved in output\save_model/model-156000
+
+09:57:18 INFO:Evaluate on validation set
+09:57:20 INFO:Perplexity: 4.129, speed: 31430 words per sec
+09:57:20 INFO:Best model is saved in output\best_model/model-88400
+09:57:20 INFO:Best validation ppl is 4.086202
+
+09:57:20 INFO:=================== Epoch 31: 1/1===================
+
+09:57:20 INFO:Training on training set
+09:58:35 INFO:Perplexity: 3.240, speed: 13874 words per sec
+09:58:38 INFO:Latest model saved in output\save_model/model-161200
+
+09:58:38 INFO:Evaluate on validation set
+09:58:40 INFO:Perplexity: 4.124, speed: 28245 words per sec
+09:58:40 INFO:Best model is saved in output\best_model/model-88400
+09:58:40 INFO:Best validation ppl is 4.086202
+
+09:58:40 INFO:=================== Epoch 32: 1/1===================
+
+09:58:40 INFO:Training on training set
+09:59:55 INFO:Perplexity: 3.240, speed: 14000 words per sec
+09:59:57 INFO:Latest model saved in output\save_model/model-166400
+
+09:59:57 INFO:Evaluate on validation set
+09:59:59 INFO:Perplexity: 4.123, speed: 31828 words per sec
+09:59:59 INFO:Best model is saved in output\best_model/model-88400
+09:59:59 INFO:Best validation ppl is 4.086202
+
+09:59:59 INFO:=================== Epoch 33: 1/1===================
+
+09:59:59 INFO:Training on training set
+10:01:12 INFO:Perplexity: 3.236, speed: 14231 words per sec
+10:01:14 INFO:Latest model saved in output\save_model/model-171600
+
+10:01:14 INFO:Evaluate on validation set
+10:01:16 INFO:Perplexity: 4.138, speed: 31390 words per sec
+10:01:16 INFO:Best model is saved in output\best_model/model-88400
+10:01:16 INFO:Best validation ppl is 4.086202
+
+10:01:16 INFO:=================== Epoch 34: 1/1===================
+
+10:01:16 INFO:Training on training set
+10:02:29 INFO:Perplexity: 3.232, speed: 14121 words per sec
+10:02:32 INFO:Latest model saved in output\save_model/model-176800
+
+10:02:32 INFO:Evaluate on validation set
+10:02:34 INFO:Perplexity: 4.154, speed: 31251 words per sec
+10:02:34 INFO:Best model is saved in output\best_model/model-88400
+10:02:34 INFO:Best validation ppl is 4.086202
+
+10:02:34 INFO:=================== Epoch 35: 1/1===================
+
+10:02:34 INFO:Training on training set
+10:03:49 INFO:Perplexity: 3.230, speed: 13857 words per sec
+10:03:51 INFO:Latest model saved in output\save_model/model-182000
+
+10:03:51 INFO:Evaluate on validation set
+10:03:53 INFO:Perplexity: 4.133, speed: 31615 words per sec
+10:03:53 INFO:Best model is saved in output\best_model/model-88400
+10:03:53 INFO:Best validation ppl is 4.086202
+
+10:03:53 INFO:=================== Epoch 36: 1/1===================
+
+10:03:53 INFO:Training on training set
+10:05:07 INFO:Perplexity: 3.225, speed: 14024 words per sec
+10:05:10 INFO:Latest model saved in output\save_model/model-187200
+
+10:05:10 INFO:Evaluate on validation set
+10:05:12 INFO:Perplexity: 4.110, speed: 30696 words per sec
+10:05:12 INFO:Best model is saved in output\best_model/model-88400
+10:05:12 INFO:Best validation ppl is 4.086202
+
+10:05:12 INFO:=================== Epoch 37: 1/1===================
+
+10:05:12 INFO:Training on training set
+10:06:30 INFO:Perplexity: 3.225, speed: 13358 words per sec
+10:06:32 INFO:Latest model saved in output\save_model/model-192400
+
+10:06:32 INFO:Evaluate on validation set
+10:06:34 INFO:Perplexity: 4.133, speed: 26993 words per sec
+10:06:35 INFO:Best model is saved in output\best_model/model-88400
+10:06:35 INFO:Best validation ppl is 4.086202
+
+10:06:35 INFO:=================== Epoch 38: 1/1===================
+
+10:06:35 INFO:Training on training set
+10:07:48 INFO:Perplexity: 3.224, speed: 14262 words per sec
+10:07:50 INFO:Latest model saved in output\save_model/model-197600
+
+10:07:50 INFO:Evaluate on validation set
+10:07:52 INFO:Perplexity: 4.137, speed: 32221 words per sec
+10:07:52 INFO:Best model is saved in output\best_model/model-88400
+10:07:52 INFO:Best validation ppl is 4.086202
+
+10:07:52 INFO:=================== Epoch 39: 1/1===================
+
+10:07:52 INFO:Training on training set
+10:09:05 INFO:Perplexity: 3.222, speed: 14221 words per sec
+10:09:07 INFO:Latest model saved in output\save_model/model-202800
+
+10:09:07 INFO:Evaluate on validation set
+10:09:09 INFO:Perplexity: 4.144, speed: 30983 words per sec
+10:09:09 INFO:Best model is saved in output\best_model/model-88400
+10:09:09 INFO:Best validation ppl is 4.086202
+
+10:09:09 INFO:=================== Epoch 40: 1/1===================
+
+10:09:09 INFO:Training on training set
+10:10:23 INFO:Perplexity: 3.221, speed: 14085 words per sec
+10:10:25 INFO:Latest model saved in output\save_model/model-208000
+
+10:10:25 INFO:Evaluate on validation set
+10:10:27 INFO:Perplexity: 4.144, speed: 30708 words per sec
+10:10:27 INFO:Best model is saved in output\best_model/model-88400
+10:10:27 INFO:Best validation ppl is 4.086202
+
+10:10:27 INFO:=================== Epoch 41: 1/1===================
+
+10:10:27 INFO:Training on training set
+10:11:41 INFO:Perplexity: 3.217, speed: 14137 words per sec
+10:11:43 INFO:Latest model saved in output\save_model/model-213200
+
+10:11:43 INFO:Evaluate on validation set
+10:11:44 INFO:Perplexity: 4.132, speed: 32070 words per sec
+10:11:45 INFO:Best model is saved in output\best_model/model-88400
+10:11:45 INFO:Best validation ppl is 4.086202
+
+10:11:45 INFO:=================== Epoch 42: 1/1===================
+
+10:11:45 INFO:Training on training set
+10:12:58 INFO:Perplexity: 3.215, speed: 14150 words per sec
+10:13:00 INFO:Latest model saved in output\save_model/model-218400
+
+10:13:00 INFO:Evaluate on validation set
+10:13:02 INFO:Perplexity: 4.134, speed: 28922 words per sec
+10:13:02 INFO:Best model is saved in output\best_model/model-88400
+10:13:02 INFO:Best validation ppl is 4.086202
+
+10:13:02 INFO:=================== Epoch 43: 1/1===================
+
+10:13:02 INFO:Training on training set
+10:14:15 INFO:Perplexity: 3.213, speed: 14344 words per sec
+10:14:18 INFO:Latest model saved in output\save_model/model-223600
+
+10:14:18 INFO:Evaluate on validation set
+10:14:20 INFO:Perplexity: 4.124, speed: 25750 words per sec
+10:14:20 INFO:Best model is saved in output\best_model/model-88400
+10:14:20 INFO:Best validation ppl is 4.086202
+
+10:14:20 INFO:=================== Epoch 44: 1/1===================
+
+10:14:20 INFO:Training on training set
+10:15:33 INFO:Perplexity: 3.211, speed: 14242 words per sec
+10:15:35 INFO:Latest model saved in output\save_model/model-228800
+
+10:15:35 INFO:Evaluate on validation set
+10:15:37 INFO:Perplexity: 4.158, speed: 31026 words per sec
+10:15:37 INFO:Best model is saved in output\best_model/model-88400
+10:15:37 INFO:Best validation ppl is 4.086202
+
+10:15:37 INFO:=================== Epoch 45: 1/1===================
+
+10:15:37 INFO:Training on training set
+10:16:50 INFO:Perplexity: 3.209, speed: 14381 words per sec
+10:16:52 INFO:Latest model saved in output\save_model/model-234000
+
+10:16:52 INFO:Evaluate on validation set
+10:16:54 INFO:Perplexity: 4.157, speed: 31832 words per sec
+10:16:54 INFO:Best model is saved in output\best_model/model-88400
+10:16:54 INFO:Best validation ppl is 4.086202
+
+10:16:54 INFO:=================== Epoch 46: 1/1===================
+
+10:16:54 INFO:Training on training set
+10:18:13 INFO:Perplexity: 3.205, speed: 13070 words per sec
+10:18:16 INFO:Latest model saved in output\save_model/model-239200
+
+10:18:16 INFO:Evaluate on validation set
+10:18:18 INFO:Perplexity: 4.140, speed: 32016 words per sec
+10:18:18 INFO:Best model is saved in output\best_model/model-88400
+10:18:18 INFO:Best validation ppl is 4.086202
+
+10:18:18 INFO:=================== Epoch 47: 1/1===================
+
+10:18:18 INFO:Training on training set
+10:19:37 INFO:Perplexity: 3.203, speed: 13069 words per sec
+10:19:40 INFO:Latest model saved in output\save_model/model-244400
+
+10:19:40 INFO:Evaluate on validation set
+10:19:42 INFO:Perplexity: 4.147, speed: 27073 words per sec
+10:19:42 INFO:Best model is saved in output\best_model/model-88400
+10:19:42 INFO:Best validation ppl is 4.086202
+
+10:19:42 INFO:=================== Epoch 48: 1/1===================
+
+10:19:42 INFO:Training on training set
+10:20:58 INFO:Perplexity: 3.202, speed: 13610 words per sec
+10:21:01 INFO:Latest model saved in output\save_model/model-249600
+
+10:21:01 INFO:Evaluate on validation set
+10:21:03 INFO:Perplexity: 4.173, speed: 26416 words per sec
+10:21:03 INFO:Best model is saved in output\best_model/model-88400
+10:21:03 INFO:Best validation ppl is 4.086202
+
+10:21:03 INFO:=================== Epoch 49: 1/1===================
+
+10:21:03 INFO:Training on training set
+10:22:18 INFO:Perplexity: 3.198, speed: 13958 words per sec
+10:22:20 INFO:Latest model saved in output\save_model/model-254800
+
+10:22:20 INFO:Evaluate on validation set
+10:22:22 INFO:Perplexity: 4.152, speed: 30842 words per sec
+10:22:22 INFO:Best model is saved in output\best_model/model-88400
+10:22:22 INFO:Best validation ppl is 4.086202
+
+10:22:22 INFO:=================== Epoch 50: 1/1===================
+
+10:22:22 INFO:Training on training set
+10:23:36 INFO:Perplexity: 3.199, speed: 14130 words per sec
+10:23:38 INFO:Latest model saved in output\save_model/model-260000
+
+10:23:38 INFO:Evaluate on validation set
+10:23:40 INFO:Perplexity: 4.147, speed: 28215 words per sec
+10:23:40 INFO:Best model is saved in output\best_model/model-88400
+10:23:40 INFO:Best validation ppl is 4.086202
+
+10:23:40 INFO:Latest model is saved in output\save_model/model-260000
+10:23:40 INFO:Best model is saved in output\best_model/model-88400
+10:23:40 INFO:Best validation ppl is 4.086202
+
+10:23:40 INFO:Evaluate the best model on test set
+10:25:48 INFO:Perplexity: 5.102, speed: 453 words per sec
+
+Process finished with exit code 0
