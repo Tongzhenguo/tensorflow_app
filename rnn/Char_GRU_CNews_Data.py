@@ -10,6 +10,7 @@ from datetime import timedelta
 import numpy as np
 import tensorflow as tf
 import tensorflow.contrib.keras as kr
+from tensorflow.python.ops.rnn_cell_impl import BasicLSTMCell, GRUCell, DropoutWrapper
 
 
 class TextRNN(object):
@@ -38,12 +39,12 @@ class TextRNN(object):
 
         def lstm_cell():
             """lstm核"""
-            return tf.contrib.rnn.BasicLSTMCell(self.config.hidden_dim,
-                                                state_is_tuple=True, )
+            return BasicLSTMCell(self.config.hidden_dim,
+                                 state_is_tuple=True, )
 
         def gru_cell():
             """gru核"""
-            return tf.contrib.rnn.GRUCell(self.config.hidden_dim)
+            return GRUCell(self.config.hidden_dim)
 
         def dropout():
             """为每一个rnn核后面加一个dropout层"""
@@ -52,8 +53,8 @@ class TextRNN(object):
             else:
                 cell = gru_cell()
 
-            return tf.contrib.rnn.DropoutWrapper(cell,
-                                                 output_keep_prob=self.config.dropout_keep_prob)
+            return DropoutWrapper(cell,
+                                  output_keep_prob=self.config.dropout_keep_prob)
 
         embedding_inputs = self.input_embedding()
 
@@ -118,6 +119,7 @@ class TRNNConfig(object):
 
     print_per_batch = 10  # 每多少轮输出一次结果
 
+
 def _read_file(filename):
     """读取上一部分生成的数据文件，将内容和标签分开返回"""
     contents = []
@@ -176,7 +178,7 @@ def _read_category():
     """
     categories = ['体育', '财经', '房产', '家居',
                   '教育', '科技', '时尚', '时政',
-                  '游戏', '娱乐']#,'彩票','股票','社会','星座'
+                  '游戏', '娱乐']  # ,'彩票','股票','社会','星座'
     cat_to_id = dict(zip(categories, range(len(categories))))
     return categories, cat_to_id
 
