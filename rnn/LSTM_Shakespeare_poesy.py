@@ -54,7 +54,8 @@ model.compile(loss='categorical_crossentropy', optimizer='adam')
 
 # Fitting the model and generating characters
 # fitting the model
-model.fit(X_modified, Y_modified, epochs=100, batch_size=50)
+# model.fit(X_modified, Y_modified, epochs=100, batch_size=50)
+model.fit(X_modified, Y_modified, epochs=10, batch_size=50)
 
 model.save_weights('text_generator_gigantic.h5')
 
