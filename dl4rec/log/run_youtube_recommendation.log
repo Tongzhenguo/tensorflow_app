@@ -1,0 +1,2398 @@
+C:\Anaconda3_4.2.0_64bit\python.exe C:/deep_learning_test/dl4rec/youtube_recommendation.py
+Class Num:  14
+2018-05-03 18:05:31.496798: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-03 18:05:31.497084: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-03 18:05:31.708352: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:955] Found device 0 with properties:
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.7335
+pciBusID 0000:01:00.0
+Total memory: 8.00GiB
+Free memory: 6.66GiB
+2018-05-03 18:05:31.708825: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:976] DMA: 0
+2018-05-03 18:05:31.708955: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:986] 0:   Y
+2018-05-03 18:05:31.709605: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0)
+total_batch of training data:  1120
+Epoch 0 Batch 0 Elapsed time 0.299797s
+Accuracy: 0.050000004
+Epoch 0 Batch 1 Elapsed time 0.460223s
+Accuracy: 0.064
+Epoch 0 Batch 2 Elapsed time 0.619647s
+Accuracy: 0.080000006
+Epoch 0 Batch 3 Elapsed time 0.776064s
+Accuracy: 0.07
+Epoch 0 Batch 4 Elapsed time 0.935501s
+Accuracy: 0.085999995
+Epoch 0 Batch 5 Elapsed time 1.105940s
+Accuracy: 0.062000003
+Epoch 0 Batch 6 Elapsed time 1.275390s
+Accuracy: 0.076000005
+Epoch 0 Batch 7 Elapsed time 1.432809s
+Accuracy: 0.09
+Epoch 0 Batch 8 Elapsed time 1.603211s
+Accuracy: 0.076000005
+Epoch 0 Batch 9 Elapsed time 1.757621s
+Accuracy: 0.136
+Epoch 0 Batch 10 Elapsed time 1.923061s
+Accuracy: 0.156
+Epoch 0 Batch 11 Elapsed time 2.090507s
+Accuracy: 0.172
+Epoch 0 Batch 12 Elapsed time 2.227875s
+Accuracy: 0.202
+Epoch 0 Batch 13 Elapsed time 2.379275s
+Accuracy: 0.214
+Epoch 0 Batch 14 Elapsed time 2.528436s
+Accuracy: 0.19000001
+Epoch 0 Batch 15 Elapsed time 2.685856s
+Accuracy: 0.266
+Epoch 0 Batch 16 Elapsed time 2.854304s
+Accuracy: 0.274
+Epoch 0 Batch 17 Elapsed time 3.014730s
+Accuracy: 0.306
+Epoch 0 Batch 18 Elapsed time 3.169140s
+Accuracy: 0.314
+Epoch 0 Batch 19 Elapsed time 3.328564s
+Accuracy: 0.38000003
+Epoch 0 Batch 20 Elapsed time 3.483977s
+Accuracy: 0.42199996
+Epoch 0 Batch 21 Elapsed time 3.650420s
+Accuracy: 0.452
+Epoch 0 Batch 22 Elapsed time 3.815860s
+Accuracy: 0.438
+Epoch 0 Batch 23 Elapsed time 3.971274s
+Accuracy: 0.502
+Epoch 0 Batch 24 Elapsed time 4.127688s
+Accuracy: 0.486
+Epoch 0 Batch 25 Elapsed time 4.289117s
+Accuracy: 0.52800006
+Epoch 0 Batch 26 Elapsed time 4.455559s
+Accuracy: 0.472
+Epoch 0 Batch 27 Elapsed time 4.615986s
+Accuracy: 0.52800006
+Epoch 0 Batch 28 Elapsed time 4.785437s
+Accuracy: 0.54399997
+Epoch 0 Batch 29 Elapsed time 4.953884s
+Accuracy: 0.54399997
+Epoch 0 Batch 30 Elapsed time 5.108295s
+Accuracy: 0.588
+Epoch 0 Batch 31 Elapsed time 5.275740s
+Accuracy: 0.622
+Epoch 0 Batch 32 Elapsed time 5.440178s
+Accuracy: 0.646
+Epoch 0 Batch 33 Elapsed time 5.605617s
+Accuracy: 0.64400005
+Epoch 0 Batch 34 Elapsed time 5.764049s
+Accuracy: 0.702
+Epoch 0 Batch 35 Elapsed time 5.932486s
+Accuracy: 0.706
+Epoch 0 Batch 36 Elapsed time 6.096923s
+Accuracy: 0.742
+Epoch 0 Batch 37 Elapsed time 6.245317s
+Accuracy: 0.73800004
+Epoch 0 Batch 38 Elapsed time 6.415020s
+Accuracy: 0.802
+Epoch 0 Batch 39 Elapsed time 6.580965s
+Accuracy: 0.808
+Epoch 0 Batch 40 Elapsed time 6.738383s
+Accuracy: 0.794
+Epoch 0 Batch 41 Elapsed time 6.883770s
+Accuracy: 0.814
+Epoch 0 Batch 42 Elapsed time 7.049742s
+Accuracy: 0.77400005
+Epoch 0 Batch 43 Elapsed time 7.211202s
+Accuracy: 0.83599997
+Epoch 0 Batch 44 Elapsed time 7.372613s
+Accuracy: 0.82199997
+Epoch 0 Batch 45 Elapsed time 7.544055s
+Accuracy: 0.826
+Epoch 0 Batch 46 Elapsed time 7.708493s
+Accuracy: 0.822
+Epoch 0 Batch 47 Elapsed time 7.868919s
+Accuracy: 0.808
+Epoch 0 Batch 48 Elapsed time 8.039372s
+Accuracy: 0.8
+Epoch 0 Batch 49 Elapsed time 8.204812s
+Accuracy: 0.796
+Epoch 0 Batch 50 Elapsed time 8.373260s
+Accuracy: 0.808
+Epoch 0 Batch 51 Elapsed time 8.535691s
+Accuracy: 0.802
+Epoch 0 Batch 52 Elapsed time 8.701687s
+Accuracy: 0.83800006
+Epoch 0 Batch 53 Elapsed time 8.865115s
+Accuracy: 0.82
+Epoch 0 Batch 54 Elapsed time 9.028518s
+Accuracy: 0.86600006
+Epoch 0 Batch 55 Elapsed time 9.197967s
+Accuracy: 0.824
+Epoch 0 Batch 56 Elapsed time 9.364409s
+Accuracy: 0.864
+Epoch 0 Batch 57 Elapsed time 9.514809s
+Accuracy: 0.84999996
+Epoch 0 Batch 58 Elapsed time 9.684259s
+Accuracy: 0.862
+Epoch 0 Batch 59 Elapsed time 9.855715s
+Accuracy: 0.86200005
+Epoch 0 Batch 60 Elapsed time 10.021155s
+Accuracy: 0.87200004
+Epoch 0 Batch 61 Elapsed time 10.194616s
+Accuracy: 0.8900001
+Epoch 0 Batch 62 Elapsed time 10.353038s
+Accuracy: 0.87
+Epoch 0 Batch 63 Elapsed time 10.514484s
+Accuracy: 0.866
+Epoch 0 Batch 64 Elapsed time 10.692941s
+Accuracy: 0.89000005
+Epoch 0 Batch 65 Elapsed time 10.864397s
+Accuracy: 0.87000006
+Epoch 0 Batch 66 Elapsed time 11.047884s
+Accuracy: 0.85
+Epoch 0 Batch 67 Elapsed time 11.225356s
+Accuracy: 0.898
+Epoch 0 Batch 68 Elapsed time 11.387788s
+Accuracy: 0.85800004
+Epoch 0 Batch 69 Elapsed time 11.551222s
+Accuracy: 0.88400006
+Epoch 0 Batch 70 Elapsed time 11.712651s
+Accuracy: 0.858
+Epoch 0 Batch 71 Elapsed time 11.876087s
+Accuracy: 0.87600005
+Epoch 0 Batch 72 Elapsed time 12.036099s
+Accuracy: 0.90200007
+Epoch 0 Batch 73 Elapsed time 12.181485s
+Accuracy: 0.902
+Epoch 0 Batch 74 Elapsed time 12.340921s
+Accuracy: 0.9060001
+Epoch 0 Batch 75 Elapsed time 12.511361s
+Accuracy: 0.89599997
+Epoch 0 Batch 76 Elapsed time 12.661762s
+Accuracy: 0.88400006
+Epoch 0 Batch 77 Elapsed time 12.831211s
+Accuracy: 0.896
+Epoch 0 Batch 78 Elapsed time 12.997654s
+Accuracy: 0.9060001
+Epoch 0 Batch 79 Elapsed time 13.168108s
+Accuracy: 0.922
+Epoch 0 Batch 80 Elapsed time 13.335553s
+Accuracy: 0.90800005
+Epoch 0 Batch 81 Elapsed time 13.501995s
+Accuracy: 0.908
+Epoch 0 Batch 82 Elapsed time 13.664428s
+Accuracy: 0.93200004
+Epoch 0 Batch 83 Elapsed time 13.815830s
+Accuracy: 0.932
+Epoch 0 Batch 84 Elapsed time 13.993301s
+Accuracy: 0.926
+Epoch 0 Batch 85 Elapsed time 14.171775s
+Accuracy: 0.934
+Epoch 0 Batch 86 Elapsed time 14.343231s
+Accuracy: 0.93
+Epoch 0 Batch 87 Elapsed time 14.508672s
+Accuracy: 0.89800006
+Epoch 0 Batch 88 Elapsed time 14.732265s
+Accuracy: 0.91400003
+Epoch 0 Batch 89 Elapsed time 14.905726s
+Accuracy: 0.898
+Epoch 0 Batch 90 Elapsed time 15.075176s
+Accuracy: 0.91800004
+Epoch 0 Batch 91 Elapsed time 15.236606s
+Accuracy: 0.9060001
+Epoch 0 Batch 92 Elapsed time 15.401043s
+Accuracy: 0.93799996
+Epoch 0 Batch 93 Elapsed time 15.572499s
+Accuracy: 0.896
+Epoch 0 Batch 94 Elapsed time 15.744956s
+Accuracy: 0.924
+Epoch 0 Batch 95 Elapsed time 15.918418s
+Accuracy: 0.9520001
+Epoch 0 Batch 96 Elapsed time 16.088871s
+Accuracy: 0.9360001
+Epoch 0 Batch 97 Elapsed time 16.250300s
+Accuracy: 0.93200004
+Epoch 0 Batch 98 Elapsed time 16.419751s
+Accuracy: 0.926
+Epoch 0 Batch 99 Elapsed time 16.589201s
+Accuracy: 0.924
+Epoch 0 Batch 100 Elapsed time 16.785724s
+Accuracy: 0.944
+Epoch 0 Batch 101 Elapsed time 16.950161s
+Accuracy: 0.914
+Epoch 0 Batch 102 Elapsed time 17.117606s
+Accuracy: 0.9280001
+Epoch 0 Batch 103 Elapsed time 17.281040s
+Accuracy: 0.918
+Epoch 0 Batch 104 Elapsed time 17.450492s
+Accuracy: 0.9200001
+Epoch 0 Batch 105 Elapsed time 17.627963s
+Accuracy: 0.9240001
+Epoch 0 Batch 106 Elapsed time 17.800421s
+Accuracy: 0.934
+Epoch 0 Batch 107 Elapsed time 17.969872s
+Accuracy: 0.95600003
+Epoch 0 Batch 108 Elapsed time 18.132303s
+Accuracy: 0.94600004
+Epoch 0 Batch 109 Elapsed time 18.296755s
+Accuracy: 0.92600006
+Epoch 0 Batch 110 Elapsed time 18.460176s
+Accuracy: 0.916
+Epoch 0 Batch 111 Elapsed time 18.631630s
+Accuracy: 0.914
+Epoch 0 Batch 112 Elapsed time 18.799075s
+Accuracy: 0.9420001
+Epoch 0 Batch 113 Elapsed time 18.971534s
+Accuracy: 0.9460001
+Epoch 0 Batch 114 Elapsed time 19.141987s
+Accuracy: 0.9460001
+Epoch 0 Batch 115 Elapsed time 19.311438s
+Accuracy: 0.936
+Epoch 0 Batch 116 Elapsed time 19.475874s
+Accuracy: 0.9480001
+Epoch 0 Batch 117 Elapsed time 19.636301s
+Accuracy: 0.926
+Epoch 0 Batch 118 Elapsed time 19.803746s
+Accuracy: 0.924
+Epoch 0 Batch 119 Elapsed time 19.971191s
+Accuracy: 0.948
+Epoch 0 Batch 120 Elapsed time 20.135630s
+Accuracy: 0.9100001
+Epoch 0 Batch 121 Elapsed time 20.295052s
+Accuracy: 0.946
+Epoch 0 Batch 122 Elapsed time 20.469040s
+Accuracy: 0.934
+Epoch 0 Batch 123 Elapsed time 20.640482s
+Accuracy: 0.9319999
+Epoch 0 Batch 124 Elapsed time 20.806925s
+Accuracy: 0.93
+Epoch 0 Batch 125 Elapsed time 20.976376s
+Accuracy: 0.944
+Epoch 0 Batch 126 Elapsed time 21.144823s
+Accuracy: 0.936
+Epoch 0 Batch 127 Elapsed time 21.315276s
+Accuracy: 0.93200004
+Epoch 0 Batch 128 Elapsed time 21.483245s
+Accuracy: 0.936
+Epoch 0 Batch 129 Elapsed time 21.642658s
+Accuracy: 0.932
+Epoch 0 Batch 130 Elapsed time 21.810103s
+Accuracy: 0.952
+Epoch 0 Batch 131 Elapsed time 21.984074s
+Accuracy: 0.94799995
+Epoch 0 Batch 132 Elapsed time 22.159540s
+Accuracy: 0.95
+Epoch 0 Batch 133 Elapsed time 22.335007s
+Accuracy: 0.94400007
+Epoch 0 Batch 134 Elapsed time 22.504458s
+Accuracy: 0.948
+Epoch 0 Batch 135 Elapsed time 22.674911s
+Accuracy: 0.93200004
+Epoch 0 Batch 136 Elapsed time 22.846367s
+Accuracy: 0.9400001
+Epoch 0 Batch 137 Elapsed time 23.016820s
+Accuracy: 0.9520001
+Epoch 0 Batch 138 Elapsed time 23.193289s
+Accuracy: 0.92600006
+Epoch 0 Batch 139 Elapsed time 23.355725s
+Accuracy: 0.95400006
+Epoch 0 Batch 140 Elapsed time 23.510131s
+Accuracy: 0.92200005
+Epoch 0 Batch 141 Elapsed time 23.676574s
+Accuracy: 0.93000007
+Epoch 0 Batch 142 Elapsed time 23.849032s
+Accuracy: 0.93200004
+Epoch 0 Batch 143 Elapsed time 24.014472s
+Accuracy: 0.928
+Epoch 0 Batch 144 Elapsed time 24.187932s
+Accuracy: 0.948
+Epoch 0 Batch 145 Elapsed time 24.358386s
+Accuracy: 0.94000006
+Epoch 0 Batch 146 Elapsed time 24.521820s
+Accuracy: 0.94200003
+Epoch 0 Batch 147 Elapsed time 24.695281s
+Accuracy: 0.93799996
+Epoch 0 Batch 148 Elapsed time 24.856711s
+Accuracy: 0.93200004
+Epoch 0 Batch 149 Elapsed time 25.032176s
+Accuracy: 0.91200006
+Epoch 0 Batch 150 Elapsed time 25.207644s
+Accuracy: 0.894
+Epoch 0 Batch 151 Elapsed time 25.378096s
+Accuracy: 0.938
+Epoch 0 Batch 152 Elapsed time 25.551557s
+Accuracy: 0.96400005
+Epoch 0 Batch 153 Elapsed time 25.729029s
+Accuracy: 0.95800006
+Epoch 0 Batch 154 Elapsed time 25.897477s
+Accuracy: 0.96000004
+Epoch 0 Batch 155 Elapsed time 26.077956s
+Accuracy: 0.938
+Epoch 0 Batch 156 Elapsed time 26.242394s
+Accuracy: 0.94000006
+Epoch 0 Batch 157 Elapsed time 26.404851s
+Accuracy: 0.93799996
+Epoch 0 Batch 158 Elapsed time 26.569297s
+Accuracy: 0.928
+Epoch 0 Batch 159 Elapsed time 26.743727s
+Accuracy: 0.94200003
+Epoch 0 Batch 160 Elapsed time 26.918190s
+Accuracy: 0.9480001
+Epoch 0 Batch 161 Elapsed time 27.098670s
+Accuracy: 0.92800003
+Epoch 0 Batch 162 Elapsed time 27.278147s
+Accuracy: 0.924
+Epoch 0 Batch 163 Elapsed time 27.448600s
+Accuracy: 0.944
+Epoch 0 Batch 164 Elapsed time 27.620056s
+Accuracy: 0.954
+Epoch 0 Batch 165 Elapsed time 27.798530s
+Accuracy: 0.952
+Epoch 0 Batch 166 Elapsed time 27.948931s
+Accuracy: 0.94
+Epoch 0 Batch 167 Elapsed time 28.117892s
+Accuracy: 0.94200003
+Epoch 0 Batch 168 Elapsed time 28.295337s
+Accuracy: 0.934
+Epoch 0 Batch 169 Elapsed time 28.478824s
+Accuracy: 0.95000005
+Epoch 0 Batch 170 Elapsed time 28.663314s
+Accuracy: 0.95400006
+Epoch 0 Batch 171 Elapsed time 28.826749s
+Accuracy: 0.972
+Epoch 0 Batch 172 Elapsed time 29.003218s
+Accuracy: 0.96
+Epoch 0 Batch 173 Elapsed time 29.182695s
+Accuracy: 0.9620001
+Epoch 0 Batch 174 Elapsed time 29.351144s
+Accuracy: 0.96800005
+Epoch 0 Batch 175 Elapsed time 29.522600s
+Accuracy: 0.952
+Epoch 0 Batch 176 Elapsed time 29.689041s
+Accuracy: 0.98
+Epoch 0 Batch 177 Elapsed time 29.861500s
+Accuracy: 0.95400006
+Epoch 0 Batch 178 Elapsed time 30.024934s
+Accuracy: 0.97
+Epoch 0 Batch 179 Elapsed time 30.199913s
+Accuracy: 0.94
+Epoch 0 Batch 180 Elapsed time 30.378386s
+Accuracy: 0.9600001
+Epoch 0 Batch 181 Elapsed time 30.554856s
+Accuracy: 0.95600003
+Epoch 0 Batch 182 Elapsed time 30.729319s
+Accuracy: 0.9620001
+Epoch 0 Batch 183 Elapsed time 30.901778s
+Accuracy: 0.964
+Epoch 0 Batch 184 Elapsed time 31.075240s
+Accuracy: 0.97
+Epoch 0 Batch 185 Elapsed time 31.254716s
+Accuracy: 0.95600003
+Epoch 0 Batch 186 Elapsed time 31.432188s
+Accuracy: 0.96400005
+Epoch 0 Batch 187 Elapsed time 31.613670s
+Accuracy: 0.93799996
+Epoch 0 Batch 188 Elapsed time 31.785126s
+Accuracy: 0.95000005
+Epoch 0 Batch 189 Elapsed time 31.962598s
+Accuracy: 0.94200003
+Epoch 0 Batch 190 Elapsed time 32.137062s
+Accuracy: 0.94799995
+Epoch 0 Batch 191 Elapsed time 32.316538s
+Accuracy: 0.948
+Epoch 0 Batch 192 Elapsed time 32.498022s
+Accuracy: 0.96400005
+Epoch 0 Batch 193 Elapsed time 32.670480s
+Accuracy: 0.952
+Epoch 0 Batch 194 Elapsed time 32.828902s
+Accuracy: 0.95600003
+Epoch 0 Batch 195 Elapsed time 33.009380s
+Accuracy: 0.9460001
+Epoch 0 Batch 196 Elapsed time 33.192868s
+Accuracy: 0.9600001
+Epoch 0 Batch 197 Elapsed time 33.353295s
+Accuracy: 0.948
+Epoch 0 Batch 198 Elapsed time 33.533774s
+Accuracy: 0.964
+Epoch 0 Batch 199 Elapsed time 33.715257s
+Accuracy: 0.966
+Epoch 0 Batch 200 Elapsed time 33.900750s
+Accuracy: 0.972
+Epoch 0 Batch 201 Elapsed time 34.084238s
+Accuracy: 0.9760001
+Epoch 0 Batch 202 Elapsed time 34.247699s
+Accuracy: 0.95400006
+Epoch 0 Batch 203 Elapsed time 34.425144s
+Accuracy: 0.9599999
+Epoch 0 Batch 204 Elapsed time 34.616652s
+Accuracy: 0.944
+Epoch 0 Batch 205 Elapsed time 34.800141s
+Accuracy: 0.976
+Epoch 0 Batch 206 Elapsed time 34.980620s
+Accuracy: 0.96
+Epoch 0 Batch 207 Elapsed time 35.147064s
+Accuracy: 0.96799994
+Epoch 0 Batch 208 Elapsed time 35.327542s
+Accuracy: 0.9460001
+Epoch 0 Batch 209 Elapsed time 35.506017s
+Accuracy: 0.954
+Epoch 0 Batch 210 Elapsed time 35.683489s
+Accuracy: 0.95600003
+Epoch 0 Batch 211 Elapsed time 35.852975s
+Accuracy: 0.95600003
+Epoch 0 Batch 212 Elapsed time 36.024401s
+Accuracy: 0.9620001
+Epoch 0 Batch 213 Elapsed time 36.202869s
+Accuracy: 0.962
+Epoch 0 Batch 214 Elapsed time 36.388362s
+Accuracy: 0.972
+Epoch 0 Batch 215 Elapsed time 36.572853s
+Accuracy: 0.96800005
+Epoch 0 Batch 216 Elapsed time 36.756341s
+Accuracy: 0.962
+Epoch 0 Batch 217 Elapsed time 36.932809s
+Accuracy: 0.97200006
+Epoch 0 Batch 218 Elapsed time 37.114293s
+Accuracy: 0.95000005
+Epoch 0 Batch 219 Elapsed time 37.285748s
+Accuracy: 0.97599995
+Epoch 0 Batch 220 Elapsed time 37.465241s
+Accuracy: 0.96800005
+Epoch 0 Batch 221 Elapsed time 37.637683s
+Accuracy: 0.96800005
+Epoch 0 Batch 222 Elapsed time 37.824179s
+Accuracy: 0.98
+Epoch 0 Batch 223 Elapsed time 38.009672s
+Accuracy: 0.964
+Epoch 0 Batch 224 Elapsed time 38.193160s
+Accuracy: 0.95
+Epoch 0 Batch 225 Elapsed time 38.376647s
+Accuracy: 0.9600001
+Epoch 0 Batch 226 Elapsed time 38.554120s
+Accuracy: 0.976
+Epoch 0 Batch 227 Elapsed time 38.725575s
+Accuracy: 0.97800004
+Epoch 0 Batch 228 Elapsed time 38.898034s
+Accuracy: 0.974
+Epoch 0 Batch 229 Elapsed time 39.073501s
+Accuracy: 0.96000004
+Epoch 0 Batch 230 Elapsed time 39.252977s
+Accuracy: 0.95600003
+Epoch 0 Batch 231 Elapsed time 39.435462s
+Accuracy: 0.96000004
+Epoch 0 Batch 232 Elapsed time 39.616451s
+Accuracy: 0.96800005
+Epoch 0 Batch 233 Elapsed time 39.796931s
+Accuracy: 0.964
+Epoch 0 Batch 234 Elapsed time 39.981421s
+Accuracy: 0.96800005
+Epoch 0 Batch 235 Elapsed time 40.164910s
+Accuracy: 0.95600003
+Epoch 0 Batch 236 Elapsed time 40.349400s
+Accuracy: 0.96400005
+Epoch 0 Batch 237 Elapsed time 40.520855s
+Accuracy: 0.97
+Epoch 0 Batch 238 Elapsed time 40.696321s
+Accuracy: 0.95600003
+Epoch 0 Batch 239 Elapsed time 40.885825s
+Accuracy: 0.9760001
+Epoch 0 Batch 240 Elapsed time 41.067308s
+Accuracy: 0.9560001
+Epoch 0 Batch 241 Elapsed time 41.260822s
+Accuracy: 0.97400004
+Epoch 0 Batch 242 Elapsed time 41.441302s
+Accuracy: 0.97800004
+Epoch 0 Batch 243 Elapsed time 41.638827s
+Accuracy: 0.96400005
+Epoch 0 Batch 244 Elapsed time 41.822315s
+Accuracy: 0.96000004
+Epoch 0 Batch 245 Elapsed time 41.995804s
+Accuracy: 0.964
+Epoch 0 Batch 246 Elapsed time 42.179264s
+Accuracy: 0.96800005
+Epoch 0 Batch 247 Elapsed time 42.360746s
+Accuracy: 0.96000004
+Epoch 0 Batch 248 Elapsed time 42.543231s
+Accuracy: 0.9660001
+Epoch 0 Batch 249 Elapsed time 42.729727s
+Accuracy: 0.9560001
+Epoch 0 Batch 250 Elapsed time 42.914217s
+Accuracy: 0.95400006
+Epoch 0 Batch 251 Elapsed time 43.107732s
+Accuracy: 0.96000004
+Epoch 0 Batch 252 Elapsed time 43.290216s
+Accuracy: 0.976
+Epoch 0 Batch 253 Elapsed time 43.476712s
+Accuracy: 0.96800005
+Epoch 0 Batch 254 Elapsed time 43.632126s
+Accuracy: 0.9760001
+Epoch 0 Batch 255 Elapsed time 43.809597s
+Accuracy: 0.9520001
+Epoch 0 Batch 256 Elapsed time 44.006120s
+Accuracy: 0.972
+Epoch 0 Batch 257 Elapsed time 44.187602s
+Accuracy: 0.96000004
+Epoch 0 Batch 258 Elapsed time 44.370087s
+Accuracy: 0.96400005
+Epoch 0 Batch 259 Elapsed time 44.554578s
+Accuracy: 0.9500001
+Epoch 0 Batch 260 Elapsed time 44.740072s
+Accuracy: 0.96800005
+Epoch 0 Batch 261 Elapsed time 44.929574s
+Accuracy: 0.968
+Epoch 0 Batch 262 Elapsed time 45.115067s
+Accuracy: 0.95000005
+Epoch 0 Batch 263 Elapsed time 45.286524s
+Accuracy: 0.9700001
+Epoch 0 Batch 264 Elapsed time 45.466000s
+Accuracy: 0.97200006
+Epoch 0 Batch 265 Elapsed time 45.730704s
+Accuracy: 0.968
+Epoch 0 Batch 266 Elapsed time 45.916197s
+Accuracy: 0.97800004
+Epoch 0 Batch 267 Elapsed time 46.093668s
+Accuracy: 0.964
+Epoch 0 Batch 268 Elapsed time 46.285178s
+Accuracy: 0.974
+Epoch 0 Batch 269 Elapsed time 46.479695s
+Accuracy: 0.954
+Epoch 0 Batch 270 Elapsed time 46.666190s
+Accuracy: 0.9660001
+Epoch 0 Batch 271 Elapsed time 46.849679s
+Accuracy: 0.97400004
+Epoch 0 Batch 272 Elapsed time 47.007097s
+Accuracy: 0.964
+Epoch 0 Batch 273 Elapsed time 47.184568s
+Accuracy: 0.972
+Epoch 0 Batch 274 Elapsed time 47.368056s
+Accuracy: 0.95
+Epoch 0 Batch 275 Elapsed time 47.559565s
+Accuracy: 0.95800006
+Epoch 0 Batch 276 Elapsed time 47.742050s
+Accuracy: 0.9640001
+Epoch 0 Batch 277 Elapsed time 47.929549s
+Accuracy: 0.9800001
+Epoch 0 Batch 278 Elapsed time 48.116045s
+Accuracy: 0.9700001
+Epoch 0 Batch 279 Elapsed time 48.292529s
+Accuracy: 0.96800005
+Epoch 0 Batch 280 Elapsed time 48.480014s
+Accuracy: 0.984
+Epoch 0 Batch 281 Elapsed time 48.669519s
+Accuracy: 0.97599995
+Epoch 0 Batch 282 Elapsed time 48.859020s
+Accuracy: 0.966
+Epoch 0 Batch 283 Elapsed time 49.045515s
+Accuracy: 0.96400005
+Epoch 0 Batch 284 Elapsed time 49.239030s
+Accuracy: 0.978
+Epoch 0 Batch 285 Elapsed time 49.420512s
+Accuracy: 0.966
+Epoch 0 Batch 286 Elapsed time 49.610016s
+Accuracy: 0.9560001
+Epoch 0 Batch 287 Elapsed time 49.792501s
+Accuracy: 0.9620001
+Epoch 0 Batch 288 Elapsed time 49.970976s
+Accuracy: 0.96999997
+Epoch 0 Batch 289 Elapsed time 50.151456s
+Accuracy: 0.96800005
+Epoch 0 Batch 290 Elapsed time 50.340959s
+Accuracy: 0.96800005
+Epoch 0 Batch 291 Elapsed time 50.526452s
+Accuracy: 0.9760001
+Epoch 0 Batch 292 Elapsed time 50.696905s
+Accuracy: 0.95800006
+Epoch 0 Batch 293 Elapsed time 50.882398s
+Accuracy: 0.95800006
+Epoch 0 Batch 294 Elapsed time 51.073908s
+Accuracy: 0.96800005
+Epoch 0 Batch 295 Elapsed time 51.267422s
+Accuracy: 0.966
+Epoch 0 Batch 296 Elapsed time 51.448908s
+Accuracy: 0.986
+Epoch 0 Batch 297 Elapsed time 51.632393s
+Accuracy: 0.97800004
+Epoch 0 Batch 298 Elapsed time 51.825906s
+Accuracy: 0.9760001
+Epoch 0 Batch 299 Elapsed time 52.019421s
+Accuracy: 0.96400005
+Epoch 0 Batch 300 Elapsed time 52.214940s
+Accuracy: 0.976
+Epoch 0 Batch 301 Elapsed time 52.406449s
+Accuracy: 0.96800005
+Epoch 0 Batch 302 Elapsed time 52.595953s
+Accuracy: 0.958
+Epoch 0 Batch 303 Elapsed time 52.791473s
+Accuracy: 0.97400004
+Epoch 0 Batch 304 Elapsed time 52.974969s
+Accuracy: 0.9700001
+Epoch 0 Batch 305 Elapsed time 53.155441s
+Accuracy: 0.98
+Epoch 0 Batch 306 Elapsed time 53.335920s
+Accuracy: 0.9540001
+Epoch 0 Batch 307 Elapsed time 53.530437s
+Accuracy: 0.97999996
+Epoch 0 Batch 308 Elapsed time 53.721946s
+Accuracy: 0.966
+Epoch 0 Batch 309 Elapsed time 53.893403s
+Accuracy: 0.966
+Epoch 0 Batch 310 Elapsed time 54.061850s
+Accuracy: 0.98399997
+Epoch 0 Batch 311 Elapsed time 54.249348s
+Accuracy: 0.97
+Epoch 0 Batch 312 Elapsed time 54.439855s
+Accuracy: 0.962
+Epoch 0 Batch 313 Elapsed time 54.625349s
+Accuracy: 0.97800004
+Epoch 0 Batch 314 Elapsed time 54.806831s
+Accuracy: 0.97
+Epoch 0 Batch 315 Elapsed time 54.994328s
+Accuracy: 0.9760001
+Epoch 0 Batch 316 Elapsed time 55.181827s
+Accuracy: 0.97200006
+Epoch 0 Batch 317 Elapsed time 55.373336s
+Accuracy: 0.972
+Epoch 0 Batch 318 Elapsed time 55.558829s
+Accuracy: 0.98200005
+Epoch 0 Batch 319 Elapsed time 55.745325s
+Accuracy: 0.974
+Epoch 0 Batch 320 Elapsed time 55.944855s
+Accuracy: 0.968
+Epoch 0 Batch 321 Elapsed time 56.148396s
+Accuracy: 0.972
+Epoch 0 Batch 322 Elapsed time 56.332888s
+Accuracy: 0.9700001
+Epoch 0 Batch 323 Elapsed time 56.518380s
+Accuracy: 0.974
+Epoch 0 Batch 324 Elapsed time 56.721920s
+Accuracy: 0.966
+Epoch 0 Batch 325 Elapsed time 56.912427s
+Accuracy: 0.968
+Epoch 0 Batch 326 Elapsed time 57.101933s
+Accuracy: 0.964
+Epoch 0 Batch 327 Elapsed time 57.299456s
+Accuracy: 0.9700001
+Epoch 0 Batch 328 Elapsed time 57.495978s
+Accuracy: 0.976
+Epoch 0 Batch 329 Elapsed time 57.688490s
+Accuracy: 0.972
+Epoch 0 Batch 330 Elapsed time 57.873984s
+Accuracy: 0.96400005
+Epoch 0 Batch 331 Elapsed time 58.032404s
+Accuracy: 0.972
+Epoch 0 Batch 332 Elapsed time 58.226921s
+Accuracy: 0.96800005
+Epoch 0 Batch 333 Elapsed time 58.419433s
+Accuracy: 0.9800001
+Epoch 0 Batch 334 Elapsed time 58.608938s
+Accuracy: 0.964
+Epoch 0 Batch 335 Elapsed time 58.801449s
+Accuracy: 0.97800004
+Epoch 0 Batch 336 Elapsed time 58.999976s
+Accuracy: 0.98199993
+Epoch 0 Batch 337 Elapsed time 59.194493s
+Accuracy: 0.97
+Epoch 0 Batch 338 Elapsed time 59.385001s
+Accuracy: 0.972
+Epoch 0 Batch 339 Elapsed time 59.575506s
+Accuracy: 0.968
+Epoch 0 Batch 340 Elapsed time 59.771026s
+Accuracy: 0.96999997
+Epoch 0 Batch 341 Elapsed time 59.964540s
+Accuracy: 0.9760001
+Epoch 0 Batch 342 Elapsed time 60.141009s
+Accuracy: 0.98800004
+Epoch 0 Batch 343 Elapsed time 60.346556s
+Accuracy: 0.98199993
+Epoch 0 Batch 344 Elapsed time 60.541073s
+Accuracy: 0.974
+Epoch 0 Batch 345 Elapsed time 60.739600s
+Accuracy: 0.96800005
+Epoch 0 Batch 346 Elapsed time 60.923090s
+Accuracy: 0.96
+Epoch 0 Batch 347 Elapsed time 61.106603s
+Accuracy: 0.968
+Epoch 0 Batch 348 Elapsed time 61.298085s
+Accuracy: 0.962
+Epoch 0 Batch 349 Elapsed time 61.489594s
+Accuracy: 0.976
+Epoch 0 Batch 350 Elapsed time 61.682106s
+Accuracy: 0.95400006
+Epoch 0 Batch 351 Elapsed time 61.868603s
+Accuracy: 0.97
+Epoch 0 Batch 352 Elapsed time 62.063118s
+Accuracy: 0.95600003
+Epoch 0 Batch 353 Elapsed time 62.261647s
+Accuracy: 0.978
+Epoch 0 Batch 354 Elapsed time 62.440149s
+Accuracy: 0.97199994
+Epoch 0 Batch 355 Elapsed time 62.636212s
+Accuracy: 0.976
+Epoch 0 Batch 356 Elapsed time 62.815687s
+Accuracy: 0.97200006
+Epoch 0 Batch 357 Elapsed time 63.013212s
+Accuracy: 0.9660001
+Epoch 0 Batch 358 Elapsed time 63.218759s
+Accuracy: 0.972
+Epoch 0 Batch 359 Elapsed time 63.418289s
+Accuracy: 0.98599994
+Epoch 0 Batch 360 Elapsed time 63.610801s
+Accuracy: 0.982
+Epoch 0 Batch 361 Elapsed time 63.810331s
+Accuracy: 0.9600001
+Epoch 0 Batch 362 Elapsed time 63.992816s
+Accuracy: 0.98
+Epoch 0 Batch 363 Elapsed time 64.182348s
+Accuracy: 0.9660001
+Epoch 0 Batch 364 Elapsed time 64.376837s
+Accuracy: 0.972
+Epoch 0 Batch 365 Elapsed time 64.576368s
+Accuracy: 0.972
+Epoch 0 Batch 366 Elapsed time 64.775898s
+Accuracy: 0.978
+Epoch 0 Batch 367 Elapsed time 64.974426s
+Accuracy: 0.97
+Epoch 0 Batch 368 Elapsed time 65.175961s
+Accuracy: 0.97800004
+Epoch 0 Batch 369 Elapsed time 65.367470s
+Accuracy: 0.96400005
+Epoch 0 Batch 370 Elapsed time 65.566002s
+Accuracy: 0.97800004
+Epoch 0 Batch 371 Elapsed time 65.754009s
+Accuracy: 0.97
+Epoch 0 Batch 372 Elapsed time 65.923459s
+Accuracy: 0.98800004
+Epoch 0 Batch 373 Elapsed time 66.124005s
+Accuracy: 0.968
+Epoch 0 Batch 374 Elapsed time 66.305476s
+Accuracy: 0.972
+Epoch 0 Batch 375 Elapsed time 66.500996s
+Accuracy: 0.972
+Epoch 0 Batch 376 Elapsed time 66.696515s
+Accuracy: 0.95400006
+Epoch 0 Batch 377 Elapsed time 66.893038s
+Accuracy: 0.97
+Epoch 0 Batch 378 Elapsed time 67.085550s
+Accuracy: 0.9740001
+Epoch 0 Batch 379 Elapsed time 67.275081s
+Accuracy: 0.9600001
+Epoch 0 Batch 380 Elapsed time 67.465560s
+Accuracy: 0.97800004
+Epoch 0 Batch 381 Elapsed time 67.666093s
+Accuracy: 0.9620001
+Epoch 0 Batch 382 Elapsed time 67.850583s
+Accuracy: 0.976
+Epoch 0 Batch 383 Elapsed time 68.055127s
+Accuracy: 0.96800005
+Epoch 0 Batch 384 Elapsed time 68.252162s
+Accuracy: 0.97200006
+Epoch 0 Batch 385 Elapsed time 68.447681s
+Accuracy: 0.97400004
+Epoch 0 Batch 386 Elapsed time 68.649245s
+Accuracy: 0.9700001
+Epoch 0 Batch 387 Elapsed time 68.839724s
+Accuracy: 0.9760001
+Epoch 0 Batch 388 Elapsed time 69.036246s
+Accuracy: 0.97400004
+Epoch 0 Batch 389 Elapsed time 69.242795s
+Accuracy: 0.98600006
+Epoch 0 Batch 390 Elapsed time 69.448341s
+Accuracy: 0.982
+Epoch 0 Batch 391 Elapsed time 69.649877s
+Accuracy: 0.964
+Epoch 0 Batch 392 Elapsed time 69.852415s
+Accuracy: 0.982
+Epoch 0 Batch 393 Elapsed time 70.055957s
+Accuracy: 0.974
+Epoch 0 Batch 394 Elapsed time 70.254484s
+Accuracy: 0.9680001
+Epoch 0 Batch 395 Elapsed time 70.439978s
+Accuracy: 0.98
+Epoch 0 Batch 396 Elapsed time 70.634525s
+Accuracy: 0.984
+Epoch 0 Batch 397 Elapsed time 70.846056s
+Accuracy: 0.97
+Epoch 0 Batch 398 Elapsed time 71.044584s
+Accuracy: 0.9800001
+Epoch 0 Batch 399 Elapsed time 71.248125s
+Accuracy: 0.978
+Epoch 0 Batch 400 Elapsed time 71.438631s
+Accuracy: 0.97400004
+Epoch 0 Batch 401 Elapsed time 71.642173s
+Accuracy: 0.982
+Epoch 0 Batch 402 Elapsed time 71.837720s
+Accuracy: 0.972
+Epoch 0 Batch 403 Elapsed time 72.028199s
+Accuracy: 0.97800004
+Epoch 0 Batch 404 Elapsed time 72.227729s
+Accuracy: 0.9760001
+Epoch 0 Batch 405 Elapsed time 72.428263s
+Accuracy: 0.976
+Epoch 0 Batch 406 Elapsed time 72.632806s
+Accuracy: 0.984
+Epoch 0 Batch 407 Elapsed time 72.832337s
+Accuracy: 0.984
+Epoch 0 Batch 408 Elapsed time 73.045916s
+Accuracy: 0.97800004
+Epoch 0 Batch 409 Elapsed time 73.253455s
+Accuracy: 0.96400005
+Epoch 0 Batch 410 Elapsed time 73.459016s
+Accuracy: 0.97400004
+Epoch 0 Batch 411 Elapsed time 73.649508s
+Accuracy: 0.972
+Epoch 0 Batch 412 Elapsed time 73.851046s
+Accuracy: 0.96799994
+Epoch 0 Batch 413 Elapsed time 74.049572s
+Accuracy: 0.972
+Epoch 0 Batch 414 Elapsed time 74.250105s
+Accuracy: 0.978
+Epoch 0 Batch 415 Elapsed time 74.449636s
+Accuracy: 0.9880001
+Epoch 0 Batch 416 Elapsed time 74.649166s
+Accuracy: 0.98
+Epoch 0 Batch 417 Elapsed time 74.852707s
+Accuracy: 0.9700001
+Epoch 0 Batch 418 Elapsed time 75.050232s
+Accuracy: 0.958
+Epoch 0 Batch 419 Elapsed time 75.226702s
+Accuracy: 0.96800005
+Epoch 0 Batch 420 Elapsed time 75.427234s
+Accuracy: 0.982
+Epoch 0 Batch 421 Elapsed time 75.608716s
+Accuracy: 0.97400004
+Epoch 0 Batch 422 Elapsed time 75.812257s
+Accuracy: 0.974
+Epoch 0 Batch 423 Elapsed time 76.017804s
+Accuracy: 0.97800004
+Epoch 0 Batch 424 Elapsed time 76.229366s
+Accuracy: 0.97800004
+Epoch 0 Batch 425 Elapsed time 76.434913s
+Accuracy: 0.9820001
+Epoch 0 Batch 426 Elapsed time 76.640461s
+Accuracy: 0.98600006
+Epoch 0 Batch 427 Elapsed time 76.852022s
+Accuracy: 0.9780001
+Epoch 0 Batch 428 Elapsed time 77.054560s
+Accuracy: 0.97599995
+Epoch 0 Batch 429 Elapsed time 77.263114s
+Accuracy: 0.9700001
+Epoch 0 Batch 430 Elapsed time 77.468661s
+Accuracy: 0.98200005
+Epoch 0 Batch 431 Elapsed time 77.670196s
+Accuracy: 0.97800004
+Epoch 0 Batch 432 Elapsed time 77.876745s
+Accuracy: 0.97400004
+Epoch 0 Batch 433 Elapsed time 78.077306s
+Accuracy: 0.97800004
+Epoch 0 Batch 434 Elapsed time 78.273840s
+Accuracy: 0.984
+Epoch 0 Batch 435 Elapsed time 78.467326s
+Accuracy: 0.982
+Epoch 0 Batch 436 Elapsed time 78.681886s
+Accuracy: 0.96800005
+Epoch 0 Batch 437 Elapsed time 78.887432s
+Accuracy: 0.97400004
+Epoch 0 Batch 438 Elapsed time 79.095986s
+Accuracy: 0.98800004
+Epoch 0 Batch 439 Elapsed time 79.302542s
+Accuracy: 0.974
+Epoch 0 Batch 440 Elapsed time 79.506077s
+Accuracy: 0.97800004
+Epoch 0 Batch 441 Elapsed time 79.707613s
+Accuracy: 0.98800004
+Epoch 0 Batch 442 Elapsed time 79.903132s
+Accuracy: 0.982
+Epoch 0 Batch 443 Elapsed time 80.104668s
+Accuracy: 0.97800004
+Epoch 0 Batch 444 Elapsed time 80.311217s
+Accuracy: 0.97800004
+Epoch 0 Batch 445 Elapsed time 80.518769s
+Accuracy: 0.98
+Epoch 0 Batch 446 Elapsed time 80.727323s
+Accuracy: 0.97200006
+Epoch 0 Batch 447 Elapsed time 80.930864s
+Accuracy: 0.99000007
+Epoch 0 Batch 448 Elapsed time 81.142426s
+Accuracy: 0.966
+Epoch 0 Batch 449 Elapsed time 81.343990s
+Accuracy: 0.974
+Epoch 0 Batch 450 Elapsed time 81.542497s
+Accuracy: 0.97800004
+Epoch 0 Batch 451 Elapsed time 81.741017s
+Accuracy: 0.9760001
+Epoch 0 Batch 452 Elapsed time 81.955588s
+Accuracy: 0.976
+Epoch 0 Batch 453 Elapsed time 82.161134s
+Accuracy: 0.97
+Epoch 0 Batch 454 Elapsed time 82.372696s
+Accuracy: 0.962
+Epoch 0 Batch 455 Elapsed time 82.583256s
+Accuracy: 0.982
+Epoch 0 Batch 456 Elapsed time 82.793816s
+Accuracy: 0.976
+Epoch 0 Batch 457 Elapsed time 82.993347s
+Accuracy: 0.95800006
+Epoch 0 Batch 458 Elapsed time 83.263064s
+Accuracy: 0.972
+Epoch 0 Batch 459 Elapsed time 83.467607s
+Accuracy: 0.976
+Epoch 0 Batch 460 Elapsed time 83.674156s
+Accuracy: 0.97
+Epoch 0 Batch 461 Elapsed time 83.878700s
+Accuracy: 0.97400004
+Epoch 0 Batch 462 Elapsed time 84.087254s
+Accuracy: 0.98200005
+Epoch 0 Batch 463 Elapsed time 84.295808s
+Accuracy: 0.962
+Epoch 0 Batch 464 Elapsed time 84.505366s
+Accuracy: 0.986
+Epoch 0 Batch 465 Elapsed time 84.699883s
+Accuracy: 0.9660001
+Epoch 0 Batch 466 Elapsed time 84.906432s
+Accuracy: 0.99
+Epoch 0 Batch 467 Elapsed time 85.114986s
+Accuracy: 0.97400004
+Epoch 0 Batch 468 Elapsed time 85.318527s
+Accuracy: 0.98200005
+Epoch 0 Batch 469 Elapsed time 85.532095s
+Accuracy: 0.962
+Epoch 0 Batch 470 Elapsed time 85.743657s
+Accuracy: 0.98200005
+Epoch 0 Batch 471 Elapsed time 85.959230s
+Accuracy: 0.97400004
+Epoch 0 Batch 472 Elapsed time 86.159764s
+Accuracy: 0.97800004
+Epoch 0 Batch 473 Elapsed time 86.369320s
+Accuracy: 0.9660001
+Epoch 0 Batch 474 Elapsed time 86.570856s
+Accuracy: 0.9840001
+Epoch 0 Batch 475 Elapsed time 86.783421s
+Accuracy: 0.98600006
+Epoch 0 Batch 476 Elapsed time 86.990973s
+Accuracy: 0.972
+Epoch 0 Batch 477 Elapsed time 87.192508s
+Accuracy: 0.986
+Epoch 0 Batch 478 Elapsed time 87.400060s
+Accuracy: 0.97
+Epoch 0 Batch 479 Elapsed time 87.605607s
+Accuracy: 0.97200006
+Epoch 0 Batch 480 Elapsed time 87.813159s
+Accuracy: 0.972
+Epoch 0 Batch 481 Elapsed time 88.008678s
+Accuracy: 0.97800004
+Epoch 0 Batch 482 Elapsed time 88.226256s
+Accuracy: 0.97800004
+Epoch 0 Batch 483 Elapsed time 88.441830s
+Accuracy: 0.964
+Epoch 0 Batch 484 Elapsed time 88.659408s
+Accuracy: 0.9740001
+Epoch 0 Batch 485 Elapsed time 88.860944s
+Accuracy: 0.9840001
+Epoch 0 Batch 486 Elapsed time 89.062479s
+Accuracy: 0.968
+Epoch 0 Batch 487 Elapsed time 89.256996s
+Accuracy: 0.98600006
+Epoch 0 Batch 488 Elapsed time 89.461567s
+Accuracy: 0.98200005
+Epoch 0 Batch 489 Elapsed time 89.671794s
+Accuracy: 0.982
+Epoch 0 Batch 490 Elapsed time 89.884357s
+Accuracy: 0.984
+Epoch 0 Batch 491 Elapsed time 90.099931s
+Accuracy: 0.966
+Epoch 0 Batch 492 Elapsed time 90.293445s
+Accuracy: 0.9760001
+Epoch 0 Batch 493 Elapsed time 90.502000s
+Accuracy: 0.98000014
+Epoch 0 Batch 494 Elapsed time 90.720581s
+Accuracy: 0.966
+Epoch 0 Batch 495 Elapsed time 90.931140s
+Accuracy: 0.98800004
+Epoch 0 Batch 496 Elapsed time 91.131675s
+Accuracy: 0.9760001
+Epoch 0 Batch 497 Elapsed time 91.350254s
+Accuracy: 0.98800004
+Epoch 0 Batch 498 Elapsed time 91.561816s
+Accuracy: 0.96400005
+Epoch 0 Batch 499 Elapsed time 91.771374s
+Accuracy: 0.97400004
+Epoch 0 Batch 500 Elapsed time 91.985945s
+Accuracy: 0.97800004
+Epoch 0 Batch 501 Elapsed time 92.203523s
+Accuracy: 0.98800004
+Epoch 0 Batch 502 Elapsed time 92.397066s
+Accuracy: 0.98
+Epoch 0 Batch 503 Elapsed time 92.600579s
+Accuracy: 0.99
+Epoch 0 Batch 504 Elapsed time 92.811137s
+Accuracy: 0.9840001
+Epoch 0 Batch 505 Elapsed time 93.022700s
+Accuracy: 0.9660001
+Epoch 0 Batch 506 Elapsed time 93.221228s
+Accuracy: 0.98200005
+Epoch 0 Batch 507 Elapsed time 93.431787s
+Accuracy: 0.9780001
+Epoch 0 Batch 508 Elapsed time 93.646358s
+Accuracy: 0.97400004
+Epoch 0 Batch 509 Elapsed time 93.857921s
+Accuracy: 0.974
+Epoch 0 Batch 510 Elapsed time 94.052438s
+Accuracy: 0.984
+Epoch 0 Batch 511 Elapsed time 94.258987s
+Accuracy: 0.96800005
+Epoch 0 Batch 512 Elapsed time 94.475562s
+Accuracy: 0.97200006
+Epoch 0 Batch 513 Elapsed time 94.689130s
+Accuracy: 0.976
+Epoch 0 Batch 514 Elapsed time 94.916735s
+Accuracy: 0.974
+Epoch 0 Batch 515 Elapsed time 95.131305s
+Accuracy: 0.976
+Epoch 0 Batch 516 Elapsed time 95.351892s
+Accuracy: 0.95600003
+Epoch 0 Batch 517 Elapsed time 95.560447s
+Accuracy: 0.98600006
+Epoch 0 Batch 518 Elapsed time 95.766000s
+Accuracy: 0.974
+Epoch 0 Batch 519 Elapsed time 95.987582s
+Accuracy: 0.9820001
+Epoch 0 Batch 520 Elapsed time 96.201149s
+Accuracy: 0.9660001
+Epoch 0 Batch 521 Elapsed time 96.406696s
+Accuracy: 0.96999997
+Epoch 0 Batch 522 Elapsed time 96.622268s
+Accuracy: 0.98200005
+Epoch 0 Batch 523 Elapsed time 96.844860s
+Accuracy: 0.98200005
+Epoch 0 Batch 524 Elapsed time 97.069458s
+Accuracy: 0.9760001
+Epoch 0 Batch 525 Elapsed time 97.270994s
+Accuracy: 0.97599995
+Epoch 0 Batch 526 Elapsed time 97.480550s
+Accuracy: 0.97400004
+Epoch 0 Batch 527 Elapsed time 97.685094s
+Accuracy: 0.98
+Epoch 0 Batch 528 Elapsed time 97.903675s
+Accuracy: 0.98800004
+Epoch 0 Batch 529 Elapsed time 98.123259s
+Accuracy: 0.98200005
+Epoch 0 Batch 530 Elapsed time 98.330810s
+Accuracy: 0.968
+Epoch 0 Batch 531 Elapsed time 98.545380s
+Accuracy: 0.984
+Epoch 0 Batch 532 Elapsed time 98.747919s
+Accuracy: 0.984
+Epoch 0 Batch 533 Elapsed time 98.951460s
+Accuracy: 0.984
+Epoch 0 Batch 534 Elapsed time 99.172046s
+Accuracy: 0.9760001
+Epoch 0 Batch 535 Elapsed time 99.394638s
+Accuracy: 0.96400005
+Epoch 0 Batch 536 Elapsed time 99.615224s
+Accuracy: 0.978
+Epoch 0 Batch 537 Elapsed time 99.848845s
+Accuracy: 0.978
+Epoch 0 Batch 538 Elapsed time 100.064418s
+Accuracy: 0.98
+Epoch 0 Batch 539 Elapsed time 100.265983s
+Accuracy: 0.982
+Epoch 0 Batch 540 Elapsed time 100.450444s
+Accuracy: 0.984
+Epoch 0 Batch 541 Elapsed time 100.675044s
+Accuracy: 0.964
+Epoch 0 Batch 542 Elapsed time 100.897633s
+Accuracy: 0.9700001
+Epoch 0 Batch 543 Elapsed time 101.115211s
+Accuracy: 0.98399997
+Epoch 0 Batch 544 Elapsed time 101.326774s
+Accuracy: 0.976
+Epoch 0 Batch 545 Elapsed time 101.546358s
+Accuracy: 0.974
+Epoch 0 Batch 546 Elapsed time 101.782986s
+Accuracy: 0.97
+Epoch 0 Batch 547 Elapsed time 102.018636s
+Accuracy: 0.98800004
+Epoch 0 Batch 548 Elapsed time 102.256244s
+Accuracy: 0.96999997
+Epoch 0 Batch 549 Elapsed time 102.497887s
+Accuracy: 0.9800001
+Epoch 0 Batch 550 Elapsed time 102.729503s
+Accuracy: 0.97000015
+Epoch 0 Batch 551 Elapsed time 102.946078s
+Accuracy: 0.98600006
+Epoch 0 Batch 552 Elapsed time 103.181705s
+Accuracy: 0.98
+Epoch 0 Batch 553 Elapsed time 103.411315s
+Accuracy: 0.98200005
+Epoch 0 Batch 554 Elapsed time 103.644937s
+Accuracy: 0.978
+Epoch 0 Batch 555 Elapsed time 103.893598s
+Accuracy: 0.9840001
+Epoch 0 Batch 556 Elapsed time 104.137244s
+Accuracy: 0.97400004
+Epoch 0 Batch 557 Elapsed time 104.366855s
+Accuracy: 0.962
+Epoch 0 Batch 558 Elapsed time 104.599473s
+Accuracy: 0.97200006
+Epoch 0 Batch 559 Elapsed time 104.823068s
+Accuracy: 0.97400004
+Epoch 0 Batch 560 Elapsed time 105.038640s
+Accuracy: 0.98
+Epoch 0 Batch 561 Elapsed time 105.266246s
+Accuracy: 0.97599995
+Epoch 0 Batch 562 Elapsed time 105.470790s
+Accuracy: 0.98800004
+Epoch 0 Batch 563 Elapsed time 105.682352s
+Accuracy: 0.96800005
+Epoch 0 Batch 564 Elapsed time 105.916975s
+Accuracy: 0.98
+Epoch 0 Batch 565 Elapsed time 106.131546s
+Accuracy: 0.98600006
+Epoch 0 Batch 566 Elapsed time 106.359151s
+Accuracy: 0.9800001
+Epoch 0 Batch 567 Elapsed time 106.571717s
+Accuracy: 0.976
+Epoch 0 Batch 568 Elapsed time 106.785283s
+Accuracy: 0.96800005
+Epoch 0 Batch 569 Elapsed time 106.984816s
+Accuracy: 0.96599996
+Epoch 0 Batch 570 Elapsed time 107.193368s
+Accuracy: 0.9800001
+Epoch 0 Batch 571 Elapsed time 107.415960s
+Accuracy: 0.98600006
+Epoch 0 Batch 572 Elapsed time 107.629528s
+Accuracy: 0.97200006
+Epoch 0 Batch 573 Elapsed time 107.845101s
+Accuracy: 0.964
+Epoch 0 Batch 574 Elapsed time 108.060674s
+Accuracy: 0.9800001
+Epoch 0 Batch 575 Elapsed time 108.281261s
+Accuracy: 0.97800004
+Epoch 0 Batch 576 Elapsed time 108.494839s
+Accuracy: 0.9780001
+Epoch 0 Batch 577 Elapsed time 108.704402s
+Accuracy: 0.982
+Epoch 0 Batch 578 Elapsed time 108.930988s
+Accuracy: 0.9720001
+Epoch 0 Batch 579 Elapsed time 109.154582s
+Accuracy: 0.97800004
+Epoch 0 Batch 580 Elapsed time 109.387200s
+Accuracy: 0.984
+Epoch 0 Batch 581 Elapsed time 109.610794s
+Accuracy: 0.97999996
+Epoch 0 Batch 582 Elapsed time 109.825365s
+Accuracy: 0.96599996
+Epoch 0 Batch 583 Elapsed time 110.045952s
+Accuracy: 0.978
+Epoch 0 Batch 584 Elapsed time 110.265538s
+Accuracy: 0.972
+Epoch 0 Batch 585 Elapsed time 110.484116s
+Accuracy: 0.9780001
+Epoch 0 Batch 586 Elapsed time 110.719742s
+Accuracy: 0.9820001
+Epoch 0 Batch 587 Elapsed time 110.952360s
+Accuracy: 0.978
+Epoch 0 Batch 588 Elapsed time 111.175955s
+Accuracy: 0.96800005
+Epoch 0 Batch 589 Elapsed time 111.407571s
+Accuracy: 0.97999996
+Epoch 0 Batch 590 Elapsed time 111.623144s
+Accuracy: 0.97400004
+Epoch 0 Batch 591 Elapsed time 111.832700s
+Accuracy: 0.974
+Epoch 0 Batch 592 Elapsed time 112.047271s
+Accuracy: 0.97599995
+Epoch 0 Batch 593 Elapsed time 112.279890s
+Accuracy: 0.986
+Epoch 0 Batch 594 Elapsed time 112.514513s
+Accuracy: 0.9760001
+Epoch 0 Batch 595 Elapsed time 112.742118s
+Accuracy: 0.9760001
+Epoch 0 Batch 596 Elapsed time 112.970726s
+Accuracy: 0.97199994
+Epoch 0 Batch 597 Elapsed time 113.197328s
+Accuracy: 0.98
+Epoch 0 Batch 598 Elapsed time 113.415911s
+Accuracy: 0.97400004
+Epoch 0 Batch 599 Elapsed time 113.631482s
+Accuracy: 0.986
+Epoch 0 Batch 600 Elapsed time 113.866106s
+Accuracy: 0.96400005
+Epoch 0 Batch 601 Elapsed time 114.084687s
+Accuracy: 0.97800004
+Epoch 0 Batch 602 Elapsed time 114.309284s
+Accuracy: 0.97999996
+Epoch 0 Batch 603 Elapsed time 114.528867s
+Accuracy: 0.984
+Epoch 0 Batch 604 Elapsed time 114.753465s
+Accuracy: 0.976
+Epoch 0 Batch 605 Elapsed time 114.966058s
+Accuracy: 0.97400004
+Epoch 0 Batch 606 Elapsed time 115.168569s
+Accuracy: 0.99200004
+Epoch 0 Batch 607 Elapsed time 115.387149s
+Accuracy: 0.98200005
+Epoch 0 Batch 608 Elapsed time 115.608738s
+Accuracy: 0.98600006
+Epoch 0 Batch 609 Elapsed time 115.835340s
+Accuracy: 0.97800004
+Epoch 0 Batch 610 Elapsed time 116.071479s
+Accuracy: 0.9820001
+Epoch 0 Batch 611 Elapsed time 116.306104s
+Accuracy: 0.974
+Epoch 0 Batch 612 Elapsed time 116.520675s
+Accuracy: 0.98600006
+Epoch 0 Batch 613 Elapsed time 116.725217s
+Accuracy: 0.968
+Epoch 0 Batch 614 Elapsed time 116.957835s
+Accuracy: 0.98800004
+Epoch 0 Batch 615 Elapsed time 117.184438s
+Accuracy: 0.9700001
+Epoch 0 Batch 616 Elapsed time 117.415051s
+Accuracy: 0.96800005
+Epoch 0 Batch 617 Elapsed time 117.642656s
+Accuracy: 0.978
+Epoch 0 Batch 618 Elapsed time 117.871264s
+Accuracy: 0.98600006
+Epoch 0 Batch 619 Elapsed time 118.077842s
+Accuracy: 0.98200005
+Epoch 0 Batch 620 Elapsed time 118.290378s
+Accuracy: 0.9700001
+Epoch 0 Batch 621 Elapsed time 118.526004s
+Accuracy: 0.97800004
+Epoch 0 Batch 622 Elapsed time 118.760640s
+Accuracy: 0.99
+Epoch 0 Batch 623 Elapsed time 119.001268s
+Accuracy: 0.978
+Epoch 0 Batch 624 Elapsed time 119.240904s
+Accuracy: 0.97800004
+Epoch 0 Batch 625 Elapsed time 119.478537s
+Accuracy: 0.978
+Epoch 0 Batch 626 Elapsed time 119.688094s
+Accuracy: 0.98
+Epoch 0 Batch 627 Elapsed time 119.915698s
+Accuracy: 0.982
+Epoch 0 Batch 628 Elapsed time 120.149319s
+Accuracy: 0.97800004
+Epoch 0 Batch 629 Elapsed time 120.375922s
+Accuracy: 0.976
+Epoch 0 Batch 630 Elapsed time 120.599516s
+Accuracy: 0.9800001
+Epoch 0 Batch 631 Elapsed time 120.825115s
+Accuracy: 0.9760001
+Epoch 0 Batch 632 Elapsed time 121.038683s
+Accuracy: 0.972
+Epoch 0 Batch 633 Elapsed time 121.255260s
+Accuracy: 0.96800005
+Epoch 0 Batch 634 Elapsed time 121.468827s
+Accuracy: 0.9800001
+Epoch 0 Batch 635 Elapsed time 121.701445s
+Accuracy: 0.96800005
+Epoch 0 Batch 636 Elapsed time 121.931056s
+Accuracy: 0.9800001
+Epoch 0 Batch 637 Elapsed time 122.163674s
+Accuracy: 0.98200005
+Epoch 0 Batch 638 Elapsed time 122.399300s
+Accuracy: 0.98
+Epoch 0 Batch 639 Elapsed time 122.619887s
+Accuracy: 0.9760001
+Epoch 0 Batch 640 Elapsed time 122.832479s
+Accuracy: 0.984
+Epoch 0 Batch 641 Elapsed time 123.051033s
+Accuracy: 0.9780001
+Epoch 0 Batch 642 Elapsed time 123.302701s
+Accuracy: 0.966
+Epoch 0 Batch 643 Elapsed time 123.534317s
+Accuracy: 0.97800004
+Epoch 0 Batch 644 Elapsed time 123.768941s
+Accuracy: 0.97400004
+Epoch 0 Batch 645 Elapsed time 124.005570s
+Accuracy: 0.9800001
+Epoch 0 Batch 646 Elapsed time 124.225155s
+Accuracy: 0.98200005
+Epoch 0 Batch 647 Elapsed time 124.439725s
+Accuracy: 0.99
+Epoch 0 Batch 648 Elapsed time 124.665323s
+Accuracy: 0.984
+Epoch 0 Batch 649 Elapsed time 124.895937s
+Accuracy: 0.98
+Epoch 0 Batch 650 Elapsed time 125.103488s
+Accuracy: 0.98
+Epoch 0 Batch 651 Elapsed time 125.337110s
+Accuracy: 0.98
+Epoch 0 Batch 652 Elapsed time 125.567723s
+Accuracy: 0.9779999
+Epoch 0 Batch 653 Elapsed time 125.791318s
+Accuracy: 0.98200005
+Epoch 0 Batch 654 Elapsed time 126.007893s
+Accuracy: 0.99000007
+Epoch 0 Batch 655 Elapsed time 126.239032s
+Accuracy: 0.98
+Epoch 0 Batch 656 Elapsed time 126.471650s
+Accuracy: 0.966
+Epoch 0 Batch 657 Elapsed time 126.711287s
+Accuracy: 0.98600006
+Epoch 0 Batch 658 Elapsed time 126.929868s
+Accuracy: 0.98600006
+Epoch 0 Batch 659 Elapsed time 127.161484s
+Accuracy: 0.98200005
+Epoch 0 Batch 660 Elapsed time 127.378060s
+Accuracy: 0.97800004
+Epoch 0 Batch 661 Elapsed time 127.605666s
+Accuracy: 0.98
+Epoch 0 Batch 662 Elapsed time 127.833270s
+Accuracy: 0.98200005
+Epoch 0 Batch 663 Elapsed time 128.068896s
+Accuracy: 0.98000014
+Epoch 0 Batch 664 Elapsed time 128.301514s
+Accuracy: 0.968
+Epoch 0 Batch 665 Elapsed time 128.533131s
+Accuracy: 0.98
+Epoch 0 Batch 666 Elapsed time 128.756239s
+Accuracy: 0.978
+Epoch 0 Batch 667 Elapsed time 128.979834s
+Accuracy: 0.97200006
+Epoch 0 Batch 668 Elapsed time 129.210446s
+Accuracy: 0.97800004
+Epoch 0 Batch 669 Elapsed time 129.443064s
+Accuracy: 0.98399997
+Epoch 0 Batch 670 Elapsed time 129.680696s
+Accuracy: 0.9780001
+Epoch 0 Batch 671 Elapsed time 129.924344s
+Accuracy: 0.9800001
+Epoch 0 Batch 672 Elapsed time 130.167991s
+Accuracy: 0.982
+Epoch 0 Batch 673 Elapsed time 130.410636s
+Accuracy: 0.984
+Epoch 0 Batch 674 Elapsed time 130.636253s
+Accuracy: 0.9840001
+Epoch 0 Batch 675 Elapsed time 130.872865s
+Accuracy: 0.9800001
+Epoch 0 Batch 676 Elapsed time 131.103478s
+Accuracy: 0.986
+Epoch 0 Batch 677 Elapsed time 131.326070s
+Accuracy: 0.974
+Epoch 0 Batch 678 Elapsed time 131.539637s
+Accuracy: 0.984
+Epoch 0 Batch 679 Elapsed time 131.772255s
+Accuracy: 0.982
+Epoch 0 Batch 680 Elapsed time 132.002869s
+Accuracy: 0.97
+Epoch 0 Batch 681 Elapsed time 132.230474s
+Accuracy: 0.978
+Epoch 0 Batch 682 Elapsed time 132.458079s
+Accuracy: 0.97599995
+Epoch 0 Batch 683 Elapsed time 132.693710s
+Accuracy: 0.986
+Epoch 0 Batch 684 Elapsed time 132.930334s
+Accuracy: 0.986
+Epoch 0 Batch 685 Elapsed time 133.165961s
+Accuracy: 0.98399997
+Epoch 0 Batch 686 Elapsed time 133.405597s
+Accuracy: 0.99200004
+Epoch 0 Batch 687 Elapsed time 133.630195s
+Accuracy: 0.98200005
+Epoch 0 Batch 688 Elapsed time 133.836751s
+Accuracy: 0.9840001
+Epoch 0 Batch 689 Elapsed time 134.058332s
+Accuracy: 0.9760001
+Epoch 0 Batch 690 Elapsed time 134.297970s
+Accuracy: 0.99
+Epoch 0 Batch 691 Elapsed time 134.530588s
+Accuracy: 0.98200005
+Epoch 0 Batch 692 Elapsed time 134.777244s
+Accuracy: 0.97800004
+Epoch 0 Batch 693 Elapsed time 135.017883s
+Accuracy: 0.986
+Epoch 0 Batch 694 Elapsed time 135.242481s
+Accuracy: 0.9800001
+Epoch 0 Batch 695 Elapsed time 135.473093s
+Accuracy: 0.984
+Epoch 0 Batch 696 Elapsed time 135.703706s
+Accuracy: 0.97800004
+Epoch 0 Batch 697 Elapsed time 135.937327s
+Accuracy: 0.984
+Epoch 0 Batch 698 Elapsed time 136.165935s
+Accuracy: 0.9600001
+Epoch 0 Batch 699 Elapsed time 136.484782s
+Accuracy: 0.9840001
+Epoch 0 Batch 700 Elapsed time 136.722414s
+Accuracy: 0.976
+Epoch 0 Batch 701 Elapsed time 136.945006s
+Accuracy: 0.99000007
+Epoch 0 Batch 702 Elapsed time 137.156569s
+Accuracy: 0.96800005
+Epoch 0 Batch 703 Elapsed time 137.407234s
+Accuracy: 0.98
+Epoch 0 Batch 704 Elapsed time 137.650882s
+Accuracy: 0.98000014
+Epoch 0 Batch 705 Elapsed time 137.909570s
+Accuracy: 0.984
+Epoch 0 Batch 706 Elapsed time 138.141185s
+Accuracy: 0.98
+Epoch 0 Batch 707 Elapsed time 138.381826s
+Accuracy: 0.98600006
+Epoch 0 Batch 708 Elapsed time 138.602422s
+Accuracy: 0.98399997
+Epoch 0 Batch 709 Elapsed time 138.824000s
+Accuracy: 0.9700001
+Epoch 0 Batch 710 Elapsed time 139.069653s
+Accuracy: 0.98200005
+Epoch 0 Batch 711 Elapsed time 139.305280s
+Accuracy: 0.9940001
+Epoch 0 Batch 712 Elapsed time 139.542912s
+Accuracy: 0.9940001
+Epoch 0 Batch 713 Elapsed time 139.775530s
+Accuracy: 0.976
+Epoch 0 Batch 714 Elapsed time 140.013163s
+Accuracy: 0.98600006
+Epoch 0 Batch 715 Elapsed time 140.258818s
+Accuracy: 0.97200006
+Epoch 0 Batch 716 Elapsed time 140.490431s
+Accuracy: 0.99
+Epoch 0 Batch 717 Elapsed time 140.731070s
+Accuracy: 0.98
+Epoch 0 Batch 718 Elapsed time 140.963688s
+Accuracy: 0.97599995
+Epoch 0 Batch 719 Elapsed time 141.196306s
+Accuracy: 0.97800004
+Epoch 0 Batch 720 Elapsed time 141.429927s
+Accuracy: 0.98600006
+Epoch 0 Batch 721 Elapsed time 141.666557s
+Accuracy: 0.98
+Epoch 0 Batch 722 Elapsed time 141.889149s
+Accuracy: 0.9820001
+Epoch 0 Batch 723 Elapsed time 142.152849s
+Accuracy: 0.988
+Epoch 0 Batch 724 Elapsed time 142.389479s
+Accuracy: 0.99200004
+Epoch 0 Batch 725 Elapsed time 142.649169s
+Accuracy: 0.982
+Epoch 0 Batch 726 Elapsed time 142.891814s
+Accuracy: 0.9800001
+Epoch 0 Batch 727 Elapsed time 143.125434s
+Accuracy: 0.982
+Epoch 0 Batch 728 Elapsed time 143.352038s
+Accuracy: 0.97800004
+Epoch 0 Batch 729 Elapsed time 143.585658s
+Accuracy: 0.9760001
+Epoch 0 Batch 730 Elapsed time 143.829306s
+Accuracy: 0.97400004
+Epoch 0 Batch 731 Elapsed time 144.074959s
+Accuracy: 0.98800004
+Epoch 0 Batch 732 Elapsed time 144.314596s
+Accuracy: 0.98
+Epoch 0 Batch 733 Elapsed time 144.556238s
+Accuracy: 0.98399997
+Epoch 0 Batch 734 Elapsed time 144.781839s
+Accuracy: 0.9740001
+Epoch 0 Batch 735 Elapsed time 145.011029s
+Accuracy: 0.97400004
+Epoch 0 Batch 736 Elapsed time 145.259212s
+Accuracy: 0.98
+Epoch 0 Batch 737 Elapsed time 145.475788s
+Accuracy: 0.98
+Epoch 0 Batch 738 Elapsed time 145.731468s
+Accuracy: 0.9760001
+Epoch 0 Batch 739 Elapsed time 145.971105s
+Accuracy: 0.972
+Epoch 0 Batch 740 Elapsed time 146.215756s
+Accuracy: 0.98
+Epoch 0 Batch 741 Elapsed time 146.443361s
+Accuracy: 0.984
+Epoch 0 Batch 742 Elapsed time 146.674976s
+Accuracy: 0.9800001
+Epoch 0 Batch 743 Elapsed time 146.924639s
+Accuracy: 0.98200005
+Epoch 0 Batch 744 Elapsed time 147.163274s
+Accuracy: 0.984
+Epoch 0 Batch 745 Elapsed time 147.409929s
+Accuracy: 0.98800004
+Epoch 0 Batch 746 Elapsed time 147.657588s
+Accuracy: 0.98
+Epoch 0 Batch 747 Elapsed time 147.896222s
+Accuracy: 0.98
+Epoch 0 Batch 748 Elapsed time 148.122825s
+Accuracy: 0.97
+Epoch 0 Batch 749 Elapsed time 148.377501s
+Accuracy: 0.98399997
+Epoch 0 Batch 750 Elapsed time 148.612125s
+Accuracy: 0.9940001
+Epoch 0 Batch 751 Elapsed time 148.850760s
+Accuracy: 0.97599995
+Epoch 0 Batch 752 Elapsed time 149.087389s
+Accuracy: 0.9820001
+Epoch 0 Batch 753 Elapsed time 149.339058s
+Accuracy: 0.99
+Epoch 0 Batch 754 Elapsed time 149.569693s
+Accuracy: 0.99000007
+Epoch 0 Batch 755 Elapsed time 149.808306s
+Accuracy: 0.99200004
+Epoch 0 Batch 756 Elapsed time 150.045936s
+Accuracy: 0.98800004
+Epoch 0 Batch 757 Elapsed time 150.287579s
+Accuracy: 0.97800004
+Epoch 0 Batch 758 Elapsed time 150.529221s
+Accuracy: 0.9820001
+Epoch 0 Batch 759 Elapsed time 150.765497s
+Accuracy: 0.97800004
+Epoch 0 Batch 760 Elapsed time 150.997901s
+Accuracy: 0.9780001
+Epoch 0 Batch 761 Elapsed time 151.228515s
+Accuracy: 0.9820001
+Epoch 0 Batch 762 Elapsed time 151.476172s
+Accuracy: 0.99
+Epoch 0 Batch 763 Elapsed time 151.720822s
+Accuracy: 0.974
+Epoch 0 Batch 764 Elapsed time 151.965473s
+Accuracy: 0.98
+Epoch 0 Batch 765 Elapsed time 152.202102s
+Accuracy: 0.9940001
+Epoch 0 Batch 766 Elapsed time 152.442750s
+Accuracy: 0.976
+Epoch 0 Batch 767 Elapsed time 152.668342s
+Accuracy: 0.9840001
+Epoch 0 Batch 768 Elapsed time 152.905973s
+Accuracy: 0.99200004
+Epoch 0 Batch 769 Elapsed time 153.148618s
+Accuracy: 0.9840001
+Epoch 0 Batch 770 Elapsed time 153.398282s
+Accuracy: 0.98600006
+Epoch 0 Batch 771 Elapsed time 153.644938s
+Accuracy: 0.98399997
+Epoch 0 Batch 772 Elapsed time 153.894601s
+Accuracy: 0.986
+Epoch 0 Batch 773 Elapsed time 154.130257s
+Accuracy: 0.964
+Epoch 0 Batch 774 Elapsed time 154.360841s
+Accuracy: 0.96599996
+Epoch 0 Batch 775 Elapsed time 154.603485s
+Accuracy: 0.98200005
+Epoch 0 Batch 776 Elapsed time 154.843122s
+Accuracy: 0.9860001
+Epoch 0 Batch 777 Elapsed time 155.085767s
+Accuracy: 0.98600006
+Epoch 0 Batch 778 Elapsed time 155.328413s
+Accuracy: 0.982
+Epoch 0 Batch 779 Elapsed time 155.564039s
+Accuracy: 0.9760001
+Epoch 0 Batch 780 Elapsed time 155.793649s
+Accuracy: 0.98600006
+Epoch 0 Batch 781 Elapsed time 156.035291s
+Accuracy: 0.9760001
+Epoch 0 Batch 782 Elapsed time 156.288965s
+Accuracy: 0.98399997
+Epoch 0 Batch 783 Elapsed time 156.533616s
+Accuracy: 0.99000007
+Epoch 0 Batch 784 Elapsed time 156.791301s
+Accuracy: 0.97200006
+Epoch 0 Batch 785 Elapsed time 157.040974s
+Accuracy: 0.972
+Epoch 0 Batch 786 Elapsed time 157.270602s
+Accuracy: 0.98800004
+Epoch 0 Batch 787 Elapsed time 157.503193s
+Accuracy: 0.99000007
+Epoch 0 Batch 788 Elapsed time 157.749849s
+Accuracy: 0.98800004
+Epoch 0 Batch 789 Elapsed time 157.996505s
+Accuracy: 0.97800004
+Epoch 0 Batch 790 Elapsed time 158.251182s
+Accuracy: 0.98
+Epoch 0 Batch 791 Elapsed time 158.495831s
+Accuracy: 0.97800004
+Epoch 0 Batch 792 Elapsed time 158.736489s
+Accuracy: 0.98
+Epoch 0 Batch 793 Elapsed time 158.977128s
+Accuracy: 0.9660001
+Epoch 0 Batch 794 Elapsed time 159.231788s
+Accuracy: 0.97400004
+Epoch 0 Batch 795 Elapsed time 159.469420s
+Accuracy: 0.99200004
+Epoch 0 Batch 796 Elapsed time 159.721602s
+Accuracy: 0.982
+Epoch 0 Batch 797 Elapsed time 159.964248s
+Accuracy: 0.97800004
+Epoch 0 Batch 798 Elapsed time 160.205890s
+Accuracy: 0.97
+Epoch 0 Batch 799 Elapsed time 160.438509s
+Accuracy: 0.986
+Epoch 0 Batch 800 Elapsed time 160.665111s
+Accuracy: 0.9800001
+Epoch 0 Batch 801 Elapsed time 160.918785s
+Accuracy: 0.9760001
+Epoch 0 Batch 802 Elapsed time 161.171456s
+Accuracy: 0.978
+Epoch 0 Batch 803 Elapsed time 161.424128s
+Accuracy: 0.976
+Epoch 0 Batch 804 Elapsed time 161.683818s
+Accuracy: 0.974
+Epoch 0 Batch 805 Elapsed time 161.939499s
+Accuracy: 0.9780001
+Epoch 0 Batch 806 Elapsed time 162.174123s
+Accuracy: 0.978
+Epoch 0 Batch 807 Elapsed time 162.432810s
+Accuracy: 0.982
+Epoch 0 Batch 808 Elapsed time 162.687486s
+Accuracy: 0.97800004
+Epoch 0 Batch 809 Elapsed time 162.949182s
+Accuracy: 0.98
+Epoch 0 Batch 810 Elapsed time 163.197843s
+Accuracy: 0.98
+Epoch 0 Batch 811 Elapsed time 163.451518s
+Accuracy: 0.986
+Epoch 0 Batch 812 Elapsed time 163.696169s
+Accuracy: 0.9760001
+Epoch 0 Batch 813 Elapsed time 163.938812s
+Accuracy: 0.9780001
+Epoch 0 Batch 814 Elapsed time 164.189479s
+Accuracy: 0.97800004
+Epoch 0 Batch 815 Elapsed time 164.441148s
+Accuracy: 0.9800001
+Epoch 0 Batch 816 Elapsed time 164.689809s
+Accuracy: 0.9760001
+Epoch 0 Batch 817 Elapsed time 164.935466s
+Accuracy: 0.98600006
+Epoch 0 Batch 818 Elapsed time 165.170113s
+Accuracy: 0.96599996
+Epoch 0 Batch 819 Elapsed time 165.423760s
+Accuracy: 0.9840001
+Epoch 0 Batch 820 Elapsed time 165.668410s
+Accuracy: 0.9840001
+Epoch 0 Batch 821 Elapsed time 165.929103s
+Accuracy: 0.99
+Epoch 0 Batch 822 Elapsed time 166.184783s
+Accuracy: 0.97800004
+Epoch 0 Batch 823 Elapsed time 166.423417s
+Accuracy: 0.974
+Epoch 0 Batch 824 Elapsed time 166.663056s
+Accuracy: 0.97400004
+Epoch 0 Batch 825 Elapsed time 166.905699s
+Accuracy: 0.9840001
+Epoch 0 Batch 826 Elapsed time 167.156365s
+Accuracy: 0.972
+Epoch 0 Batch 827 Elapsed time 167.403022s
+Accuracy: 0.99
+Epoch 0 Batch 828 Elapsed time 167.658700s
+Accuracy: 0.97
+Epoch 0 Batch 829 Elapsed time 167.907362s
+Accuracy: 0.976
+Epoch 0 Batch 830 Elapsed time 168.150007s
+Accuracy: 0.98600006
+Epoch 0 Batch 831 Elapsed time 168.386664s
+Accuracy: 0.982
+Epoch 0 Batch 832 Elapsed time 168.631286s
+Accuracy: 0.972
+Epoch 0 Batch 833 Elapsed time 168.889974s
+Accuracy: 0.97999996
+Epoch 0 Batch 834 Elapsed time 169.146656s
+Accuracy: 0.98200005
+Epoch 0 Batch 835 Elapsed time 169.393312s
+Accuracy: 0.98800004
+Epoch 0 Batch 836 Elapsed time 169.631960s
+Accuracy: 0.97400004
+Epoch 0 Batch 837 Elapsed time 169.885622s
+Accuracy: 0.976
+Epoch 0 Batch 838 Elapsed time 170.124255s
+Accuracy: 0.98600006
+Epoch 0 Batch 839 Elapsed time 170.383945s
+Accuracy: 0.98800004
+Epoch 0 Batch 840 Elapsed time 170.647646s
+Accuracy: 0.966
+Epoch 0 Batch 841 Elapsed time 170.899315s
+Accuracy: 0.9900001
+Epoch 0 Batch 842 Elapsed time 171.157000s
+Accuracy: 0.982
+Epoch 0 Batch 843 Elapsed time 171.394632s
+Accuracy: 0.98
+Epoch 0 Batch 844 Elapsed time 171.632263s
+Accuracy: 0.968
+Epoch 0 Batch 845 Elapsed time 171.882930s
+Accuracy: 0.9760001
+Epoch 0 Batch 846 Elapsed time 172.138609s
+Accuracy: 0.9820001
+Epoch 0 Batch 847 Elapsed time 172.401308s
+Accuracy: 0.99000007
+Epoch 0 Batch 848 Elapsed time 172.652977s
+Accuracy: 0.98200005
+Epoch 0 Batch 849 Elapsed time 172.911664s
+Accuracy: 0.9880001
+Epoch 0 Batch 850 Elapsed time 173.155979s
+Accuracy: 0.98800004
+Epoch 0 Batch 851 Elapsed time 173.410626s
+Accuracy: 0.9700001
+Epoch 0 Batch 852 Elapsed time 173.680343s
+Accuracy: 0.98399997
+Epoch 0 Batch 853 Elapsed time 173.944044s
+Accuracy: 0.98
+Epoch 0 Batch 854 Elapsed time 174.197718s
+Accuracy: 0.984
+Epoch 0 Batch 855 Elapsed time 174.453398s
+Accuracy: 0.99
+Epoch 0 Batch 856 Elapsed time 174.695041s
+Accuracy: 0.982
+Epoch 0 Batch 857 Elapsed time 174.940694s
+Accuracy: 0.9820001
+Epoch 0 Batch 858 Elapsed time 175.189354s
+Accuracy: 0.984
+Epoch 0 Batch 859 Elapsed time 175.422976s
+Accuracy: 0.972
+Epoch 0 Batch 860 Elapsed time 175.674644s
+Accuracy: 0.98800004
+Epoch 0 Batch 861 Elapsed time 175.925310s
+Accuracy: 0.98
+Epoch 0 Batch 862 Elapsed time 176.176007s
+Accuracy: 0.9840001
+Epoch 0 Batch 863 Elapsed time 176.419625s
+Accuracy: 0.9840001
+Epoch 0 Batch 864 Elapsed time 176.683326s
+Accuracy: 0.972
+Epoch 0 Batch 865 Elapsed time 176.935998s
+Accuracy: 0.986
+Epoch 0 Batch 866 Elapsed time 177.186664s
+Accuracy: 0.97
+Epoch 0 Batch 867 Elapsed time 177.444349s
+Accuracy: 0.98
+Epoch 0 Batch 868 Elapsed time 177.685026s
+Accuracy: 0.97400004
+Epoch 0 Batch 869 Elapsed time 177.914600s
+Accuracy: 0.98600006
+Epoch 0 Batch 870 Elapsed time 178.184316s
+Accuracy: 0.996
+Epoch 0 Batch 871 Elapsed time 178.442001s
+Accuracy: 0.97599995
+Epoch 0 Batch 872 Elapsed time 178.708710s
+Accuracy: 0.98200005
+Epoch 0 Batch 873 Elapsed time 178.971408s
+Accuracy: 0.974
+Epoch 0 Batch 874 Elapsed time 179.205029s
+Accuracy: 0.986
+Epoch 0 Batch 875 Elapsed time 179.447674s
+Accuracy: 0.98
+Epoch 0 Batch 876 Elapsed time 179.697337s
+Accuracy: 0.9920001
+Epoch 0 Batch 877 Elapsed time 179.957028s
+Accuracy: 0.98
+Epoch 0 Batch 878 Elapsed time 180.208697s
+Accuracy: 0.98
+Epoch 0 Batch 879 Elapsed time 180.462371s
+Accuracy: 0.97400004
+Epoch 0 Batch 880 Elapsed time 180.700003s
+Accuracy: 0.9760001
+Epoch 0 Batch 881 Elapsed time 180.942648s
+Accuracy: 0.98800004
+Epoch 0 Batch 882 Elapsed time 181.209356s
+Accuracy: 0.97400004
+Epoch 0 Batch 883 Elapsed time 181.475063s
+Accuracy: 0.98
+Epoch 0 Batch 884 Elapsed time 181.727734s
+Accuracy: 0.986
+Epoch 0 Batch 885 Elapsed time 181.981409s
+Accuracy: 0.974
+Epoch 0 Batch 886 Elapsed time 182.225057s
+Accuracy: 0.9840001
+Epoch 0 Batch 887 Elapsed time 182.472716s
+Accuracy: 0.982
+Epoch 0 Batch 888 Elapsed time 182.741429s
+Accuracy: 0.978
+Epoch 0 Batch 889 Elapsed time 183.012149s
+Accuracy: 0.9760001
+Epoch 0 Batch 890 Elapsed time 183.270837s
+Accuracy: 0.97400004
+Epoch 0 Batch 891 Elapsed time 183.527519s
+Accuracy: 0.98
+Epoch 0 Batch 892 Elapsed time 183.778185s
+Accuracy: 0.984
+Epoch 0 Batch 893 Elapsed time 184.027849s
+Accuracy: 0.9880001
+Epoch 0 Batch 894 Elapsed time 184.270494s
+Accuracy: 0.97999996
+Epoch 0 Batch 895 Elapsed time 184.526173s
+Accuracy: 0.9880001
+Epoch 0 Batch 896 Elapsed time 184.776839s
+Accuracy: 0.976
+Epoch 0 Batch 897 Elapsed time 185.044552s
+Accuracy: 0.99200004
+Epoch 0 Batch 898 Elapsed time 185.306248s
+Accuracy: 0.98
+Epoch 0 Batch 899 Elapsed time 185.550898s
+Accuracy: 0.9880001
+Epoch 0 Batch 900 Elapsed time 185.797553s
+Accuracy: 0.982
+Epoch 0 Batch 901 Elapsed time 186.073286s
+Accuracy: 0.972
+Epoch 0 Batch 902 Elapsed time 186.334981s
+Accuracy: 0.99
+Epoch 0 Batch 903 Elapsed time 186.592666s
+Accuracy: 0.99000007
+Epoch 0 Batch 904 Elapsed time 186.851355s
+Accuracy: 0.98200005
+Epoch 0 Batch 905 Elapsed time 187.106032s
+Accuracy: 0.97400004
+Epoch 0 Batch 906 Elapsed time 187.348676s
+Accuracy: 0.98199993
+Epoch 0 Batch 907 Elapsed time 187.603353s
+Accuracy: 0.98600006
+Epoch 0 Batch 908 Elapsed time 187.864046s
+Accuracy: 0.99000007
+Epoch 0 Batch 909 Elapsed time 188.121742s
+Accuracy: 0.9760001
+Epoch 0 Batch 910 Elapsed time 188.393453s
+Accuracy: 0.99200004
+Epoch 0 Batch 911 Elapsed time 188.648131s
+Accuracy: 0.98200005
+Epoch 0 Batch 912 Elapsed time 188.901805s
+Accuracy: 0.97800004
+Epoch 0 Batch 913 Elapsed time 189.168514s
+Accuracy: 0.98200005
+Epoch 0 Batch 914 Elapsed time 189.424194s
+Accuracy: 0.98200005
+Epoch 0 Batch 915 Elapsed time 189.682880s
+Accuracy: 0.98199993
+Epoch 0 Batch 916 Elapsed time 189.928549s
+Accuracy: 0.98600006
+Epoch 0 Batch 917 Elapsed time 190.184213s
+Accuracy: 0.98
+Epoch 0 Batch 918 Elapsed time 190.440896s
+Accuracy: 0.98200005
+Epoch 0 Batch 919 Elapsed time 190.714623s
+Accuracy: 0.976
+Epoch 0 Batch 920 Elapsed time 190.977322s
+Accuracy: 0.968
+Epoch 0 Batch 921 Elapsed time 191.239018s
+Accuracy: 0.9840001
+Epoch 0 Batch 922 Elapsed time 191.502719s
+Accuracy: 0.9840001
+Epoch 0 Batch 923 Elapsed time 191.770440s
+Accuracy: 0.98800004
+Epoch 0 Batch 924 Elapsed time 192.017086s
+Accuracy: 0.984
+Epoch 0 Batch 925 Elapsed time 192.288808s
+Accuracy: 0.966
+Epoch 0 Batch 926 Elapsed time 192.554514s
+Accuracy: 0.99000007
+Epoch 0 Batch 927 Elapsed time 192.812199s
+Accuracy: 0.98399997
+Epoch 0 Batch 928 Elapsed time 193.074898s
+Accuracy: 0.9760001
+Epoch 0 Batch 929 Elapsed time 193.329576s
+Accuracy: 0.9740001
+Epoch 0 Batch 930 Elapsed time 193.581244s
+Accuracy: 0.97400004
+Epoch 0 Batch 931 Elapsed time 193.854971s
+Accuracy: 0.9820001
+Epoch 0 Batch 932 Elapsed time 194.118672s
+Accuracy: 0.98
+Epoch 0 Batch 933 Elapsed time 194.387387s
+Accuracy: 0.97400004
+Epoch 0 Batch 934 Elapsed time 194.646074s
+Accuracy: 0.98399997
+Epoch 0 Batch 935 Elapsed time 194.904763s
+Accuracy: 0.97400004
+Epoch 0 Batch 936 Elapsed time 195.137380s
+Accuracy: 0.97599995
+Epoch 0 Batch 937 Elapsed time 195.429156s
+Accuracy: 0.99
+Epoch 0 Batch 938 Elapsed time 195.703886s
+Accuracy: 0.9780001
+Epoch 0 Batch 939 Elapsed time 195.993656s
+Accuracy: 0.99000007
+Epoch 0 Batch 940 Elapsed time 196.275405s
+Accuracy: 0.982
+Epoch 0 Batch 941 Elapsed time 196.519054s
+Accuracy: 0.988
+Epoch 0 Batch 942 Elapsed time 196.801805s
+Accuracy: 0.97400004
+Epoch 0 Batch 943 Elapsed time 197.075532s
+Accuracy: 0.97600013
+Epoch 0 Batch 944 Elapsed time 197.344247s
+Accuracy: 0.98
+Epoch 0 Batch 945 Elapsed time 197.616971s
+Accuracy: 0.97400004
+Epoch 0 Batch 946 Elapsed time 197.910752s
+Accuracy: 0.97400004
+Epoch 0 Batch 947 Elapsed time 198.173451s
+Accuracy: 0.98600006
+Epoch 0 Batch 948 Elapsed time 198.429130s
+Accuracy: 0.9760001
+Epoch 0 Batch 949 Elapsed time 198.697855s
+Accuracy: 0.98000014
+Epoch 0 Batch 950 Elapsed time 198.973924s
+Accuracy: 0.98600006
+Epoch 0 Batch 951 Elapsed time 199.238627s
+Accuracy: 0.97800004
+Epoch 0 Batch 952 Elapsed time 199.521388s
+Accuracy: 0.98199993
+Epoch 0 Batch 953 Elapsed time 199.771044s
+Accuracy: 0.98200005
+Epoch 0 Batch 954 Elapsed time 200.019704s
+Accuracy: 0.98600006
+Epoch 0 Batch 955 Elapsed time 200.290937s
+Accuracy: 0.982
+Epoch 0 Batch 956 Elapsed time 200.561656s
+Accuracy: 0.98800004
+Epoch 0 Batch 957 Elapsed time 200.830372s
+Accuracy: 0.972
+Epoch 0 Batch 958 Elapsed time 201.102093s
+Accuracy: 0.972
+Epoch 0 Batch 959 Elapsed time 201.352760s
+Accuracy: 0.98600006
+Epoch 0 Batch 960 Elapsed time 201.615460s
+Accuracy: 0.97200006
+Epoch 0 Batch 961 Elapsed time 201.876151s
+Accuracy: 0.97800004
+Epoch 0 Batch 962 Elapsed time 202.136843s
+Accuracy: 0.97599995
+Epoch 0 Batch 963 Elapsed time 202.421601s
+Accuracy: 0.98800004
+Epoch 0 Batch 964 Elapsed time 202.686305s
+Accuracy: 0.9760001
+Epoch 0 Batch 965 Elapsed time 202.946022s
+Accuracy: 0.982
+Epoch 0 Batch 966 Elapsed time 203.217717s
+Accuracy: 0.984
+Epoch 0 Batch 967 Elapsed time 203.483423s
+Accuracy: 0.98
+Epoch 0 Batch 968 Elapsed time 203.774710s
+Accuracy: 0.97800004
+Epoch 0 Batch 969 Elapsed time 204.056459s
+Accuracy: 0.97400004
+Epoch 0 Batch 970 Elapsed time 204.313142s
+Accuracy: 0.98600006
+Epoch 0 Batch 971 Elapsed time 204.570837s
+Accuracy: 0.97800004
+Epoch 0 Batch 972 Elapsed time 204.843552s
+Accuracy: 0.982
+Epoch 0 Batch 973 Elapsed time 205.130314s
+Accuracy: 0.978
+Epoch 0 Batch 974 Elapsed time 205.404042s
+Accuracy: 0.97599995
+Epoch 0 Batch 975 Elapsed time 205.720884s
+Accuracy: 0.97800004
+Epoch 0 Batch 976 Elapsed time 206.058292s
+Accuracy: 0.9660001
+Epoch 0 Batch 977 Elapsed time 206.346056s
+Accuracy: 0.97
+Epoch 0 Batch 978 Elapsed time 206.650867s
+Accuracy: 0.98
+Epoch 0 Batch 979 Elapsed time 206.984754s
+Accuracy: 0.99
+Epoch 0 Batch 980 Elapsed time 207.264498s
+Accuracy: 0.97400004
+Epoch 0 Batch 981 Elapsed time 207.546247s
+Accuracy: 0.99200004
+Epoch 0 Batch 982 Elapsed time 207.807942s
+Accuracy: 0.98800004
+Epoch 0 Batch 983 Elapsed time 208.067632s
+Accuracy: 0.96800005
+Epoch 0 Batch 984 Elapsed time 208.365425s
+Accuracy: 0.98200005
+Epoch 0 Batch 985 Elapsed time 208.624112s
+Accuracy: 0.97
+Epoch 0 Batch 986 Elapsed time 208.901850s
+Accuracy: 0.988
+Epoch 0 Batch 987 Elapsed time 209.249775s
+Accuracy: 0.98399997
+Epoch 0 Batch 988 Elapsed time 209.635803s
+Accuracy: 0.9920001
+Epoch 0 Batch 989 Elapsed time 209.933593s
+Accuracy: 0.9820001
+Epoch 0 Batch 990 Elapsed time 210.209326s
+Accuracy: 0.978
+Epoch 0 Batch 991 Elapsed time 210.481048s
+Accuracy: 0.98399997
+Epoch 0 Batch 992 Elapsed time 210.757294s
+Accuracy: 0.9920001
+Epoch 0 Batch 993 Elapsed time 211.016984s
+Accuracy: 0.984
+Epoch 0 Batch 994 Elapsed time 211.282690s
+Accuracy: 0.976
+Epoch 0 Batch 995 Elapsed time 211.550401s
+Accuracy: 0.9800001
+Epoch 0 Batch 996 Elapsed time 211.817111s
+Accuracy: 0.9840001
+Epoch 0 Batch 997 Elapsed time 212.103873s
+Accuracy: 0.982
+Epoch 0 Batch 998 Elapsed time 212.381612s
+Accuracy: 0.978
+Epoch 0 Batch 999 Elapsed time 212.634283s
+Accuracy: 0.9840001
+Epoch 0 Batch 1000 Elapsed time 212.911019s
+Accuracy: 0.978
+Epoch 0 Batch 1001 Elapsed time 213.198783s
+Accuracy: 0.9800001
+Epoch 0 Batch 1002 Elapsed time 213.469503s
+Accuracy: 0.984
+Epoch 0 Batch 1003 Elapsed time 213.738218s
+Accuracy: 0.9940001
+Epoch 0 Batch 1004 Elapsed time 214.014953s
+Accuracy: 0.98200005
+Epoch 0 Batch 1005 Elapsed time 214.268646s
+Accuracy: 0.988
+Epoch 0 Batch 1006 Elapsed time 214.550376s
+Accuracy: 0.99200004
+Epoch 0 Batch 1007 Elapsed time 214.840660s
+Accuracy: 0.98800004
+Epoch 0 Batch 1008 Elapsed time 215.114388s
+Accuracy: 0.97800004
+Epoch 0 Batch 1009 Elapsed time 215.392126s
+Accuracy: 0.98800004
+Epoch 0 Batch 1010 Elapsed time 215.643796s
+Accuracy: 0.97800004
+Epoch 0 Batch 1011 Elapsed time 215.902483s
+Accuracy: 0.99000007
+Epoch 0 Batch 1012 Elapsed time 216.185247s
+Accuracy: 0.9780001
+Epoch 0 Batch 1013 Elapsed time 216.457959s
+Accuracy: 0.98
+Epoch 0 Batch 1014 Elapsed time 216.729681s
+Accuracy: 0.988
+Epoch 0 Batch 1015 Elapsed time 217.018449s
+Accuracy: 0.976
+Epoch 0 Batch 1016 Elapsed time 217.285159s
+Accuracy: 0.986
+Epoch 0 Batch 1017 Elapsed time 217.541840s
+Accuracy: 0.988
+Epoch 0 Batch 1018 Elapsed time 217.798523s
+Accuracy: 0.99000007
+Epoch 0 Batch 1019 Elapsed time 218.084282s
+Accuracy: 0.97
+Epoch 0 Batch 1020 Elapsed time 218.353999s
+Accuracy: 0.97
+Epoch 0 Batch 1021 Elapsed time 218.625722s
+Accuracy: 0.9680001
+Epoch 0 Batch 1022 Elapsed time 218.885412s
+Accuracy: 0.9760001
+Epoch 0 Batch 1023 Elapsed time 219.132067s
+Accuracy: 0.98800004
+Epoch 0 Batch 1024 Elapsed time 219.407315s
+Accuracy: 0.9880001
+Epoch 0 Batch 1025 Elapsed time 219.681042s
+Accuracy: 0.9900001
+Epoch 0 Batch 1026 Elapsed time 219.965799s
+Accuracy: 0.9840001
+Epoch 0 Batch 1027 Elapsed time 220.270610s
+Accuracy: 0.978
+Epoch 0 Batch 1028 Elapsed time 220.530300s
+Accuracy: 0.984
+Epoch 0 Batch 1029 Elapsed time 220.811069s
+Accuracy: 0.97400004
+Epoch 0 Batch 1030 Elapsed time 221.103824s
+Accuracy: 0.98600006
+Epoch 0 Batch 1031 Elapsed time 221.400613s
+Accuracy: 0.97800004
+Epoch 0 Batch 1032 Elapsed time 221.684367s
+Accuracy: 0.97400004
+Epoch 0 Batch 1033 Elapsed time 221.956091s
+Accuracy: 0.98
+Epoch 0 Batch 1034 Elapsed time 222.227813s
+Accuracy: 0.98
+Epoch 0 Batch 1035 Elapsed time 222.566223s
+Accuracy: 0.976
+Epoch 0 Batch 1036 Elapsed time 222.845966s
+Accuracy: 0.99200004
+Epoch 0 Batch 1037 Elapsed time 223.134733s
+Accuracy: 0.97999996
+Epoch 0 Batch 1038 Elapsed time 223.417485s
+Accuracy: 0.9760001
+Epoch 0 Batch 1039 Elapsed time 223.705251s
+Accuracy: 0.976
+Epoch 0 Batch 1040 Elapsed time 223.975970s
+Accuracy: 0.99600005
+Epoch 0 Batch 1041 Elapsed time 224.265740s
+Accuracy: 0.97800004
+Epoch 0 Batch 1042 Elapsed time 224.545484s
+Accuracy: 0.992
+Epoch 0 Batch 1043 Elapsed time 224.854305s
+Accuracy: 0.988
+Epoch 0 Batch 1044 Elapsed time 225.146080s
+Accuracy: 0.99200004
+Epoch 0 Batch 1045 Elapsed time 225.401761s
+Accuracy: 0.98800004
+Epoch 0 Batch 1046 Elapsed time 225.679498s
+Accuracy: 0.984
+Epoch 0 Batch 1047 Elapsed time 225.973798s
+Accuracy: 0.98
+Epoch 0 Batch 1048 Elapsed time 226.259557s
+Accuracy: 0.99000007
+Epoch 0 Batch 1049 Elapsed time 226.540825s
+Accuracy: 0.97800004
+Epoch 0 Batch 1050 Elapsed time 226.839128s
+Accuracy: 0.986
+Epoch 0 Batch 1051 Elapsed time 227.113859s
+Accuracy: 0.97800004
+Epoch 0 Batch 1052 Elapsed time 227.400622s
+Accuracy: 0.98600006
+Epoch 0 Batch 1053 Elapsed time 227.688386s
+Accuracy: 0.9920001
+Epoch 0 Batch 1054 Elapsed time 227.976152s
+Accuracy: 0.98200005
+Epoch 0 Batch 1055 Elapsed time 228.261911s
+Accuracy: 0.984
+Epoch 0 Batch 1056 Elapsed time 228.550679s
+Accuracy: 0.96999997
+Epoch 0 Batch 1057 Elapsed time 228.833431s
+Accuracy: 0.99
+Epoch 0 Batch 1058 Elapsed time 229.130219s
+Accuracy: 0.978
+Epoch 0 Batch 1059 Elapsed time 229.418987s
+Accuracy: 0.984
+Epoch 0 Batch 1060 Elapsed time 229.718784s
+Accuracy: 0.9800001
+Epoch 0 Batch 1061 Elapsed time 230.013567s
+Accuracy: 0.98800004
+Epoch 0 Batch 1062 Elapsed time 230.289301s
+Accuracy: 0.98200005
+Epoch 0 Batch 1063 Elapsed time 230.560019s
+Accuracy: 0.9820001
+Epoch 0 Batch 1064 Elapsed time 230.851585s
+Accuracy: 0.988
+Epoch 0 Batch 1065 Elapsed time 231.148375s
+Accuracy: 0.9800001
+Epoch 0 Batch 1066 Elapsed time 231.445163s
+Accuracy: 0.9700001
+Epoch 0 Batch 1067 Elapsed time 231.760001s
+Accuracy: 0.982
+Epoch 0 Batch 1068 Elapsed time 232.051778s
+Accuracy: 0.9800001
+Epoch 0 Batch 1069 Elapsed time 232.336533s
+Accuracy: 0.9760001
+Epoch 0 Batch 1070 Elapsed time 232.629312s
+Accuracy: 0.978
+Epoch 0 Batch 1071 Elapsed time 232.923092s
+Accuracy: 0.986
+Epoch 0 Batch 1072 Elapsed time 233.218879s
+Accuracy: 0.99000007
+Epoch 0 Batch 1073 Elapsed time 233.502634s
+Accuracy: 0.9840001
+Epoch 0 Batch 1074 Elapsed time 233.779369s
+Accuracy: 0.9760001
+Epoch 0 Batch 1075 Elapsed time 234.084178s
+Accuracy: 0.9860001
+Epoch 0 Batch 1076 Elapsed time 234.371944s
+Accuracy: 0.976
+Epoch 0 Batch 1077 Elapsed time 234.660712s
+Accuracy: 0.984
+Epoch 0 Batch 1078 Elapsed time 234.956497s
+Accuracy: 0.97400004
+Epoch 0 Batch 1079 Elapsed time 235.287387s
+Accuracy: 0.982
+Epoch 0 Batch 1080 Elapsed time 235.571131s
+Accuracy: 0.98800004
+Epoch 0 Batch 1081 Elapsed time 235.857404s
+Accuracy: 0.99
+Epoch 0 Batch 1082 Elapsed time 236.164218s
+Accuracy: 0.998
+Epoch 0 Batch 1083 Elapsed time 236.461520s
+Accuracy: 0.978
+Epoch 0 Batch 1084 Elapsed time 236.766331s
+Accuracy: 0.97200006
+Epoch 0 Batch 1085 Elapsed time 237.045071s
+Accuracy: 0.9760001
+Epoch 0 Batch 1086 Elapsed time 237.363919s
+Accuracy: 0.982
+Epoch 0 Batch 1087 Elapsed time 237.658702s
+Accuracy: 0.96999997
+Epoch 0 Batch 1088 Elapsed time 237.995598s
+Accuracy: 0.976
+Epoch 0 Batch 1089 Elapsed time 238.297400s
+Accuracy: 0.98600006
+Epoch 0 Batch 1090 Elapsed time 238.597210s
+Accuracy: 0.99
+Epoch 0 Batch 1091 Elapsed time 238.883959s
+Accuracy: 0.98800004
+Epoch 0 Batch 1092 Elapsed time 239.184759s
+Accuracy: 0.9920001
+Epoch 0 Batch 1093 Elapsed time 239.479542s
+Accuracy: 0.984
+Epoch 0 Batch 1094 Elapsed time 239.787360s
+Accuracy: 0.976
+Epoch 0 Batch 1095 Elapsed time 240.071116s
+Accuracy: 0.986
+Epoch 0 Batch 1096 Elapsed time 240.373920s
+Accuracy: 0.972
+Epoch 0 Batch 1097 Elapsed time 240.649653s
+Accuracy: 0.9880001
+Epoch 0 Batch 1098 Elapsed time 240.935412s
+Accuracy: 0.986
+Epoch 0 Batch 1099 Elapsed time 241.256781s
+Accuracy: 0.99000007
+Epoch 0 Batch 1100 Elapsed time 241.588662s
+Accuracy: 0.97400004
+Epoch 0 Batch 1101 Elapsed time 241.878913s
+Accuracy: 0.976
+Epoch 0 Batch 1102 Elapsed time 242.177709s
+Accuracy: 0.98399997
+Epoch 0 Batch 1103 Elapsed time 242.489538s
+Accuracy: 0.98600006
+Epoch 0 Batch 1104 Elapsed time 242.789334s
+Accuracy: 0.9880001
+Epoch 0 Batch 1105 Elapsed time 243.079104s
+Accuracy: 0.974
+Epoch 0 Batch 1106 Elapsed time 243.389932s
+Accuracy: 0.98600006
+Epoch 0 Batch 1107 Elapsed time 243.661654s
+Accuracy: 0.9920001
+Epoch 0 Batch 1108 Elapsed time 243.949419s
+Accuracy: 0.986
+Epoch 0 Batch 1109 Elapsed time 244.235178s
+Accuracy: 0.9840001
+Epoch 0 Batch 1110 Elapsed time 244.517930s
+Accuracy: 0.982
+Epoch 0 Batch 1111 Elapsed time 244.808210s
+Accuracy: 0.978
+Epoch 0 Batch 1112 Elapsed time 245.090000s
+Accuracy: 0.97800004
+Epoch 0 Batch 1113 Elapsed time 245.361681s
+Accuracy: 0.9760001
+Epoch 0 Batch 1114 Elapsed time 245.667495s
+Accuracy: 0.97400004
+Epoch 0 Batch 1115 Elapsed time 245.956262s
+Accuracy: 0.984
+Epoch 0 Batch 1116 Elapsed time 246.236006s
+Accuracy: 0.99
+Epoch 0 Batch 1117 Elapsed time 246.513750s
+Accuracy: 0.974
+Epoch 0 Batch 1118 Elapsed time 246.797504s
+Accuracy: 0.9799999
+Epoch 0 Batch 1119 Elapsed time 247.087268s
+Accuracy: 0.986
+Epoch: 0001 cost= 0.002845609
+Batch Accuracy:  0.98399997
+Batch Accuracy:  0.97200006
+Batch Accuracy:  0.99
+Batch Accuracy:  0.98
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.99
+Batch Accuracy:  0.982
+Batch Accuracy:  0.98600006
+Batch Accuracy:  0.98
+Batch Accuracy:  0.98399997
+Batch Accuracy:  0.968
+Batch Accuracy:  0.98
+Batch Accuracy:  0.982
+Batch Accuracy:  0.982
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.986
+Batch Accuracy:  0.98
+Batch Accuracy:  0.98600006
+Batch Accuracy:  0.9720001
+Batch Accuracy:  0.98399997
+Batch Accuracy:  0.9820001
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.9840001
+Batch Accuracy:  0.98
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.9700001
+Batch Accuracy:  0.97800004
+Batch Accuracy:  0.9839999
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.984
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.9800001
+Batch Accuracy:  0.98
+Batch Accuracy:  0.9800001
+Batch Accuracy:  0.97400004
+Batch Accuracy:  0.97400004
+Batch Accuracy:  0.97200006
+Batch Accuracy:  0.98399997
+Batch Accuracy:  0.98600006
+Batch Accuracy:  0.984
+Batch Accuracy:  0.988
+Batch Accuracy:  0.97400004
+Batch Accuracy:  0.97400004
+Batch Accuracy:  0.976
+Batch Accuracy:  0.99
+Batch Accuracy:  0.976
+Batch Accuracy:  0.9840001
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.982
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.9880001
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.97800004
+Batch Accuracy:  0.98600006
+Batch Accuracy:  0.9880001
+Batch Accuracy:  0.974
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.984
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.9840001
+Batch Accuracy:  0.99200004
+Batch Accuracy:  0.972
+Batch Accuracy:  0.98600006
+Batch Accuracy:  0.97200006
+Batch Accuracy:  0.99
+Batch Accuracy:  0.97599995
+Batch Accuracy:  0.98
+Batch Accuracy:  0.978
+Batch Accuracy:  0.99000007
+Batch Accuracy:  0.978
+Batch Accuracy:  0.974
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.972
+Batch Accuracy:  0.976
+Batch Accuracy:  0.976
+Batch Accuracy:  0.98
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.968
+Batch Accuracy:  0.9840001
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.986
+Batch Accuracy:  0.98
+Batch Accuracy:  0.9680001
+Batch Accuracy:  0.988
+Batch Accuracy:  0.988
+Batch Accuracy:  0.9780001
+Batch Accuracy:  0.978
+Batch Accuracy:  0.98199993
+Batch Accuracy:  0.976
+Batch Accuracy:  0.9920001
+Batch Accuracy:  0.97199994
+Batch Accuracy:  0.98200005
+Batch Accuracy:  0.972
+Batch Accuracy:  0.96999997
+Batch Accuracy:  0.9880001
+Batch Accuracy:  0.98
+Batch Accuracy:  0.972
+Batch Accuracy:  0.99200004
+Batch Accuracy:  0.99
+Batch Accuracy:  0.99
+Batch Accuracy:  0.992
+Batch Accuracy:  0.98
+Batch Accuracy:  0.974
+Batch Accuracy:  0.97800004
+Batch Accuracy:  0.99000007
+Batch Accuracy:  0.99
+Batch Accuracy:  0.978
+Batch Accuracy:  0.97800004
+Batch Accuracy:  0.982
+Batch Accuracy:  0.98600006
+Batch Accuracy:  0.9940001
+Batch Accuracy:  0.982
+Batch Accuracy:  0.982
+Batch Accuracy:  0.982
+Batch Accuracy:  0.96400005
+Batch Accuracy:  0.97800004
+Batch Accuracy:  0.97400004
+Batch Accuracy:  0.98
+Batch Accuracy:  0.97800004
+Batch Accuracy:  0.9800001
+Batch Accuracy:  0.97999996
+Batch Accuracy:  0.98
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.97400004
+Batch Accuracy:  0.9920001
+Batch Accuracy:  0.97200006
+Batch Accuracy:  0.98
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.978
+Batch Accuracy:  0.974
+Batch Accuracy:  0.98800004
+Batch Accuracy:  0.9840001
+Batch Accuracy:  0.984
+Batch Accuracy:  0.9740001
+Batch Accuracy:  0.98399997
+Batch Accuracy:  0.9760001
+Batch Accuracy:  0.98600006
+Final Accuracy:  0.9808428870780127
+
+Process finished with exit code 0
